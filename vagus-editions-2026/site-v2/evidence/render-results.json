@@ -1,0 +1,43 @@
+{
+  "mode": "isolated installed Google Chrome headless; not user-window interaction",
+  "width": 1440,
+  "height": 900,
+  "results": [
+    {
+      "name": "home",
+      "page": "index.html",
+      "exit": 0,
+      "error": null,
+      "screenshotBytes": 1452256,
+      "renderedDocument": true,
+      "aiSceneClass": "class=\"ai-scene\""
+    },
+    {
+      "name": "thinker",
+      "page": "index.html#ai",
+      "exit": 0,
+      "error": null,
+      "screenshotBytes": 5855,
+      "renderedDocument": true,
+      "aiSceneClass": "class=\"ai-scene\""
+    },
+    {
+      "name": "start",
+      "page": "start.html",
+      "exit": 0,
+      "error": null,
+      "screenshotBytes": 1515428,
+      "renderedDocument": true,
+      "aiSceneClass": null
+    },
+    {
+      "name": "hug",
+      "page": "hug.html",
+      "exit": 0,
+      "error": null,
+      "screenshotBytes": 1298442,
+      "renderedDocument": true,
+      "aiSceneClass": null
+    }
+  ]
+}

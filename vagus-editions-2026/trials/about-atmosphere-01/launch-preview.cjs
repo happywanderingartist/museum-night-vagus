@@ -1,0 +1,5 @@
+const fs=require('node:fs'),path=require('node:path'),http=require('node:http'),{spawn}=require('node:child_process');
+const base='http://127.0.0.1:4190';
+function probe(){return new Promise(resolve=>{const req=http.get(base+'/about.html',res=>{let body='';res.on('data',c=>body+=c);res.on('end',()=>resolve(res.statusCode===200&&body.includes('About Vagus')));});req.setTimeout(1500,()=>req.destroy());req.on('error',()=>resolve(false));});}
+(async()=>{if(!await probe()){const log=fs.openSync(path.join(__dirname,'preview-server.log'),'a');const child=spawn(process.execPath,[path.join(__dirname,'server.cjs')],{cwd:__dirname,detached:true,windowsHide:true,stdio:['ignore',log,log]});child.on('error',e=>console.error(e.message));child.unref();fs.closeSync(log);for(let i=0;i<20;i++){await new Promise(r=>setTimeout(r,250));if(await probe())break;}}
+if(await probe()){console.log('READY '+base+'/about.html');}else{console.error('Preview did not start. See preview-server.log');process.exitCode=1;}})();

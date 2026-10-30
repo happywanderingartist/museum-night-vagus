@@ -1,0 +1,8 @@
+{
+  "name": "vagus-free-motion-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {"test": "node --test tests/*.test.mjs", "start": "node server.cjs", "prepare:local":"node scripts/prepare-vendor.cjs", "build:asset":"scripts\\build.cmd"},
+  "dependencies": {"three": "0.186.1"}
+}

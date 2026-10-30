@@ -1,0 +1,3 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {filterEntries} from '../catalog-state.mjs';
+const rows=[{title:'START',category:'数字产品',description:'追星旅行'},{title:'Hug',category:'数字产品',description:'自我照顾'},{title:'小红书运营',category:'内容创作',description:'选题与封面'}];
+test('directory combines category and meaningful Chinese or case-insensitive query',()=>{assert.deepEqual(filterEntries(rows,'数字产品','  start  '),[rows[0]]);assert.deepEqual(filterEntries(rows,'全部','封面'),[rows[2]]);assert.deepEqual(filterEntries(rows,'内容创作','Hug'),[]);assert.deepEqual(filterEntries(rows,'全部','ＳＴＡＲＴ'),[rows[0]]);assert.deepEqual(filterEntries(rows,'全部','   '),rows);});

@@ -1,0 +1,33 @@
+{
+  "resume": {
+    "url": null
+  },
+  "contact": {
+    "email": null
+  },
+  "audio": {
+    "src": null,
+    "title": null
+  },
+  "articles": [
+    {
+      "id": "seed",
+      "title": "SeedRealtime",
+      "type": "产品测评",
+      "url": null
+    },
+    {
+      "id": "vibe",
+      "title": "Vibe Coding",
+      "type": "创意玩法",
+      "url": null
+    },
+    {
+      "id": "selection",
+      "title": "AI产品榜与热门精选",
+      "type": "行业观察与内容策划",
+      "url": null
+    }
+  ],
+  "personalWorks": []
+}

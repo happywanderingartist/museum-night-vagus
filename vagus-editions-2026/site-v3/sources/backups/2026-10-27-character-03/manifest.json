@@ -1,0 +1,26 @@
+[
+  {
+    "file": "character-motion.mjs",
+    "sha256": "7552707292df183bc88f6b3a40b7ec642750cf49df8b2576c6dd81d00316cad1"
+  },
+  {
+    "file": "character-state.mjs",
+    "sha256": "e08359bcfe963338bf1097f0a1574f6194e6389d06e1a9183376cf5e9e53dd6f"
+  },
+  {
+    "file": "scene-motion.css",
+    "sha256": "fc54896ef291e32cccdf2375b59b6c198536e339ac7cbb8f956dfb57ae06d652"
+  },
+  {
+    "file": "server.cjs",
+    "sha256": "9fd68a8e4b2c10df4d5bfbecfd3a4f9b27b78d2be913060310615f490b80039f"
+  },
+  {
+    "file": "progress.md",
+    "sha256": "4672f882a86800ec81439739fe54e8d5ccd5a67a9b7f4b676f4bb7539b6b1d01"
+  },
+  {
+    "file": "VALIDATION.md",
+    "sha256": "f63d8cd689147bd3ac9a68d123aef052de96c9e8e12f20bcec3e636b6dba8a82"
+  }
+]

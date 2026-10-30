@@ -1,0 +1,16 @@
+{
+  "archive": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\Vagus-site-v2-R3-2026-10-25.zip",
+  "bytes": 13715038,
+  "sha256": "58b47794c367b41c7158032d745766e5e787730681e4c125e1b0a3fd9e85e9a1",
+  "files": 71,
+  "extractedTo": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\toolchain\\site-v2-extracted-82tu3mxd",
+  "extractedTestsExit": 0,
+  "exclusions": [
+    "toolchain/profiles/cache",
+    "node_modules",
+    "old ZIPs",
+    "raw render logs",
+    "credentials",
+    "Blender program"
+  ]
+}

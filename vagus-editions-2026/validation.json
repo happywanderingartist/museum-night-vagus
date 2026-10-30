@@ -1,0 +1,42 @@
+{
+  "skillName": "vagus-editions-art-direction",
+  "version": "1.1.0",
+  "generatedAt": "2026-10-22T18:05:21.428Z",
+  "checks": {
+    "frontmatterBasic": "pass (not full YAML parser)",
+    "relativeLinks": "pass",
+    "archiveCRCAndRoundtrip": "pass",
+    "sourceUnchanged": "pass",
+    "exportedPreview": "1600x900",
+    "uiTextEditable": true,
+    "v1FlatColorContrastOnly": 6.92,
+    "alpha": {
+      "min": 0,
+      "max": 254,
+      "transparent": 701673,
+      "partial": 871191,
+      "opaque": 0
+    }
+  },
+  "sourceSha256": "3cf48d617241fc293245c2f8f3f25afa2b91f4fc5011487ae088df8a7dcbdc22",
+  "skillArchiveEntries": [
+    "vagus-editions-art-direction/SKILL.md",
+    "vagus-editions-art-direction/agents/openai.yaml",
+    "vagus-editions-art-direction/references/anti-examples.md",
+    "vagus-editions-art-direction/references/checklist.md",
+    "vagus-editions-art-direction/references/codex-guide.md",
+    "vagus-editions-art-direction/references/scene-grammar.md",
+    "vagus-editions-art-direction/references/sources.md",
+    "vagus-editions-art-direction/references/storyboard.md",
+    "vagus-editions-art-direction/references/vagus-constraints.md"
+  ],
+  "skillArchiveSha256": "c839e7b7b0f1ba1b83fe435c66d749dc9d2a16991d2c2df90fd42599aba6ce22",
+  "limits": [
+    "Official quick_validate.py could not run: bundled Python lacks PyYAML; custom basic structural checks used.",
+    "Chrome is connected, but page and screenshot reads fail with Debugger unattached; no scrolling or browser acceptance.",
+    "One baseline and one independent forward-use skill test on v1.0; v1.1 revisions have not had independent forward-use testing.",
+    "Generated asset alpha maximum is 254, not 255; preserve original and review compositing.",
+    "v1.1 installed in D:/AI-Data/Shared/skills/vagus-editions-art-direction, all nine files compared; current-session automatic discovery not verified.",
+    "User rejected v1 flat composition and v2 natural-landscape composition; neither is visually accepted."
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-28",
+  "viewport": "965 x 437",
+  "results": [
+    {
+      "page": "start",
+      "action": "递票",
+      "visible": true,
+      "differentPoses": 4,
+      "overflow": false,
+      "brokenImages": 0,
+      "sampleIntervalMs": 1000,
+      "samples": 8
+    },
+    {
+      "page": "xiaohongshu",
+      "action": "校正封面",
+      "visible": true,
+      "differentPoses": 3,
+      "overflow": false,
+      "brokenImages": 0,
+      "sampleIntervalMs": 1000,
+      "samples": 8
+    },
+    {
+      "page": "podcast",
+      "action": "侧头倾听",
+      "visible": true,
+      "differentPoses": 5,
+      "overflow": false,
+      "brokenImages": 0,
+      "sampleIntervalMs": 1000,
+      "samples": 8
+    },
+    {
+      "page": "literature",
+      "action": "抬对讲机",
+      "visible": true,
+      "differentPoses": 4,
+      "overflow": false,
+      "brokenImages": 0,
+      "sampleIntervalMs": 1000,
+      "samples": 8
+    },
+    {
+      "page": "visual",
+      "action": "递画笔",
+      "visible": true,
+      "differentPoses": 4,
+      "overflow": false,
+      "brokenImages": 1,
+      "sampleIntervalMs": 1000,
+      "samples": 8
+    },
+    {
+      "page": "about",
+      "action": "递名片",
+      "visible": true,
+      "differentPoses": 4,
+      "overflow": false,
+      "brokenImages": 0,
+      "sampleIntervalMs": 1000,
+      "samples": 8
+    }
+  ],
+  "method": "DOM pose sampling every second plus page screenshots; not a FPS measurement"
+}

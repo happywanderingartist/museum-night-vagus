@@ -1,0 +1,32 @@
+{
+  "version": 3,
+  "render": "SVG UI composition, not browser screenshots; homepage preview shows second dialogue frame",
+  "files": {
+    "mona-master.png": {
+      "width": 1672,
+      "height": 941,
+      "sha256": "7fabbb0c06d1564738ba8162b0e25dca7c055b51acba92e9bcd399998d767d23"
+    },
+    "thinker-master.png": {
+      "width": 1672,
+      "height": 941,
+      "sha256": "b37b1aec037b63e3a2a24a902cb70baf37e8b21c4b57eca7d3275ca9a1b9189c"
+    }
+  },
+  "checks": {
+    "homepageColourReinterpreted": true,
+    "rawArtUnchangedByUIExport": true,
+    "localReferences": true,
+    "uniqueHtmlIds": true,
+    "dialogueStateTests": "3 passed separately",
+    "browser": "not tested",
+    "responsive": "not browser tested",
+    "live3D": "not implemented"
+  },
+  "limitations": [
+    "Thinker depth is pictorial. No separated subject/clean background/parallax assets.",
+    "Article URLs and resume file not supplied. Pending disclosure, not fake content.",
+    "V3 created locally; not uploaded to Canva or Open Design.",
+    "Open Design enabled but no callable MCP tools exposed in this session."
+  ]
+}

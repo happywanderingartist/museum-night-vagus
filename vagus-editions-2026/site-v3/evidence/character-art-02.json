@@ -1,0 +1,68 @@
+[
+  {
+    "id": "xiaohongshu-v3",
+    "source": "sources/character-motion-02/xiaohongshu-v3.png",
+    "asset": "assets/xiaohongshu.webp",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "cdd9f01b03d36637da3313f0458a6debfbbf61e8a1aa68e1476cd17dd514e2c0",
+    "bytes": 254288
+  },
+  {
+    "id": "about",
+    "source": "sources/character-motion-02/about.png",
+    "asset": "assets/about.webp",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "d339451720ed2c75f95cd9164c1ab117f41dafebe2d45965f6a81c524c722d6c",
+    "bytes": 344854
+  },
+  {
+    "id": "monaBlink",
+    "source": "sources/character-motion-02/monaBlink.png",
+    "asset": "assets/mona-blink.webp",
+    "size": [
+      1671,
+      941
+    ],
+    "sha256": "3f2e6701e3d427d13fb01a1deee4d42628dc805e3b9b34fa86ef8be99982a911",
+    "bytes": 351088
+  },
+  {
+    "id": "thinkerLow",
+    "source": "sources/character-motion-02/thinkerLow.png",
+    "asset": "assets/thinker-hand.webp",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "685c9a6ad692635b93da110347a73378b0cf0e8d50b04f22a14fc9cf6491600f",
+    "bytes": 213984
+  },
+  {
+    "id": "thinkerHigh",
+    "source": "sources/character-motion-02/thinkerHigh.png",
+    "asset": "assets/thinker-upper-reference.webp",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "d6d7548e716f75156ece3f57ee27e30c8a4a9beca27bedde938759bc62937af1",
+    "bytes": 213622
+  },
+  {
+    "id": "thinkerClean",
+    "source": "sources/character-motion-02/thinkerClean.png",
+    "asset": "assets/thinker-clean.webp",
+    "size": [
+      1672,
+      941
+    ],
+    "sha256": "bc8a22dc0c74b0d9f5a0c4832a9d26cb726afa4aab5a1c0c7e70b6b2cd4f9f38",
+    "bytes": 218612
+  }
+]

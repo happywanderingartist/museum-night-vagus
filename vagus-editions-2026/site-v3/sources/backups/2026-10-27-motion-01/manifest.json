@@ -1,0 +1,74 @@
+[
+  {
+    "file": "app.js",
+    "sha256": "e98666412780aaf6d793d9491c23c2f03c35f290a0d9d96c52d355b828d4426a"
+  },
+  {
+    "file": "chapter-motion.mjs",
+    "sha256": "29d066836ec9384fe50cb3ba07f14e999540a394d3ff689e2cbe29223ee38c9f"
+  },
+  {
+    "file": "site-features.mjs",
+    "sha256": "ff2da9fa00a7e542e5bab68040ae488626b3a4c98626ff06aa6332ea054c7c76"
+  },
+  {
+    "file": "completion.css",
+    "sha256": "47407eec75e30fec6f923d9a57ac118548dddbccfa5edde96ececf3c010ba7dc"
+  },
+  {
+    "file": "style.css",
+    "sha256": "733d624027a2da5344c65f28beed71c82b4044269d152b044c43e636e01fdb75"
+  },
+  {
+    "file": "chapter-pages.css",
+    "sha256": "7ea0f0d4d8907d3a31962b457e6447a7f7ce55dec4f629c116bbe271ee2496f8"
+  },
+  {
+    "file": "server.cjs",
+    "sha256": "f499c84fcab0425832916ea83ef6beaf4cb2865da3dc675701ef9d90b5806dfd"
+  },
+  {
+    "file": "scripts/build-pages.cjs",
+    "sha256": "4ac9bfa5ef60c62320936f182f2dcd8b1a25a740b09be3de18b16a24fceb753c"
+  },
+  {
+    "file": "about.html",
+    "sha256": "2de9ec01073f4bc410073106ba828705e49956aeab5f9c5c6c6ccd9131a4b23f"
+  },
+  {
+    "file": "ai.html",
+    "sha256": "f0ed0df944ef42adc5f941e071ad5059fc19bb38bdff93330cbe6fab4976d261"
+  },
+  {
+    "file": "hug.html",
+    "sha256": "157a4214bfc477ed006f20e3eaca03d57be9d6b58defdba65dea54f492c56f12"
+  },
+  {
+    "file": "index.html",
+    "sha256": "cc9f9f96730c5c5c98d9e3a02532f738b505143ebfbfbdaa0a38b897693d6565"
+  },
+  {
+    "file": "literature.html",
+    "sha256": "4915a660ec6ae374cdc0ab6feab8a290dce4c5d90003e01cf8fd61917f885b96"
+  },
+  {
+    "file": "podcast.html",
+    "sha256": "9d7f3a450ec0386a974e09d19951994f184297a251bdea4edd3b45d2b98a8a51"
+  },
+  {
+    "file": "start.html",
+    "sha256": "8257b40d7dfe78ca2a2855fc46f3f50faf5e32136614dc63fa0a5b0f9d40c25b"
+  },
+  {
+    "file": "visual.html",
+    "sha256": "b0296371b45ae6a9d030672597fdc734005327be8444254a055e925055f8c1f3"
+  },
+  {
+    "file": "works.html",
+    "sha256": "1393dc16678f1ba1559503b93c5065e9497b57278eecb4acc5d6524ea0a986df"
+  },
+  {
+    "file": "xiaohongshu.html",
+    "sha256": "18d6c1c1a7096a4e6e0edf46229e10187e6c499e2ebb2436005a7acaddf5a605"
+  }
+]

@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>Vagus · 思想者三维灰模</title><link rel="stylesheet" href="style.css"><script type="importmap">{"imports":{"three":"./vendor/three/three.module.js","three/addons/":"./vendor/three/addons/"}}</script></head>
+<body><header><a class="brand" href="http://127.0.0.1:4179/index.html#ai">Vagus</a><span>思想者 / 三维灰模 01</span><a href="#reference">看原画对照 ↓</a></header>
+<main><div class="intro"><div><p class="eyebrow">SPACE BEFORE SURFACE</p><h1>先看形体，再谈笔触。</h1></div><p>本阶段检查手指、手机与古书的体积和接触。全部使用灰色材质，尚未做原画贴合与最终美术。</p></div>
+<section class="review" aria-label="三维灰模检查"><div class="stage-wrap"><img id="poster" src="assets/gray-poster.png" width="1440" height="900" alt="思想者局部三维灰模：手指在手机屏幕后方，手机支在打开的书上。"><canvas id="stage" aria-hidden="true"></canvas><div class="stage-caption"><span id="view-label">完整构图 · 背壳视角</span><span>真实网格与骨骼 / 非原画拉伸</span></div></div>
+<aside class="controls"><p class="eyebrow">01 / 接触与动作</p><h2>手机固定，<br>只动食指。</h2><p class="brief">5秒滑动，2秒停顿。默认不露屏幕；腕部、书和手机保持固定。</p>
+<button id="toggle" type="button" aria-pressed="false" disabled>暂停动作</button>
+<label for="frame">播放 / 关键帧</label><select id="frame" disabled><option value="live">正常播放</option><option value="0">起始 · 0秒</option><option value="1">上划 · 1秒</option><option value="2.6">后续上划 · 2.6秒</option><option value="5.5">停顿 · 5.5秒</option><option value="8">下一轮 · 8秒</option></select>
+<label for="view">检查角度</label><select id="view" disabled><option value="composition">完整构图 · 背壳</option><option value="close">近景 · 背壳</option><option value="contact">接触侧 · 仅检查用</option></select>
+<p id="contact-note" hidden>此角度只用于检查指腹与玻璃，不是网站镜头；正式视角始终不露屏。</p>
+<p id="status" role="status">正在加载本地三维模型…</p><output id="clock" aria-label="当前动作阶段"></output>
+<div class="downloads"><a href="assets/thinker-gray.blend">下载可编辑 Blender 文件 ↗</a><a href="assets/thinker-gray.glb">下载网页模型 GLB ↗</a></div></aside></section>
+<section id="reference" class="reference"><figure><img src="assets/reference.webp" width="1672" height="941" loading="lazy" alt="已确认的思想者原画参照，古典学者在深绿阅览室里看橙红手机。"><figcaption>原画参照 · 后续用于相机、造型与材质对位</figcaption></figure><div><p class="eyebrow">02 / 本阶段怎么看</p><h2>先确认这三个关系。</h2><ol><li>手机底部落在书页上，是否仍像悬空。</li><li>指腹是否贴着玻璃滑动，指节弯曲是否自然。</li><li>完整构图与近景是否只看见背壳，停顿时手与手机是否稳定。</li></ol><p class="boundary">袖口是定位代理。原画人物、绘画材质、完整房间分层和滚动转场尚未接入；这一页是灰模审阅，不是作品集最终页面。</p></div></section>
+</main><footer><span>Vagus / 灰模阶段 · 现有作品集保留</span><a href="http://127.0.0.1:4179/index.html#ai">对照现有网页 ↗</a></footer><noscript><p class="static-note">JavaScript已关闭，当前显示灰模静态渲染；下载模型和原画对照仍可用。</p></noscript><script type="module" src="app.mjs"></script></body></html>

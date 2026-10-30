@@ -1,0 +1,26 @@
+✔ continuous hand mesh has depth and an exported finger skeleton (82.2883ms)
+✔ the hand is one connected surface instead of disconnected finger capsules (29.894ms)
+✔ whole deformed hand stays outside glass and a defined pad patch makes numerical contact (1524.3506ms)
+✔ actual pad surface moves up 28mm while the phone and wrist stay fixed (40.647ms)
+✔ the actual skinned mesh is still throughout the two-second thinking pause (38.5709ms)
+✔ the actual wrist and forearm surface do not move along with the index (40.7075ms)
+✔ phone rests on the real page surface, rather than hovering above the book (4.9796ms)
+✔ full phone underside clears the pages and includes a genuine support region (43.4388ms)
+✔ default and close-up observer rays see shell and never the screen (3.2246ms)
+✔ three upward strokes occupy five seconds followed by a two-second hold (1.2337ms)
+✔ system reduced motion returns the same static pose at every time (1.0875ms)
+✔ hidden time is not added when playback resumes (0.3651ms)
+✔ render failures invoke poster fallback, not an escaping exception (1.1076ms)
+✔ bounded boot aborts a never-ending model load (28.2088ms)
+✔ successful boot returns real result without abort (0.4931ms)
+✔ a stage that completes after context failure is disposed and never accepted (0.4422ms)
+✔ a stage completing after timeout cannot activate a late canvas (0.3223ms)
+✔ review server is read-only, serves the model, and rejects source/traversal/control paths (169.3993ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2090.2518

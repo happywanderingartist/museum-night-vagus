@@ -1,0 +1,138 @@
+[
+  {
+    "pct": 0,
+    "state": {
+      "layers": [
+        {
+          "name": "background",
+          "opacity": "1",
+          "transform": "matrix(1.1, 0, 0, 1.1, 0, 0)"
+        },
+        {
+          "name": "subject",
+          "opacity": "1",
+          "transform": "matrix(1.24, 0, 0, 1.24, 0, 16)"
+        },
+        {
+          "name": "reading",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 901.999)"
+        },
+        {
+          "name": "title",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "name": "description",
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 20)"
+        }
+      ],
+      "mode": "true",
+      "status": "确定性采样 0%（非原站实测）"
+    }
+  },
+  {
+    "pct": 50,
+    "state": {
+      "layers": [
+        {
+          "name": "background",
+          "opacity": "1",
+          "transform": "matrix(1.00909, 0, 0, 1.00909, 0, -10.9091)"
+        },
+        {
+          "name": "subject",
+          "opacity": "1",
+          "transform": "matrix(1.02182, 0, 0, 1.02182, 0, -5.81818)"
+        },
+        {
+          "name": "reading",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 867.307)"
+        },
+        {
+          "name": "title",
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, -64)"
+        },
+        {
+          "name": "description",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        }
+      ],
+      "mode": "true",
+      "status": "确定性采样 50%（非原站实测）"
+    }
+  },
+  {
+    "pct": 100,
+    "state": {
+      "layers": [
+        {
+          "name": "background",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, -12)"
+        },
+        {
+          "name": "subject",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, -8)"
+        },
+        {
+          "name": "reading",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        },
+        {
+          "name": "title",
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, -64)"
+        },
+        {
+          "name": "description",
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        }
+      ],
+      "mode": "true",
+      "status": "确定性采样 100%（非原站实测）"
+    }
+  },
+  {
+    "pct": 50,
+    "state": {
+      "layers": [
+        {
+          "name": "background",
+          "opacity": "1",
+          "transform": "matrix(1.00909, 0, 0, 1.00909, 0, -10.9091)"
+        },
+        {
+          "name": "subject",
+          "opacity": "1",
+          "transform": "matrix(1.02182, 0, 0, 1.02182, 0, -5.81818)"
+        },
+        {
+          "name": "reading",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 867.307)"
+        },
+        {
+          "name": "title",
+          "opacity": "0",
+          "transform": "matrix(1, 0, 0, 1, 0, -64)"
+        },
+        {
+          "name": "description",
+          "opacity": "1",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)"
+        }
+      ],
+      "mode": "true",
+      "status": "确定性采样 50%（非原站实测）"
+    }
+  }
+]

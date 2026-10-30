@@ -1,0 +1,47 @@
+{
+  "version": "3.0.0",
+  "files": {
+    "SKILL.md": "af8fef8e6e9861380a0cebc40702d300dc24281dca26058d43350744c9625463",
+    "agents/openai.yaml": "24eb3af99368f2d788e79da0f86fd2c9ffd6174c64db6ffc11873bfb4fde22d0",
+    "assets/motion-runtime.mjs": "4d57d0d9ed35b5c396b8e0735b1fbcee80b1e6af0e3216c3de73b8e2172af8c2",
+    "assets/motion.css": "28378a9b7911ec6160268acccc0d4d77fbcef37d2c9015b772e41dfa92116b52",
+    "assets/scene-fixture.html": "a1cfcc50970561ece1116235074e3bdb4c46ecba92988277f30e480c6eba8dcb",
+    "references/anti-examples.md": "9cf7777036f4cc38eebfd02c2b94de4ecb4b34cc251657bcde548a6c53c330d9",
+    "references/asset-contract.md": "1c9919de30b6e21bf7c34dab6c7f509b695708e5443e721a9169db7cc0210e30",
+    "references/checklist.md": "ac56c6e9d2ff2909db6c290a447e689523d3c3bd15cd8c0eb9571c34d7e4f926",
+    "references/codex-guide.md": "31f532a439959513d6a40036fd3c6abb77a53cf9b24043fb3e3647ad7012b589",
+    "references/effect-recipes.md": "66526506a0a3cd3027d3819c7a1e9ddb930e11457ca4b21e90e7fd71065d1691",
+    "references/motion-contract.md": "8b5be8467b1c830cfd537f35f7ffe5925ac2f49784569ea7947d77da9a792091",
+    "references/motion-study.md": "34768570aadda4f6de09080216f1903dc77b78cf273397fc90478dcf489144c1",
+    "references/scene-grammar.md": "5270a0bdd67a8832196d87879d53351c9008b6261c5a8e0e3e45f73a34536d46",
+    "references/sources.md": "37476e414aa7ecc7ad9ad9da1403a62a483f48a3f5b5e4818ffd6458ef65198d",
+    "references/storyboard.md": "dc50953ac33ad0c5a84029687e4dfab060102a54586ee6e5193e7bc9659347c8",
+    "references/vagus-constraints.md": "3d549771fff76371e8fe3b6fddb6943ee06c5ef9152f1e28590c84692e479172",
+    "references/visual-study.md": "a91a347676627fe686bc6ad9ee59f247fce708053916f13e65ac857b5e251aad",
+    "scripts/serve-fixture.cjs": "8670b597671a5c447f293b5ee11b5f768b857135341a9fbec3e9073dcab68f0e",
+    "scripts/test-runtime.mjs": "f0bb25229342037e87579d03dd9628e3f54354ab2f8dbbe1f2f7a9b68754ed36"
+  },
+  "archiveSha256": "482c7140b85e1b4a0b575f2ead29c7a8064316eb5e9226a7d5e5d186e5683bc1",
+  "checks": {
+    "metadata": "basic field checks (not full parser)",
+    "relativeLinks": "pass",
+    "syntax": "all bundled JS files pass",
+    "runtimeTests": 8,
+    "archiveCRCAndContents": "pass",
+    "fileCount": 19
+  },
+  "testOutput": "✔ reference runtime is included and exports a pure timeline sampler (1.0957ms)\n✔ immersive scene separates camera pullback, title exit and reading handoff (0.5038ms)\n✔ editorial scene uses restrained crop progression, not immersive stage choreography (0.2695ms)\n✔ sampling is reversible without hidden playhead or spring drift (1.0902ms)\n✔ input clamps, rejects unknown profiles and guards invalid geometry (0.6287ms)\n✔ reduced or single-column mode keeps all content visible in static document flow (0.2064ms)\n✔ reading material overscans past its irregular top edge at the final frame (0.2803ms)\n✔ foreground links switch to reading ink as the material covers their lower safe area (0.1429ms)\nℹ tests 8\nℹ suites 0\nℹ pass 8\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 167.6407\n",
+  "browserChecks": [
+    "Chrome 1440x900 deterministic start/mid/end/reverse sample",
+    "Native PageDown changes scene state",
+    "Hash links focus reading target",
+    "390x844 static mode: title/description visible, no horizontal overflow"
+  ],
+  "limits": [
+    "Not official Python validator.",
+    "No formal art assets: fixture is neutral geometry only.",
+    "No exact source-site timing or FPS claim.",
+    "Reduced-motion media preference, browser-back, unload leak checks and sustained performance not fully tested.",
+    "One baseline and one independent forward test; final refinements locally retested, not a broad trigger benchmark."
+  ]
+}

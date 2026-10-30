@@ -1,0 +1,46 @@
+[
+  {
+    "name": "home",
+    "source": "../trials/two-pages-v5/assets/mona-master.png",
+    "sourceSHA256": "8c66ea3a2f29e4532ee0e85e5b35b2565ef7376a8597ab83f076e78103e4bc75",
+    "output": "assets/home.webp",
+    "bytes": 263836,
+    "width": 1671,
+    "height": 941,
+    "layers": "flattened painting; no independent character/depth",
+    "rights": "Existing user-requested generated trial artwork; not reference-site artwork. Publication rights review pending."
+  },
+  {
+    "name": "ai",
+    "source": "../storyboards/batch-01/assets/thinker-master.png",
+    "sourceSHA256": "45ca5d65a17e921e3bf0ee5353f4b5ed9a51c7eb061c7a1650020347bd314735",
+    "output": "assets/ai.webp",
+    "bytes": 135888,
+    "width": 1672,
+    "height": 941,
+    "layers": "flattened painting; no independent character/depth",
+    "rights": "Existing user-requested generated trial artwork; not reference-site artwork. Publication rights review pending."
+  },
+  {
+    "name": "start",
+    "source": "../storyboards/batch-01/assets/start-master.png",
+    "sourceSHA256": "c0c340c547b0d21e7ba6670e3289cf62c7e3570e9a824f7f6076763b784f2f42",
+    "output": "assets/start.webp",
+    "bytes": 208590,
+    "width": 1672,
+    "height": 940,
+    "layers": "flattened painting; no independent character/depth",
+    "rights": "Existing user-requested generated trial artwork; not reference-site artwork. Publication rights review pending."
+  },
+  {
+    "name": "hug",
+    "source": "../storyboards/batch-01/assets/hug-master.png",
+    "sourceSHA256": "e4de256836bb9f500ad8a04a406f8e3ac7097cc06a21bfa6053cc2eddd6641ff",
+    "output": "assets/hug.webp",
+    "bytes": 163336,
+    "width": 1672,
+    "height": 941,
+    "layers": "flattened painting; no independent character/depth",
+    "rights": "Existing user-requested generated trial artwork; not reference-site artwork. Publication rights review pending."
+  }
+]

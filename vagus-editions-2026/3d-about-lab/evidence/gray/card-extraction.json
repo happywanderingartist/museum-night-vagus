@@ -1,0 +1,109 @@
+{
+  "method": "ROI white threshold, monotone convex hull, smallest triangle area vertex removal",
+  "threshold": {
+    "r": 185,
+    "g": 180,
+    "b": 155,
+    "rMinusB": 65
+  },
+  "roi": [
+    760,
+    330,
+    980,
+    495
+  ],
+  "candidatePixels": 13133,
+  "hull": [
+    [
+      786,
+      383
+    ],
+    [
+      788,
+      381
+    ],
+    [
+      860,
+      366
+    ],
+    [
+      899,
+      358
+    ],
+    [
+      929,
+      352
+    ],
+    [
+      931,
+      352
+    ],
+    [
+      933,
+      354
+    ],
+    [
+      934,
+      358
+    ],
+    [
+      942,
+      400
+    ],
+    [
+      949,
+      437
+    ],
+    [
+      948,
+      440
+    ],
+    [
+      947,
+      441
+    ],
+    [
+      943,
+      442
+    ],
+    [
+      848,
+      461
+    ],
+    [
+      815,
+      467
+    ],
+    [
+      810,
+      467
+    ],
+    [
+      795,
+      451
+    ],
+    [
+      786,
+      387
+    ]
+  ],
+  "corners": [
+    [
+      788,
+      381
+    ],
+    [
+      929,
+      352
+    ],
+    [
+      949,
+      437
+    ],
+    [
+      810,
+      467
+    ]
+  ],
+  "limitation": "observed white region; occluded edges and antialiasing affect corner choice"
+}

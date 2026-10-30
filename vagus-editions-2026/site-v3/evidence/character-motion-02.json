@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-27",
+  "currentXHS": "sources/character-motion-02/xiaohongshu-v3.png",
+  "rejectedXHS": "sources/character-motion-02/xiaohongshu.png",
+  "currentAbout": "sources/character-motion-02/about.png",
+  "verification": {
+    "nodeTests": 30,
+    "passed": 30,
+    "currentHTTPResources": 10,
+    "renderedBrowser": false,
+    "artworkOnlySVGKeyframes": true,
+    "phoneInteriorChannelDifferences": 0,
+    "phoneInteriorComparedChannels": 43200
+  },
+  "motion": {
+    "mona": "source-matched eyelid overlay implemented",
+    "thinker": "localized continuous 2D mesh implemented; 5000ms swipe / 2000ms still; fixed original phone and book in front",
+    "podcast": "side-ear movement not implemented",
+    "others": "remaining scene-specific articulation and geometry handoffs not completed; 3D deferred"
+  },
+  "limits": [
+    "Source keyframes inspected; not Chrome runtime playback or FPS validation",
+    "New generated art is a proposal, not user-accepted final artwork",
+    "SVG warp is a 2D puppet trial, not a rigged 3D hand"
+  ],
+  "assets": "evidence/character-art-02.json",
+  "preview": "http://127.0.0.1:4182/"
+}

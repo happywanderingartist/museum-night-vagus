@@ -1,0 +1,14 @@
+{
+  "status": "not-run",
+  "reason": "Connected Chrome navigation to http://127.0.0.1:4182 was not executed. Automatic approval review could not complete because of account usage limit; this was not a user rejection or unsafe-site decision.",
+  "blockedAction": "Open the completed static website in connected Chrome",
+  "noWorkaround": true,
+  "unverified": [
+    "desktop and narrow-window rendered layout",
+    "runtime gallery focus/keyboard/Escape",
+    "runtime catalog URL/empty/reset flow",
+    "real audio playback/seek/volume",
+    "reduced-motion visual states",
+    "image-failure and no-JavaScript rendered appearance"
+  ]
+}

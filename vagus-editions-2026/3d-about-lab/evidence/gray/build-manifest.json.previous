@@ -1,0 +1,63 @@
+{
+  "scope": "static build only; not aesthetic acceptance",
+  "startedAt": "2026-10-29T05:42:18.869Z",
+  "finishedAt": "2026-10-29T05:43:18.875Z",
+  "files": [
+    {
+      "path": "tools/blender/build_about.py",
+      "sha256": "b4a35439cf012b4e29409c2f14512facb054bebb807b6c3fc4d14ac82fa60e54"
+    },
+    {
+      "path": "tools/blender/vendor_hand.py",
+      "sha256": "96a4402d007f9d94336932b385b63fb9de976a6f024bfd38daf22a29c10b6e59"
+    },
+    {
+      "path": "tools/blender/run-blender.cjs",
+      "sha256": "8ff7b821c2028f72f3de13ff0cd7e27a5f021b00ad07961c5774ab711187786b"
+    },
+    {
+      "path": "sources/about/reference.png",
+      "sha256": "b89811c50a8d0aceaad56b8ce99aff9650a36e1e92ea321fc8fffb2db415e23c"
+    },
+    {
+      "path": "sources/about/reference.json",
+      "sha256": "6f08fa4b91c3712db993e86705283b00f55b1a73b4b97cf38e21e966d9e89d61"
+    },
+    {
+      "path": "sources/vendor/SOURCES.json",
+      "sha256": "7807bc026d0a566d4c3fa40151421e3d5c0cafa538c77f4d266ba6a3ab351212"
+    },
+    {
+      "path": "sources/about/about-gray.blend",
+      "sha256": "d171ac4d96d68b4d20f860db3226deefb7320c221f73e863443ccb596fc0b222"
+    },
+    {
+      "path": "sources/about/camera.json",
+      "sha256": "33236c9961f6cbdb736f7f659dc4d4d9bd4c79f770a666c99da85be200a3ee8c"
+    },
+    {
+      "path": "evidence/gray/front.png",
+      "sha256": "ba5f2df52380f278e379d49607d789b6c92d9ef1f06b3b3ed82340c50aa2ab08"
+    },
+    {
+      "path": "evidence/gray/overlay.png",
+      "sha256": "3788232ab9612db4c12cd10c496723f185a1f50638af95935e05c5a71389a4e8"
+    },
+    {
+      "path": "evidence/gray/hand-close.png",
+      "sha256": "23f199bdb9c2257984204b25537e4173de8927a6a910f5784cc4ba856a7f12db"
+    },
+    {
+      "path": "evidence/gray/side.png",
+      "sha256": "dddea30d76d32c444389a5975ac57cb0a17693d67dd87c7f92707c3b1f60a07c"
+    },
+    {
+      "path": "evidence/gray/side-context.png",
+      "sha256": "539f1e1e16860b2d3d3a7a802448fba2a43f3e811bfe638a48a637c4fc472209"
+    },
+    {
+      "path": "evidence/gray/model-audit.json",
+      "sha256": "de6182466b373674635c5c139bb3ce5e353ecaee1706232228ac4dae78f76ab0"
+    }
+  ]
+}

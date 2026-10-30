@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "result": {
+    "rendererListenersRemoved": true,
+    "signalAborted": true
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "projection": "perspective",
+  "horizontalFovDeg": 35,
+  "position": [
+    0,
+    0,
+    0
+  ],
+  "rotationEuler": [
+    0,
+    0,
+    0
+  ],
+  "width": 1672,
+  "height": 941,
+  "near": 0.01,
+  "far": 30,
+  "scale": "metres",
+  "cardPose": [
+    -0.10544817574971684,
+    0.24051947030778456,
+    0.21295318738538113,
+    0.020354101038502954,
+    0.037378080810560474,
+    -1.6135421030004946
+  ],
+  "reprojectionErrorPx": [
+    0.6100942204250738,
+    0.542291286685127,
+    0.49666144091368186,
+    0.5705523265059953
+  ],
+  "approval": "pending visual review; depth inferred from proposed physical card size"
+}

@@ -1,0 +1,8 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+test('shared chapter module mounts motion on initial load, without requiring the toggle',async()=>{
+ const classes=new Set(),button={hidden:true,setAttribute(){},addEventListener(n,f){this.click=f;}},body={classList:{contains:n=>classes.has(n),add:n=>classes.add(n),remove:n=>classes.delete(n),toggle(n,on){if(on)classes.add(n);else classes.delete(n);}}};
+ const query={matches:false,addEventListener(){},removeEventListener(){}};const doc={body,querySelector:()=>button,querySelectorAll:()=>[],addEventListener(){},removeEventListener(){},hidden:false};
+ const win={document:doc,matchMedia:()=>query,performance:{now:()=>0},location:{hash:''},scrollY:0,innerHeight:900,innerWidth:1440,addEventListener(){},removeEventListener(){},requestAnimationFrame:()=>1,cancelAnimationFrame(){},MutationObserver:class{observe(){}disconnect(){}}};
+ const globals={window:win,document:doc,matchMedia:win.matchMedia,sessionStorage:{getItem:()=>null,setItem(){}},MutationObserver:win.MutationObserver,requestAnimationFrame:win.requestAnimationFrame,addEventListener:win.addEventListener};const originals=new Map(Object.keys(globals).map(k=>[k,Object.getOwnPropertyDescriptor(globalThis,k)]));
+ try{Object.assign(globalThis,globals);await import('../chapter-motion.mjs?bootstrap');assert.equal(classes.has('motion-ready'),true,'initial load must mount scene motion');button.click();assert.equal(classes.has('motion-on'),false);}finally{for(const [key,descriptor]of originals)if(descriptor)Object.defineProperty(globalThis,key,descriptor);else delete globalThis[key];}
+});

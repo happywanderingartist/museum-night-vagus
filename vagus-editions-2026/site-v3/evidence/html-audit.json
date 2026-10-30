@@ -1,0 +1,119 @@
+{
+  "kind": "offline HTML structure audit, not rendered-browser validation",
+  "pages": 10,
+  "passed": true,
+  "reports": [
+    {
+      "page": "about.html",
+      "h1": 1,
+      "images": 1,
+      "links": 24,
+      "scripts": [
+        "chapter-motion.mjs",
+        "site-features.mjs"
+      ],
+      "errors": []
+    },
+    {
+      "page": "ai.html",
+      "h1": 1,
+      "images": 1,
+      "links": 11,
+      "scripts": [
+        "chapter-motion.mjs",
+        "site-features.mjs"
+      ],
+      "errors": []
+    },
+    {
+      "page": "hug.html",
+      "h1": 1,
+      "images": 2,
+      "links": 16,
+      "scripts": [
+        "site-features.mjs",
+        "chapter-motion.mjs"
+      ],
+      "errors": []
+    },
+    {
+      "page": "index.html",
+      "h1": 1,
+      "images": 10,
+      "links": 62,
+      "scripts": [
+        "site-features.mjs",
+        "chapter-motion.mjs",
+        "state.js",
+        "app.js"
+      ],
+      "errors": []
+    },
+    {
+      "page": "literature.html",
+      "h1": 1,
+      "images": 1,
+      "links": 16,
+      "scripts": [
+        "chapter-motion.mjs",
+        "site-features.mjs"
+      ],
+      "errors": []
+    },
+    {
+      "page": "podcast.html",
+      "h1": 1,
+      "images": 1,
+      "links": 16,
+      "scripts": [
+        "chapter-motion.mjs",
+        "site-features.mjs"
+      ],
+      "errors": []
+    },
+    {
+      "page": "start.html",
+      "h1": 1,
+      "images": 1,
+      "links": 15,
+      "scripts": [
+        "site-features.mjs",
+        "chapter-motion.mjs"
+      ],
+      "errors": []
+    },
+    {
+      "page": "visual.html",
+      "h1": 1,
+      "images": 7,
+      "links": 21,
+      "scripts": [
+        "chapter-motion.mjs",
+        "site-features.mjs"
+      ],
+      "errors": []
+    },
+    {
+      "page": "works.html",
+      "h1": 1,
+      "images": 7,
+      "links": 16,
+      "scripts": [
+        "chapter-motion.mjs",
+        "site-features.mjs"
+      ],
+      "errors": []
+    },
+    {
+      "page": "xiaohongshu.html",
+      "h1": 1,
+      "images": 1,
+      "links": 19,
+      "scripts": [
+        "chapter-motion.mjs",
+        "site-features.mjs"
+      ],
+      "errors": []
+    }
+  ]
+}

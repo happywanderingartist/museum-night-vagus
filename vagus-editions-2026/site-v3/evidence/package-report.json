@@ -1,0 +1,20 @@
+{
+  "archive": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\Vagus-site-v3-2026-10-26.zip",
+  "bytes": 12387663,
+  "sha256": "80efc4c8b849b09cac2a69902a6ce68ff615d33571d70d446edf01ec96d8c60d",
+  "files": 73,
+  "crcPassed": true,
+  "artMastersHashPassed": true,
+  "extractedTo": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\toolchain\\site-v3-extracted-6m42z9w4",
+  "extractedTestsExit": 0,
+  "finalDocumentationUpdated": true,
+  "browserValidation": "not-run: approval review could not complete due to usage limit",
+  "exclusions": [
+    "toolchain/cache/browser profiles",
+    "node_modules",
+    "3D/vendor/models",
+    "account data",
+    "old ZIPs",
+    "C-path process metadata"
+  ]
+}

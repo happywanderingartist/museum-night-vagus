@@ -1,0 +1,35 @@
+✔ continuous hand mesh has depth and an exported finger skeleton (101.5239ms)
+✔ the hand is one connected surface instead of disconnected finger capsules (48.5339ms)
+✔ whole deformed hand stays outside glass and a defined pad patch makes numerical contact (2880.6651ms)
+✔ actual pad surface moves up 28mm while the phone and wrist stay fixed (79.4603ms)
+✔ the actual skinned mesh is still throughout the two-second thinking pause (78.7135ms)
+✔ the actual wrist and forearm surface do not move along with the index (75.5592ms)
+✔ phone rests on the real page surface, rather than hovering above the book (5.0443ms)
+✔ full phone underside clears the pages and includes a genuine support region (44.3272ms)
+✔ default and close-up observer rays see shell and never the screen (3.192ms)
+✖ adjacent palm edges do not tear across the index-weight transition (122.3939ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 9
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4093.4285
+
+✖ failing tests:
+
+test at tests\asset.test.mjs:76:1
+✖ adjacent palm edges do not tear across the index-weight transition (122.3939ms)
+  AssertionError [ERR_ASSERTION]: palm edge 38616-39996 over-stretches at 0.6s: 1.8734073180322326
+      at TestContext.<anonymous> (file:///D:/AI-Data/%E5%8D%9A%E7%89%A9%E9%A6%86%E5%A5%87%E5%A6%99%E5%A4%9C/vagus-editions-2026/thinker-refinement-v2/tests/asset.test.mjs:83:119)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

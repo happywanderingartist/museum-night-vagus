@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+ <meta name="theme-color" content="#10271f"><meta name="description" content="Vagus 的艺术、设计与 AI 作品集。艺术、设计与 AI 的完整展厅与作品目录。">
+ <title>Vagus — 名画奇妙夜</title>
+ <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+ <link rel="preload" href="assets/home.webp" as="image"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="chapter-pages.css"><link rel="stylesheet" href="completion.css"><script type="module" src="site-features.mjs"></script>
+ <script type="module" src="chapter-motion.mjs"></script>
+ <script defer src="state.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+ <a class="skip-link" href="#works">跳到作品目录</a>
+ <button class="skip-link nav-access" type="button" aria-controls="site-navigation" aria-expanded="false" hidden>打开展厅导航</button>
+ <header class="site-header" id="site-navigation" aria-label="全站导航" hidden>
+  <a class="mini-brand" href="#home" aria-label="Vagus 首页">Vagus<span>名画奇妙夜</span></a>
+  <nav aria-label="展厅"><a href="#home">首页</a><a href="#ai">AI</a><a href="#start">START</a><a href="#hug">Hug</a><a href="#xiaohongshu">运营</a><a href="#podcast">播客</a><a href="#literature">文学节</a><a href="#visual">视觉</a><a href="#about">关于</a><a href="works.html">速览</a></nav>
+  <button class="motion-toggle" type="button" aria-pressed="false" hidden>关闭动态</button>
+ </header>
+ <main>
+  <section class="home" id="home" aria-labelledby="home-title" tabindex="-1" data-section data-motion-scene="home">
+   <img class="home-art" src="assets/home.webp" width="1671" height="941" alt="名画人物在浅青工作室里用粉色笔记本工作，桌边放着冰美式，一只猫正在睡觉。" fetchpriority="high">
+   <div class="brand-lockup"><h1 id="home-title">Vagus</h1><div class="philosophy"><p>让好奇心成为方法，让想象力成为作品。</p><p lang="en">Curiosity as a method. Imagination made real.</p></div></div>
+   <p class="character-quote mona-quote"><span class="quote-speaker">蒙娜丽莎</span>咋的，没看过<br>名画上班吗？</p>
+   <div class="home-bottom">
+    <div class="dialogue"><span class="speaker" id="speaker">Vagus / 邀请函</span><h2 id="dialogue-title">Hello，我是 Vagus。</h2><p id="dialogue-text">欢迎来到我的网站，这里记录了我在艺术、设计与 AI 之间的游走与探索。你愿意和我一起开启这场博物馆奇妙夜吗？</p></div>
+    <div class="choices" aria-label="选择浏览方式"><a href="works.html"><span>01</span>速览作品 <span aria-hidden="true">↗</span></a><a class="primary" href="#ai"><span>02</span>接受邀请 <span aria-hidden="true">→</span></a><a href="about.html#resume" data-resume-link><span>03</span>看看简历 <span aria-hidden="true">↗</span></a></div>
+   </div>
+   <span class="home-caption" aria-hidden="true">A LITTLE ART. A LITTLE AFTER HOURS.</span>
+  </section>
+
+  <section class="ai chapter" id="ai" aria-labelledby="ai-title" tabindex="-1" data-section>
+   <div class="ai-scene" data-editorial data-motion-scene="ai">
+    <img class="scene-art" src="assets/ai.webp" width="1672" height="941" loading="lazy" decoding="async" alt="夜间阅览室里，古典学者托腮看着支在古书上的橙红手机，手指停在屏幕前。">
+    <p class="character-quote thinker-quote"><span class="quote-speaker">思考者</span>人类又训练了<br>一个新模型？</p>
+    <div class="ai-content"><div class="section-label">01 / AFTER-HOURS THINKING</div><h2 id="ai-title">AI 行业观察</h2><p class="ai-intro">在技术快速变化的时代，我更关心 AI 如何进入真实生活，以及它如何改变人们的创作、工作与表达方式。</p>
+     <div class="article-links"><a href="ai.html#seed">SeedRealtime <span aria-hidden="true">↗</span></a><a href="ai.html#vibe">Vibe Coding <span aria-hidden="true">↗</span></a><a href="ai.html#selection">AI产品榜与热门精选 <span aria-hidden="true">↗</span></a></div>
+     <a class="text-link" href="ai.html">查看全部作品 <span aria-hidden="true">↓</span></a>
+    </div>
+   </div>
+   <div class="reading paper" id="ai-reading" tabindex="-1" aria-labelledby="ai-reading-title">
+    <div class="reading-head"><div><span class="section-label">01 / AI OBSERVATIONS</span><h3 id="ai-reading-title">把观察留在这里。</h3></div><p>原文接入后，这里直接通向文章。艺术只负责开场，不替代内容。</p></div>
+    <div class="article-index"><section id="seed" tabindex="-1"><span>01</span><h4>SeedRealtime</h4><p>产品测评</p><a class="inline-link" href="ai.html#articles">查看文章目录</a></section><section id="vibe" tabindex="-1"><span>02</span><h4>Vibe Coding</h4><p>创意玩法</p><a class="inline-link" href="ai.html#articles">查看文章目录</a></section><section id="selection" tabindex="-1"><span>03</span><h4>AI产品榜与热门精选</h4><p>行业观察与内容策划</p><a class="inline-link" href="ai.html#articles">查看文章目录</a></section></div>
+    <a href="#start" class="next-chapter">下一幕 <span>START / 舞会里，有人准备出发。</span><span aria-hidden="true">→</span></a>
+   </div>
+  </section>
+
+  <section class="start chapter" id="start" aria-labelledby="start-title" tabindex="-1" data-section>
+   <div class="scene-track" data-scene="start" data-motion-scene="start" data-chapter="start"><div class="stage">
+    <img class="scene-art" src="assets/start.webp" width="1672" height="940" loading="lazy" decoding="async" alt="酒红衣裙的舞会人物从左侧递出现代演出票，身后的舞会延伸进靛紫树荫。">
+    <div class="scene-copy"><span class="section-label">02 / FOLLOW THE FEELING</span><h2 id="start-title">START</h2><p class="scene-subtitle">舞会里，<br>有人准备出发。</p><p>复刻偶像足迹的追星旅行产品。</p></div>
+    <svg class="route-trace" viewBox="0 0 1672 940" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path pathLength="1" d="M830 777 C1015 880 1160 706 1300 786 S1540 920 1700 944" fill="none" stroke="currentColor" stroke-width="2"/></svg>
+    <a class="scene-enter" href="#start-reading">直接阅读项目 <span aria-hidden="true">↓</span></a>
+   </div></div>
+   <article class="reading paper" id="start-reading" tabindex="-1" aria-labelledby="start-reading-title">
+    <div class="reading-head"><div><span class="section-label">START / DIGITAL PRODUCT</span><h3 id="start-reading-title">从一张票，<br>到下一站。</h3></div><p>帮助粉丝找到偶像真实去过的地点，将分散的信息整理成可以直接复刻的路线，并记录旅行过程。</p></div>
+    <div class="project-outline"><div class="project-intent"><span class="section-label">产品命题</span><h4>让“我也想去”，<br>有一个清楚的起点。</h4><p>从地点信息、路线选择到 Journey 旅程，围绕一次出发组织阅读顺序，而不是先罗列所有功能。</p><p class="status-note">以下为设计方案中的展示路径，不代表全部功能已完成。</p></div><ol class="journey"><li><span>01</span><div><h4>找到足迹地点</h4><p>呈现地点信息与可核对来源。</p></div></li><li><span>02</span><div><h4>看懂并选择路线</h4><p>把分散地点整理成可浏览的路线。</p></div></li><li><span>03</span><div><h4>开始 Journey</h4><p>记录旅程，再展开陪伴、到达纪念与社区投稿。</p></div></li></ol></div>
+    <div class="asset-status"><span class="status-dot" aria-hidden="true"></span><div><strong>真实项目证据待接入</strong><p>此处保留给实际产品界面、原型链接、开发阶段与本人贡献，不使用生成界面代替。</p></div><button data-missing="START 真实原型与项目截图" type="button" hidden>接入清单 ↗</button></div>
+    <a class="project-detail-link" href="start.html">进入 START 项目详情 <span aria-hidden="true">↗</span></a>
+    <a href="#hug" class="next-chapter">下一幕 <span>Hug / 今天，也可以慢一点。</span><span aria-hidden="true">→</span></a>
+   </article>
+  </section>
+
+  <section class="hug chapter" id="hug" aria-labelledby="hug-title" tabindex="-1" data-section>
+   <div class="scene-track" data-scene="hug" data-motion-scene="hug" data-chapter="hug"><div class="stage">
+    <img class="scene-art" src="assets/hug.webp" width="1672" height="941" loading="lazy" decoding="async" alt="雾气中的清晨水面，低低的珊瑚色太阳把一条光带投在水上，近岸植物安静生长。">
+    <img class="water-motion" src="assets/hug.webp" width="1672" height="941" loading="lazy" alt="" aria-hidden="true">
+    <div class="scene-copy"><span class="section-label">03 / A GENTLER PACE</span><h2 id="hug-title">Hug</h2><p class="scene-subtitle">今天，也可以慢一点。</p><p>温和、无惩罚的自我照顾。</p></div>
+    <div class="horizon-trace" aria-hidden="true"></div>
+    <a class="scene-enter" href="#hug-reading">直接阅读项目 <span aria-hidden="true">↓</span></a>
+   </div></div>
+   <article class="reading paper" id="hug-reading" tabindex="-1" aria-labelledby="hug-reading-title">
+    <div class="reading-head"><div><span class="section-label">HUG / DIGITAL PRODUCT</span><h3 id="hug-reading-title">把小小的照顾，<br>留给自己。</h3></div><p>通过微小的自我照顾行为、表达心情与记录生活，让花园自然生长。一个以温和、无惩罚为方向的心理自助与自我照顾产品。</p></div>
+    <div class="hug-principles"><section><span>01 / PRESSURE</span><h4>少一点压力</h4><p>以低压力交互与无惩罚反馈作为设计原则，不把照顾自己变成新的负担。</p></section><section><span>02 / ACTION</span><h4>从微行动开始</h4><p>围绕情绪记录、自我照顾任务与个人计划组织体验，让行动与反馈建立关系。</p></section><section><span>03 / BOUNDARY</span><h4>保留清楚的边界</h4><p>这是非临床的自我照顾产品，不替代专业帮助，不宣称经过验证的治疗效果。</p></section></div>
+    <div class="asset-status"><span class="status-dot" aria-hidden="true"></span><div><strong>真实花园与行为状态待接入</strong><p>下一阶段展示实际花园界面和一个完整流程；此处不生成假的产品截图。</p></div><button data-missing="Hug 真实花园界面与行为状态" type="button" hidden>接入清单 ↗</button></div>
+    <a class="project-detail-link" href="hug.html">进入 Hug 项目详情 <span aria-hidden="true">↗</span></a>
+   <a href="#xiaohongshu" class="next-chapter">下一幕 <span>小红书 / 从比例到传播。</span><span aria-hidden="true">→</span></a></article>
+  </section>
+<section class="collection-art theme-xiaohongshu" id="xiaohongshu" data-section data-chapter="xiaohongshu" aria-labelledby="xiaohongshu-title" tabindex="-1"><img class="collection-image" src="assets/xiaohongshu.webp" width="1672" height="941" alt="白色工作室中的原创比例人物，手持信号红封面板，圆与方框作为构图结构。" loading="lazy" decoding="async"><div class="art-copy"><p class="art-category">内容运营</p><h2 id="xiaohongshu-title">内容，也有比例。</h2><p class="art-subtitle">从账号定位，到一篇被看见的内容。</p><a class="art-read" href="xiaohongshu.html">进入小红书运营<span aria-hidden="true">↓</span></a></div><p class="art-quip">“这张封面，改了第几版？”</p><nav class="geometry-entries" aria-label="运营展厅"><a href="xiaohongshu.html#positioning">账号定位</a><a href="xiaohongshu.html#content">选题与制作</a><a href="xiaohongshu.html#evidence">代表笔记</a></nav></section><section class="chapter-summary theme-xiaohongshu" id="xiaohongshu-reading" tabindex="-1"><div><p>内容运营</p><h3>从比例，到传播。</h3></div><div><p>账号定位、内容策略、选题与制作，最终回到一篇真实笔记。这个章节关注内容如何被组织、制作和看见。</p><a class="inline-link" href="xiaohongshu.html">阅读小红书运营</a><a class="chapter-next" href="#podcast">下一幕：播客 ↓</a></div></section><section class="collection-art theme-podcast" id="podcast" data-section data-chapter="podcast" aria-labelledby="podcast-title" tabindex="-1"><img class="collection-image" src="assets/podcast.webp" width="1672" height="941" alt="深茄紫背景里，戴蓝色头巾和珍珠耳环的古典少女自然佩戴银灰色现代耳机。" loading="lazy" decoding="async"><div class="art-copy"><p class="art-category">声音与策划</p><h2 id="podcast-title">把声音，<br>留给认真听的人。</h2><p class="art-subtitle">从一个问题，到一段值得听完的表达。</p><a class="art-read" href="podcast.html">进入播客<span aria-hidden="true">↓</span></a></div><p class="art-quip">“嘘，有人在说话。”</p></section><section class="chapter-summary theme-podcast" id="podcast-reading" tabindex="-1"><div><p>声音与策划</p><h3>让声音，有自己的空间。</h3></div><div><p>这里呈现节目的主题、策划过程、本人制作角色与代表单集。播放器只消费真实音频，默认不自动播放。</p><a class="inline-link" href="podcast.html">阅读播客</a><a class="chapter-next" href="#literature">下一幕：文学节 ↓</a></div></section><section class="collection-art theme-literature" id="literature" data-section data-chapter="literature" aria-labelledby="literature-title" tabindex="-1"><img class="collection-image" src="assets/literature.webp" width="1672" height="941" alt="钴蓝夜色与橘红舞台光中，梵高式红发人物正用现代工作人员对讲机调度。" loading="lazy" decoding="async"><div class="art-copy"><p class="art-category">活动策划与执行</p><h2 id="literature-title">把文字，<br>带到现场。</h2><p class="art-subtitle">从一份方案，到灯光亮起的那一刻。</p><a class="art-read" href="literature.html">进入文学节<span aria-hidden="true">↓</span></a></div><p class="art-quip">“灯光就位，作家呢？”</p></section><section class="chapter-summary theme-literature" id="literature-reading" tabindex="-1"><div><p>活动策划与执行</p><h3>当文字走出书页。</h3></div><div><p>按活动背景、目标、方案、物料与现场执行展开阅读。艺术人物负责开场，真实现场和本人工作负责说明项目。</p><a class="inline-link" href="literature.html">阅读文学节</a><a class="chapter-next" href="#visual">下一幕：视觉与物料设计 ↓</a></div></section><section class="collection-art theme-visual" id="visual" data-section data-chapter="visual" aria-labelledby="visual-title" tabindex="-1"><img class="collection-image" src="assets/visual.webp" width="1672" height="941" alt="从画面两侧伸出的古典绘画双手，其中一方自然握着现代绘图笔，中央留出清楚的空隙。" loading="lazy" decoding="async"><div class="art-copy"><p class="art-category">视觉创作</p><h2 id="visual-title">把想象，交到手上。</h2><p class="art-subtitle">海报、编辑设计与应用物料。</p><a class="art-read" href="visual.html">进入视觉与物料设计<span aria-hidden="true">↓</span></a></div><p class="art-quip">“灵感已发送。”</p></section><section class="chapter-summary theme-visual" id="visual-reading" tabindex="-1"><div><p>视觉创作</p><h3>灵感之后，是作品。</h3></div><div><p>真实作品按原始比例和色彩呈现。先看完整作品，再看局部、设计决策与应用情境，不把所有创作统一做旧或染色。</p><a class="inline-link" href="visual.html">阅读视觉与物料设计</a><a class="chapter-next" href="#about">下一幕：About Vagus ↓</a></div></section><section class="collection-art theme-about" id="about" data-section data-chapter="about" aria-labelledby="about-title" tabindex="-1"><img class="collection-image" src="assets/about.webp" width="1672" height="941" alt="明亮的原创超现实画面，一张大纸缓缓卷起，匿名背影走向工作台；这不是作者真实肖像。" loading="lazy" decoding="async"><div class="art-copy"><p class="art-category">关于作者</p><h2 id="about-title">展览之后，<br>认识 Vagus。</h2><p class="art-subtitle">让好奇心成为方法，让想象力成为作品。</p><a class="art-read" href="about.html">进入About Vagus<span aria-hidden="true">↓</span></a></div><p class="art-quip">“看完展了，来认识一下作者？”</p><p class="art-disclosure">原创艺术意象，非作者真实肖像</p></section>
+  <section id="works" class="works-index paper" aria-labelledby="works-title" tabindex="-1" data-section>
+   <div class="section-label">THE COLLECTION / 作品速览</div><h2 id="works-title">不必等画醒来，<br>先看作品。</h2>
+   <div class="index-list"><a href="ai.html"><span>观察与写作</span><strong>AI 行业观察</strong><span>进入阅读</span></a><a href="start.html"><span>数字产品</span><strong>START</strong><span>进入阅读</span></a><a href="hug.html"><span>数字产品</span><strong>Hug</strong><span>进入阅读</span></a><a href="xiaohongshu.html"><span>内容创作</span><strong>小红书运营</strong><span>进入阅读</span></a><a href="podcast.html"><span>内容创作</span><strong>播客</strong><span>进入阅读</span></a><a href="literature.html"><span>活动策划</span><strong>文学节</strong><span>进入阅读</span></a><a href="visual.html"><span>视觉设计</span><strong>视觉与物料</strong><span>进入阅读</span></a></div><a class="inline-link" href="works.html">打开可筛选的完整目录</a>
+  </section>
+<section class="end paper" id="resume" tabindex="-1" aria-labelledby="end-title"><h2 id="end-title">看过作品，<br>再认识创作者。</h2><p>正式简历与联系方式以本人确认的真实材料为准。</p><div><a href="about.html#resume" data-resume-link>简历与个人介绍</a><a href="about.html#contact">联系入口</a><a href="works.html">作品速览</a></div></section>
+ </main>
+ <footer><span>Vagus · 名画奇妙夜</span><a href="#home">回到开场 ↑</a></footer>
+ <dialog id="asset-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description"><form method="dialog"><button class="dialog-close" aria-label="关闭说明">×</button><span class="section-label">ASSET NOT CONNECTED</span><h2 id="dialog-title">内容待接入</h2><p id="dialog-description"></p><p>艺术视觉与真实项目证据分开保存；当前不会跳往虚构链接或展示生成的项目界面。</p><button class="dialog-ok">知道了</button></form></dialog>
+ <noscript><div class="noscript-note"><p>动态效果和接入状态弹窗已停用；作品索引和项目说明仍可直接阅读。文章原文与简历尚未接入。</p><nav aria-label="静态展厅导航"><a href="#home">首页</a> / <a href="#ai">AI观察</a> / <a href="#start">START</a> / <a href="#hug">Hug</a> / <a href="#works">作品目录</a></nav></div></noscript>
+</body>
+</html>

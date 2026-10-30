@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-28",
+  "newConsentObtained": true,
+  "chromeExtensionInstance": "e96e9b59-c7f4-4053-82d2-a1ebb1b995da",
+  "sixActionsActuallyChangedPose": true,
+  "horizontalOverflowAt965x437": false,
+  "visualImageCheck": {
+    "emptyClosedDialogImages": 1,
+    "failedSuppliedImages": []
+  },
+  "manualOff": {
+    "actorDisplay": "none",
+    "actorOpacity": "0",
+    "artTransform": "none",
+    "reEnable": "motion-on restored"
+  },
+  "thinker": {
+    "differentHandPoses": 9,
+    "phoneTransform": null,
+    "offscreenActorsOpacity": 0
+  },
+  "desktop1440x900": [
+    "home: header hidden at top, intro visible, philosophy beside logo, no horizontal overflow",
+    "about: title/card composition checked",
+    "xiaohongshu: light nav labels on dark painting checked"
+  ],
+  "fpsMeasured": false,
+  "systemReducedMotionBrowserEmulation": false
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ai",
+    "title": "AI 行业观察",
+    "category": "观察与写作",
+    "description": "产品测评、创意玩法与行业观察",
+    "url": "ai.html",
+    "image": "ai"
+  },
+  {
+    "id": "start",
+    "title": "START",
+    "category": "数字产品",
+    "description": "复刻偶像足迹的追星旅行产品",
+    "url": "start.html",
+    "image": "start"
+  },
+  {
+    "id": "hug",
+    "title": "Hug",
+    "category": "数字产品",
+    "description": "温和、无惩罚的自我照顾",
+    "url": "hug.html",
+    "image": "hug"
+  },
+  {
+    "id": "xiaohongshu",
+    "title": "小红书运营",
+    "category": "内容创作",
+    "description": "账号定位、选题、封面与传播",
+    "url": "xiaohongshu.html",
+    "image": "xiaohongshu"
+  },
+  {
+    "id": "podcast",
+    "title": "播客",
+    "category": "内容创作",
+    "description": "节目策划、声音表达与制作",
+    "url": "podcast.html",
+    "image": "podcast"
+  },
+  {
+    "id": "literature",
+    "title": "文学节",
+    "category": "活动策划",
+    "description": "从策划方案到真实活动现场",
+    "url": "literature.html",
+    "image": "literature"
+  },
+  {
+    "id": "visual",
+    "title": "视觉与物料",
+    "category": "视觉设计",
+    "description": "海报、编辑设计与应用物料",
+    "url": "visual.html",
+    "image": "visual"
+  }
+]

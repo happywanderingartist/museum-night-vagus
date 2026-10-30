@@ -1,0 +1,17 @@
+{
+  "archive": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\Vagus-thinker-refinement-v2-2026-10-26.zip",
+  "bytes": 12259566,
+  "sha256": "82f467502b8bb831684561d6ece9ed05902dd7b4d9b1f38858bb8eaeeed89401",
+  "files": 62,
+  "extractedTo": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\toolchain\\thinker-refine-extracted-324ajyvo",
+  "extractedTestsExit": 0,
+  "exclusions": [
+    "toolchain/browser profiles/cache",
+    "node_modules",
+    "Blender executable",
+    "blend backups",
+    "old ZIPs",
+    "logs",
+    "accounts"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "scope": "G0/G1 static CC0-derived anatomy trial; no rig or motion",
+  "hand": {
+    "vertices": 3300,
+    "components": 1,
+    "nonManifoldEdges": 0,
+    "digitGroups": [
+      "index",
+      "middle",
+      "ring",
+      "pinky",
+      "thumb"
+    ],
+    "baseLicense": "CC0-1.0",
+    "baseAsset": "Blender Human Base Meshes v1.4.1 / Hand - Realistic",
+    "baseAuthor": "Dan Ulrich"
+  },
+  "card": {
+    "widthM": 0.09,
+    "heightM": 0.054,
+    "thicknessM": 0.0004,
+    "sourceCorners": [
+      [
+        788.0,
+        381.0
+      ],
+      [
+        929.0,
+        352.0
+      ],
+      [
+        949.0,
+        437.0
+      ],
+      [
+        810.0,
+        467.0
+      ]
+    ],
+    "projectedCorners": [
+      [
+        788.6055343151093,
+        380.9255476593971
+      ],
+      [
+        928.4577088356018,
+        352.0003641843796
+      ],
+      [
+        949.4946203231812,
+        436.9550186395645
+      ],
+      [
+        809.4418323040009,
+        467.11823189258575
+      ]
+    ],
+    "reprojectionErrorPx": [
+      0.6100942204250738,
+      0.542291286685127,
+      0.49666144091368186,
+      0.5705523265059953
+    ]
+  },
+  "limitations": [
+    "character face/body is an explicitly flat grayscale reference layer",
+    "background repair and alpha artwork layers not delivered",
+    "static hand has no bone rig or accepted contact animation",
+    "frame off-canvas edges/depth inferred; not recovered geometry"
+  ]
+}

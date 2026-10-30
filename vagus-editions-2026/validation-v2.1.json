@@ -1,0 +1,29 @@
+{
+  "version": "2.1.0",
+  "files": {
+    "SKILL.md": "b7044b77aad4f86897526e95e92586f34e7d6bd40d72fa96b8b7b9b602de0ff6",
+    "agents/openai.yaml": "24eb3af99368f2d788e79da0f86fd2c9ffd6174c64db6ffc11873bfb4fde22d0",
+    "references/anti-examples.md": "9cf7777036f4cc38eebfd02c2b94de4ecb4b34cc251657bcde548a6c53c330d9",
+    "references/checklist.md": "8da5e616421c0a0cd0a18d01974881358f5874d74be5d7845c6cc2a02a5ec205",
+    "references/codex-guide.md": "4b27edbc1b2dc4241c881ce81a081c5056d1564080003c5342beeea655c44941",
+    "references/motion-contract.md": "cd8c2f9c2f7c3722fcc64c8ec8389bd863037ef79b7f26b2daf2437f6509df96",
+    "references/motion-study.md": "34768570aadda4f6de09080216f1903dc77b78cf273397fc90478dcf489144c1",
+    "references/scene-grammar.md": "5270a0bdd67a8832196d87879d53351c9008b6261c5a8e0e3e45f73a34536d46",
+    "references/sources.md": "37476e414aa7ecc7ad9ad9da1403a62a483f48a3f5b5e4818ffd6458ef65198d",
+    "references/storyboard.md": "92d23b469490632bc16864dcbd7da27d1c42302ecb3d86b449d8e4e6055274c4",
+    "references/vagus-constraints.md": "3d549771fff76371e8fe3b6fddb6943ee06c5ef9152f1e28590c84692e479172",
+    "references/visual-study.md": "a91a347676627fe686bc6ad9ee59f247fce708053916f13e65ac857b5e251aad"
+  },
+  "archiveSha256": "79921e404fd8feb3b49b8d1cea6402eab17dc4f522a78b209aa68220b115ccde",
+  "checks": {
+    "basicFrontmatter": "pass; not full YAML parser",
+    "relativeLinks": "pass",
+    "archiveCRCAndRoundtrip": "pass",
+    "fileCount": 12
+  },
+  "limits": [
+    "Official Python validator unavailable: PyYAML missing.",
+    "One baseline and one forward test; final text clarifications not independently rerun.",
+    "No website implementation, continuous video or performance validation."
+  ]
+}

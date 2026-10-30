@@ -1,0 +1,63 @@
+{
+  "scope": "static build only; not aesthetic acceptance",
+  "startedAt": "2026-10-29T05:45:48.699Z",
+  "finishedAt": "2026-10-29T05:46:53.685Z",
+  "files": [
+    {
+      "path": "tools/blender/build_about.py",
+      "sha256": "b4a35439cf012b4e29409c2f14512facb054bebb807b6c3fc4d14ac82fa60e54"
+    },
+    {
+      "path": "tools/blender/vendor_hand.py",
+      "sha256": "20c050c823732ea5fb0cb704e4063f786076a80472a3132ebb60e561e4c0bbed"
+    },
+    {
+      "path": "tools/blender/run-blender.cjs",
+      "sha256": "8ff7b821c2028f72f3de13ff0cd7e27a5f021b00ad07961c5774ab711187786b"
+    },
+    {
+      "path": "sources/about/reference.png",
+      "sha256": "b89811c50a8d0aceaad56b8ce99aff9650a36e1e92ea321fc8fffb2db415e23c"
+    },
+    {
+      "path": "sources/about/reference.json",
+      "sha256": "6f08fa4b91c3712db993e86705283b00f55b1a73b4b97cf38e21e966d9e89d61"
+    },
+    {
+      "path": "sources/vendor/SOURCES.json",
+      "sha256": "7807bc026d0a566d4c3fa40151421e3d5c0cafa538c77f4d266ba6a3ab351212"
+    },
+    {
+      "path": "sources/about/about-gray.blend",
+      "sha256": "cd6305ab05c953eb1f13666ba67339d7b0c68f8c541d26a748cde7c02da6ee0e"
+    },
+    {
+      "path": "sources/about/camera.json",
+      "sha256": "33236c9961f6cbdb736f7f659dc4d4d9bd4c79f770a666c99da85be200a3ee8c"
+    },
+    {
+      "path": "evidence/gray/front.png",
+      "sha256": "0565beb6bf01e9884ec88005320a30671af093e7e80292d44788c3d37a2861d2"
+    },
+    {
+      "path": "evidence/gray/overlay.png",
+      "sha256": "4e102e2d662f0ff6ae0255546a92c1f0ea075280ede8670df26f47e04efe7a05"
+    },
+    {
+      "path": "evidence/gray/hand-close.png",
+      "sha256": "bafbbcd7f59625850aad78d8f156999e21379750c0b1548f81b8e27e3c802a88"
+    },
+    {
+      "path": "evidence/gray/side.png",
+      "sha256": "057be30521f88f0d10db845d35b000ac628d4c9feb2d28cc4a531d89e35f432e"
+    },
+    {
+      "path": "evidence/gray/side-context.png",
+      "sha256": "8c72b2927b0212c2e93cae254d83237decff6367e27f165a70b22f046fc78803"
+    },
+    {
+      "path": "evidence/gray/model-audit.json",
+      "sha256": "de6182466b373674635c5c139bb3ce5e353ecaee1706232228ac4dae78f76ab0"
+    }
+  ]
+}

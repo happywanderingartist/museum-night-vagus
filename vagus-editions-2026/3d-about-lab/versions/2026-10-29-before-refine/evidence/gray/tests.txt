@@ -1,0 +1,16 @@
+✔ the current gray source, renders and audit are bound to the exact build inputs (40.1113ms)
+✔ Blender generated a closed continuous hand with all five digit groups (1.9443ms)
+✔ actual modeled card corners match the source calibration target (0.222ms)
+✔ editable source and all required camera renders exist (6.342ms)
+✔ source dimensions, measured card corners and byte identity are validated (12.2905ms)
+✔ cover calibration respects actual scene size and off-centre cropping (0.4389ms)
+✔ saved extraction reproduces the actual card corner observations (4.9253ms)
+✔ actual static hand surface does not intersect the card or frame (13.1084ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 485.6089

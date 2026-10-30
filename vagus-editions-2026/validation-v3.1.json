@@ -1,0 +1,41 @@
+{
+  "version": "3.1.0",
+  "files": {
+    "SKILL.md": "edaca6d9a19c45c0fe78a05b1db1e385b1fb19f226e2a1fafd3d0d0d61d87e57",
+    "agents/openai.yaml": "24eb3af99368f2d788e79da0f86fd2c9ffd6174c64db6ffc11873bfb4fde22d0",
+    "assets/motion-runtime.mjs": "4d57d0d9ed35b5c396b8e0735b1fbcee80b1e6af0e3216c3de73b8e2172af8c2",
+    "assets/motion.css": "28378a9b7911ec6160268acccc0d4d77fbcef37d2c9015b772e41dfa92116b52",
+    "assets/scene-fixture.html": "a1cfcc50970561ece1116235074e3bdb4c46ecba92988277f30e480c6eba8dcb",
+    "references/anti-examples.md": "90838d16fb5f963c6e18983a934b557b33496e054a6f922a30cc5305b5a141ad",
+    "references/asset-contract.md": "59754c1462422c60d74389a3b6156b776ef4b43afeda3e20cbabab61e2ee4f17",
+    "references/background-art-direction.md": "34a6d5be02b1f839982086367597ad6d1c826d833dbe22a8d1fdd21e0c56e397",
+    "references/checklist.md": "1dd21a05530c30e80e4b63d194faa1cdd9d94c7339c8117f6f768ad6e13f44fa",
+    "references/codex-guide.md": "a3f0ba8a250f37373362b98cf118f3368e7c784c03715e2889ba227cf9c15e70",
+    "references/effect-recipes.md": "66526506a0a3cd3027d3819c7a1e9ddb930e11457ca4b21e90e7fd71065d1691",
+    "references/motion-contract.md": "8b5be8467b1c830cfd537f35f7ffe5925ac2f49784569ea7947d77da9a792091",
+    "references/motion-study.md": "34768570aadda4f6de09080216f1903dc77b78cf273397fc90478dcf489144c1",
+    "references/scene-grammar.md": "461ca2acc8614ef846368728e8465df307c525f6bf83a378e9d05bcd94e7a9d6",
+    "references/sources.md": "37476e414aa7ecc7ad9ad9da1403a62a483f48a3f5b5e4818ffd6458ef65198d",
+    "references/storyboard.md": "dc50953ac33ad0c5a84029687e4dfab060102a54586ee6e5193e7bc9659347c8",
+    "references/vagus-constraints.md": "3d549771fff76371e8fe3b6fddb6943ee06c5ef9152f1e28590c84692e479172",
+    "references/visual-study.md": "a91a347676627fe686bc6ad9ee59f247fce708053916f13e65ac857b5e251aad",
+    "scripts/serve-fixture.cjs": "8670b597671a5c447f293b5ee11b5f768b857135341a9fbec3e9073dcab68f0e",
+    "scripts/test-runtime.mjs": "f0bb25229342037e87579d03dd9628e3f54354ab2f8dbbe1f2f7a9b68754ed36"
+  },
+  "archiveSha256": "b6176643bc75b9ce4379e437b6fdd95c3a102c12a71de27c3c36f1f0cec6e92b",
+  "checks": {
+    "basicFrontmatter": "pass; not full YAML parser",
+    "internalLinks": "pass",
+    "runtimeCodeUnchanged": "all bundled JS hashes match v3",
+    "runtimeTests": 8,
+    "archiveCRCAndContents": "pass",
+    "fileCount": 20
+  },
+  "testOutput": "✔ reference runtime is included and exports a pure timeline sampler (1.0898ms)\n✔ immersive scene separates camera pullback, title exit and reading handoff (0.4943ms)\n✔ editorial scene uses restrained crop progression, not immersive stage choreography (0.236ms)\n✔ sampling is reversible without hidden playhead or spring drift (1.078ms)\n✔ input clamps, rejects unknown profiles and guards invalid geometry (0.6148ms)\n✔ reduced or single-column mode keeps all content visible in static document flow (0.2105ms)\n✔ reading material overscans past its irregular top edge at the final frame (0.3592ms)\n✔ foreground links switch to reading ink as the material covers their lower safe area (0.153ms)\nℹ tests 8\nℹ suites 0\nℹ pass 8\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 173.0905\n",
+  "limits": [
+    "Background brief and recipe updated; no new image generated or visual acceptance.",
+    "Prior browser observations concern v3 mechanism fixture only; no new browser/performance claims.",
+    "Official Python validator not run; basic frontmatter/link checks used.",
+    "One baseline and one forward-use background test; not a broad statistical evaluation."
+  ]
+}

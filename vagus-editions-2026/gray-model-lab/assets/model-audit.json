@@ -1,0 +1,19 @@
+{
+  "generator": "Blender 4.5.15 LTS",
+  "kind": "procedural gray model, not finished sculpture",
+  "cloud_calls": 0,
+  "hand_vertices": 28560,
+  "hand_polygons": 44018,
+  "skin_bones": [
+    "IndexProximal",
+    "IndexMiddle",
+    "IndexDistal",
+    "HandAnchor"
+  ],
+  "seconds": 7,
+  "fps": 30,
+  "phone_base_m": 0.02802,
+  "glass_front_m": 0.0055,
+  "pad_correction_after_remesh_m": 0.00036522983551025463,
+  "scope": "hand/forearm, phone, open book, table and sleeve alignment proxy; no portrait/room material stage"
+}

@@ -1,0 +1,33 @@
+{
+  "scope": "G0/G1 static gray only",
+  "guards": [
+    {
+      "path": "site-v3/index.html",
+      "sha256": "15ec73e93b8b37adb75235e9d640fda2daa09ff8c4b22ca1e0bd966ce36e3472"
+    },
+    {
+      "path": "site-v3/about.html",
+      "sha256": "404488de40639af7ff23008a0d4c8cfd94a9302e94c41ddab9a8a7a94fa0a187"
+    },
+    {
+      "path": "site-v3/scene-motion.mjs",
+      "sha256": "88ca6e4932ef8a61081dfe3011415ce8f31f74e850adae5ddf4ea129efab6822"
+    },
+    {
+      "path": "site-v3/character-motion.mjs",
+      "sha256": "390cac088f4681a06bd011ab137e439667fe75801106dcc0c0d6c960127e9ff1"
+    },
+    {
+      "path": "site-v3/completion.css",
+      "sha256": "bb82b0c861e8e668b18adea73b806a5aaba995e7e16206c6a01bdfeaba570a49"
+    },
+    {
+      "path": "site-v3/assets/about.webp",
+      "sha256": "d339451720ed2c75f95cd9164c1ab117f41dafebe2d45965f6a81c524c722d6c"
+    },
+    {
+      "path": "site-v3/sources/character-motion-02/about.png",
+      "sha256": "b89811c50a8d0aceaad56b8ce99aff9650a36e1e92ea321fc8fffb2db415e23c"
+    }
+  ]
+}

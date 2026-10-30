@@ -1,0 +1,169 @@
+{
+  "headings": [
+    {
+      "color": "rgb(43, 43, 41)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "64px",
+      "text": "Creative intelligence.",
+      "top": 184,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(43, 43, 41)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "56px",
+      "text": "Meet the ContraLabs ecosystem",
+      "top": 685,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(251, 250, 246)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "32px",
+      "text": "Creative",
+      "top": 1355,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(251, 250, 246)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "32px",
+      "text": "Arena",
+      "top": 1387,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(251, 250, 246)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "32px",
+      "text": "Benchmarking",
+      "top": 1387,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(251, 250, 246)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "32px",
+      "text": "",
+      "top": 1419,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(251, 250, 246)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "32px",
+      "text": "Creative",
+      "top": 1880,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(251, 250, 246)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "32px",
+      "text": "preference",
+      "top": 1912,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(251, 250, 246)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "32px",
+      "text": "Trajectories & RL",
+      "top": 1880,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(251, 250, 246)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "32px",
+      "text": "environments",
+      "top": 1912,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(43, 43, 41)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "32px",
+      "text": "Built on real-world  creative expertise",
+      "top": 2520,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(43, 43, 41)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "32px",
+      "text": "Contra Labs taps a vetted network of practicing creative professionals",
+      "top": 2637,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(43, 43, 41)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "32px",
+      "text": "With real market experience",
+      "top": 2549,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(251, 250, 246)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "56px",
+      "text": "Connecting with the missing signal: taste",
+      "top": 6573,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(251, 250, 246)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "56px",
+      "text": "Execution is free.",
+      "top": 8399,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(251, 250, 246)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "56px",
+      "text": "Now, judgment is everything.",
+      "top": 8455,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(43, 43, 41)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "64px",
+      "text": "The network for creative expertise",
+      "top": 9078,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(251, 250, 246)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "32px",
+      "text": "AI tools multiply leverage, they don't replace expertise.",
+      "top": 9431,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(251, 250, 246)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "56px",
+      "text": "AI doesn't replace creativity",
+      "top": 9416,
+      "weight": "400"
+    },
+    {
+      "color": "rgb(251, 250, 246)",
+      "font": "\"Source Serif 4 Variable\", \"Source Serif 4 Variable Placeholder\", serif",
+      "size": "44px",
+      "text": "Expert opinions help shape smarter tools",
+      "top": 11186,
+      "weight": "400"
+    }
+  ],
+  "scrollY": 0,
+  "viewport": {
+    "h": 565,
+    "w": 1206
+  }
+}

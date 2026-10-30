@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "sourcePath": "sources/about/reference.png",
+  "sourceSha256": "b89811c50a8d0aceaad56b8ce99aff9650a36e1e92ea321fc8fffb2db415e23c",
+  "width": 1672,
+  "height": 941,
+  "objectPosition": [
+    0.5,
+    0.5
+  ],
+  "anchors": {
+    "cardCorners": [
+      [
+        788,
+        381
+      ],
+      [
+        929,
+        352
+      ],
+      [
+        949,
+        437
+      ],
+      [
+        810,
+        467
+      ]
+    ],
+    "eyeLeft": [
+      1226,
+      244
+    ],
+    "eyeRight": [
+      1295,
+      215
+    ],
+    "wrist": [
+      865,
+      554
+    ],
+    "elbow": [
+      984,
+      674
+    ],
+    "frameLeftTop": [
+      827,
+      0
+    ],
+    "frameLeftBottom": [
+      827,
+      838
+    ]
+  },
+  "annotationMethod": {
+    "cardCorners": "white-region convex hull simplified to four corners; verify on overlay",
+    "otherAnchors": "manual source-image observation; uncertainty about 3–8 source pixels",
+    "depth": "not observed; proposed for gray model, not reconstructed ground truth",
+    "wristRevision": "2026-10-29 manual correction to wrist/palm junction; prior [891,582] was a forearm point, not an accurately observed wrist"
+  },
+  "safeTextSource": {
+    "x": [
+      60,
+      650
+    ],
+    "y": [
+      140,
+      700
+    ]
+  }
+}

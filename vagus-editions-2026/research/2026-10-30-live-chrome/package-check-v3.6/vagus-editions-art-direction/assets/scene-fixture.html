@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Vagus Skill 3.1.1 机制测试夹具</title>
+<link rel="stylesheet" href="./motion.css">
+<style>
+body{margin:0;font-family:system-ui,sans-serif}header{padding:1rem;background:#f4f2ec;position:relative;z-index:20}
+button,a{font:inherit}button{margin:.2rem;padding:.4rem .8rem}.fixture-label{font-size:.85rem}
+[data-layer=background]{background:#54736b}
+[data-layer=background]::after{content:"BACKGROUND PLANE";position:absolute;left:3%;bottom:20%;font-size:8vw;color:#dce6df44}
+ .vagus-art [data-layer=subject]{background:#c8d0c4;clip-path:ellipse(27% 56% at 72% 64%);box-shadow:inset -3vw 0 #82998d}
+[data-layer=subject]::after{content:"SUBJECT PLANE / NOT ARTWORK";position:absolute;left:8%;top:35%;width:80%;font-size:3vw;color:#233b34}
+.vagus-links{font-size:1.1rem}.vagus-works{min-height:90vh}.vagus-works p{max-width:48rem;line-height:1.7}
+</style>
+<header>
+ <strong>机制测试夹具，不是 Vagus 视觉方案</strong>
+ <p class="fixture-label">中性几何仅验证图层运动；原生滚动可操作。采样按钮只用于检查时间线端态，不证明参考站视觉相似。</p>
+ <button data-profile-control="immersive">沉浸章节</button><button data-profile-control="editorial">编辑裁切</button>
+ <button data-sample="0">采样 0%</button><button data-sample=".25">采样 25%</button><button data-sample=".5">采样 50%</button><button data-sample=".75">采样 75%</button><button data-sample="1">采样 100%</button>
+ <output id="status" aria-live="polite">等待初始化</output>
+ <button id="regression">运行3.1.1浏览器回归检查</button>
+ <pre id="regression-result" aria-live="polite"></pre>
+ <a href="#fixture-works">跳到测试正文</a>
+</header>
+<main>
+ <section class="vagus-scene" data-scroll-scene data-profile="immersive">
+  <div class="vagus-stage">
+   <div class="vagus-art" aria-hidden="true"><div data-layer="background"></div><div data-layer="subject"></div></div>
+   <div class="vagus-reading-edge" data-layer="reading" aria-hidden="true"><div class="vagus-reading-intro"><h2>阅读阶段</h2><p>图像让出空间，真实内容成为主角。</p><p>这是测试文字，不是正式作品。</p></div></div>
+   <div class="vagus-copy"><h1 class="vagus-title" data-layer="title">章节标题</h1><p class="vagus-description" data-layer="description">标题交接给说明，再让出稳定的正文阅读表面。</p></div>
+   <nav class="vagus-links" aria-label="测试入口"><a href="#fixture-works">测试正文</a><a href="#fixture-notes">机制边界</a></nav>
+  </div>
+ </section>
+ <section class="vagus-works" id="fixture-works" tabindex="-1"><h2>正文终点</h2><p>这里仅是验证夹具。正常网站应替换为真实作品；不得把测试文案当成用户的经历或项目。</p><p id="fixture-notes">这是可逆的 DOM 2.5D 时间线，不含真实三维转身、人物动画、粒子着色器或原站资产。窄屏与减少动态偏好使用普通文档流。</p></section>
+</main>
+<script type="module">
+import {mountScene} from './motion-runtime.mjs';
+const root=document.querySelector('[data-scroll-scene]'),status=document.querySelector('#status');
+let control=mountScene(root);
+status.textContent='原生滚动模式';
+document.querySelectorAll('[data-sample]').forEach(button=>button.addEventListener('click',()=>{
+ control.preview(Number(button.dataset.sample));
+ status.textContent='确定性采样 '+(Number(button.dataset.sample)*100)+'%（非原站实测）';
+}));
+document.querySelectorAll('[data-profile-control]').forEach(button=>button.addEventListener('click',()=>{
+ control.destroy();root.dataset.profile=button.dataset.profileControl;control=mountScene(root);
+ status.textContent='原生滚动：'+root.dataset.profile;
+}));
+document.querySelector('#regression').addEventListener('click',async()=>{
+ const report=document.querySelector('#regression-result'),button=document.querySelector('#regression');
+ if(innerWidth<1024||matchMedia('(prefers-reduced-motion: reduce)').matches){
+  report.textContent='未运行：动态回归需宽度≥1024且未开启减少动态；静态模式另验。';return;
+ }
+ button.disabled=true;
+ const oldProfile=root.dataset.profile,stage=root.querySelector('.vagus-stage'),oldStyle=stage.getAttribute('style'),oldY=scrollY;
+ const results=[];
+ const tick=()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+ const check=(name,ok,detail)=>{results.push({name,pass:ok,detail});if(!ok)throw new Error(name+': '+detail);};
+ try{
+  control.destroy();root.dataset.profile='editorial';stage.style.height='72vh';stage.style.minHeight='0';
+  control=mountScene(root);await tick();
+  const art=root.querySelector('.vagus-art'),bg=root.querySelector('[data-layer=background]'),subject=root.querySelector('[data-layer=subject]');
+  const a=art.getBoundingClientRect(),s=stage.getBoundingClientRect();
+  check('B背景覆盖完整舞台',Math.abs(a.left-s.left)<1&&Math.abs(a.right-s.right)<1,`art=${a.width},stage=${s.width}`);
+  const bgCSS=getComputedStyle(bg),subjectCSS=getComputedStyle(subject);
+  check('背景和主体共享未变换画布',bgCSS.left===subjectCSS.left&&bgCSS.top===subjectCSS.top&&bgCSS.width===subjectCSS.width&&bgCSS.height===subjectCSS.height,'same layer bounds');
+  for(const profile of ['editorial','immersive']){
+   control.destroy();root.dataset.profile=profile;control=mountScene(root);
+   let uncovered=0;
+   for(let i=0;i<=100;i++){
+    control.preview(i/100);
+    const layer=bg.getBoundingClientRect(),canvas=art.getBoundingClientRect();
+    if(layer.left>canvas.left+.1||layer.right<canvas.right-.1||layer.top>canvas.top+.1||layer.bottom<canvas.bottom-.1)uncovered++;
+   }
+   check(profile+'全进度背景覆盖',uncovered===0,`${uncovered}/101 uncovered`);
+  }
+  control.destroy();root.dataset.profile='editorial';control=mountScene(root);await tick();
+  const top=root.getBoundingClientRect().top+scrollY,height=root.getBoundingClientRect().height;
+  check('短首屏条件',height<innerHeight,`${height}<${innerHeight}`);
+  window.scrollTo(0,top);await tick();
+  const start=new DOMMatrix(getComputedStyle(subject).transform).a;
+  window.scrollTo(0,top+height*.5);await tick();
+  check('原生滚动到达目标',Math.abs(scrollY-(top+height*.5))<2,`scrollY=${scrollY}`);
+  const middle=new DOMMatrix(getComputedStyle(subject).transform).a;
+  check('短首屏原生推进',middle<start-.01&&Math.abs(middle-1.02)<.002,`scale=${start}→${middle}`);
+  window.scrollTo(0,top);await tick();
+  const reversed=new DOMMatrix(getComputedStyle(subject).transform).a;
+  check('原生反向恢复',Math.abs(reversed-start)<.002,`scale=${reversed}`);
+ }catch(error){results.push({error:error.message});}
+ finally{
+  control.destroy();root.dataset.profile=oldProfile;
+  if(oldStyle===null)stage.removeAttribute('style');else stage.setAttribute('style',oldStyle);
+  control=mountScene(root);window.scrollTo(0,oldY);button.disabled=false;
+  report.textContent=JSON.stringify({browserRun:true,results},null,2);
+ }
+});
+</script>
+</html>

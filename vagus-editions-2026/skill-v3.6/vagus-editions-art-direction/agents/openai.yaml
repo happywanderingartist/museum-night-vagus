@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vagus · Editions 艺术指导"
+  short_description: "Vagus 首屏、思想者与作品集的构图、叙事反差、分镜及视觉审阅规则"
+  default_prompt: "使用 $vagus-editions-art-direction，先核验现有稿与项目约束，再制作原始素材和 UI 分离的思想者视觉方案。"

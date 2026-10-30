@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "checks": [
+    "missing clean plate disables source mode",
+    "standalone gray model remains available"
+  ]
+}

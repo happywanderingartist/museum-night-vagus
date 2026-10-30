@@ -1,0 +1,31 @@
+{
+  "type": "visual-trial",
+  "render": "SVG UI layout exports, not browser screenshots",
+  "files": {
+    "mona-master.png": {
+      "width": 1672,
+      "height": 941,
+      "sha256": "67699275b3a62f1b31e1641b2b0f9f7a75bb1c94a803605d341f79aea6d8fda0"
+    },
+    "thinker-master.png": {
+      "width": 1672,
+      "height": 941,
+      "sha256": "64cd0d33288ee9b8ff68a55ea1b936da16fb7e6dc722c754900ae3e496169be0"
+    }
+  },
+  "checks": {
+    "rawArtUnchangedByComposition": true,
+    "localReferences": true,
+    "uniqueHtmlIds": true,
+    "previewDimensions": "1600x900",
+    "browser": "not tested",
+    "nativeMotion": "not implemented",
+    "rights": "AI-generated reinterpretations, not source artwork reproductions; no third-party site assets reused"
+  },
+  "limitations": [
+    "Not a reconstruction of the previously approved Mona Lisa image, which was not supplied.",
+    "No independent eye/face/subject layers or clean background for parallax.",
+    "No verified article URLs, resume file or real project screenshots included.",
+    "HTML dialogs and responsive behavior require browser testing."
+  ]
+}

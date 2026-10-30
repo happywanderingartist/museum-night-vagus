@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <title>Vagus 思想者首屏：可编辑 UI 图层</title>
+  <desc>透明底 UI；所有文字仍为 text。用于视觉审阅，不代表链接功能。</desc>
+  <g fill="#f7f7ff">
+    <text x="64" y="58" font-family="Georgia, serif" font-size="38" letter-spacing="-2">Vagus</text>
+    <g font-family="Microsoft YaHei, sans-serif" font-size="15">
+      <text x="1165" y="49">进入探索</text><text x="1304" y="49">速览作品</text><text x="1443" y="49">看看简历</text>
+    </g>
+    <text x="57" y="268" font-family="Microsoft YaHei, sans-serif" font-weight="600" font-size="160" letter-spacing="-6">AI行业观察</text>
+    <g font-family="Microsoft YaHei, sans-serif" font-size="16">
+      <text x="64" y="329">在技术快速变化的时代，我更关心 AI 如何进入真实生活，以及它如何改变人们的创作与表达。</text>
+    </g>
+    <g font-family="Microsoft YaHei, sans-serif" font-size="26">
+      <text x="109" y="451">SeedRealtime 产品测评</text>
+      <text x="109" y="540">Vibe Coding 创意玩法</text>
+      <text x="109" y="629">AI 产品榜与热刊精选</text>
+    </g>
+    <g font-family="Arial, sans-serif" font-size="13" opacity="0.8">
+      <text x="64" y="448">01</text><text x="64" y="537">02</text><text x="64" y="626">03</text>
+    </g>
+    <g font-family="Arial, sans-serif" font-size="28"><text x="722" y="451">↗</text><text x="722" y="540">↗</text><text x="722" y="629">↗</text></g>
+    <text x="64" y="737" font-family="Microsoft YaHei, sans-serif" font-size="16">查看全部作品</text>
+    <text x="197" y="737" font-family="Arial, sans-serif" font-size="22">↗</text>
+  </g>
+  <g stroke="#f7f7ff" stroke-opacity="0.28" fill="none">
+    <path d="M64 83H1536"/><path d="M64 401H760M64 490H760M64 579H760M64 668H760"/>
+    <path d="M64 748H215" stroke-opacity="0.7"/>
+  </g>
+</svg>

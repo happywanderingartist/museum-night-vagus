@@ -1,0 +1,59 @@
+{
+  "ancestry": [
+    {
+      "tag": "canvas",
+      "id": "preloader-canvas",
+      "className": "",
+      "display": "inline",
+      "visibility": "visible",
+      "opacity": "1",
+      "position": "static",
+      "zIndex": "auto",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "pointerEvents": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "tag": "div",
+      "id": "preloader",
+      "className": "cache",
+      "display": "none",
+      "visibility": "visible",
+      "opacity": "1",
+      "position": "fixed",
+      "zIndex": "5000",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "pointerEvents": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "tag": "body",
+      "id": "",
+      "className": "",
+      "display": "block",
+      "visibility": "visible",
+      "opacity": "1",
+      "position": "fixed",
+      "zIndex": "auto",
+      "backgroundColor": "rgb(16, 16, 16)",
+      "pointerEvents": "auto",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      }
+    }
+  ],
+  "url": "https://v2.lusion.co/"
+}

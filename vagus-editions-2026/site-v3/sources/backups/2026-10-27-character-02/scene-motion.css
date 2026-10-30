@@ -1,0 +1,28 @@
+/* The base document is fully visible. Motion only enhances artwork and short titles. */
+.motion-art-layer{position:absolute;inset:0;z-index:-2;pointer-events:none;transform-origin:center}
+.motion-art-layer>img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;transform-origin:center}
+.motion-ready .ai-directory-hero{isolation:isolate;overflow:hidden}
+.motion-ready .ai-directory-hero>.motion-art-layer{z-index:0;padding:0;width:100%;height:100%}
+.motion-ready .ai-directory-hero>div:not(.motion-art-layer){position:relative;z-index:2}
+.motion-ready .ai-directory-hero:after{z-index:1;pointer-events:none}
+.motion-ready .home-art,.motion-ready.motion-on .home-art,.motion-ready.motion-on .mona-quote,.motion-ready.motion-on .dialogue{animation:none}
+.motion-ready .character-quote,.motion-ready.js-enhanced.motion-on .thinker-quote{opacity:1;transform:none;transition:none}
+.motion-ready.motion-on .collection-art .art-quip,.motion-ready.motion-on .collection-art.quote-shown .art-quip{animation:none;opacity:.88}
+.motion-ready .scene-copy{opacity:1!important;z-index:2}
+.motion-ready .art-copy{z-index:2}
+.motion-ready .water-motion{display:none}
+.motion-ready .route-trace{opacity:.7}
+.motion-water{position:absolute;inset:49% 0 0;overflow:hidden;pointer-events:none;z-index:0;opacity:0}
+.motion-water:before,.motion-water:after{content:"";position:absolute;inset:0 -25%;background:linear-gradient(105deg,transparent 42%,#f6fff482 49%,transparent 57%);transform:translate3d(-8%,0,0) scaleX(.8);animation:water-reflection 6000ms ease-in-out infinite alternate paused}
+.motion-water:after{inset:38% -25% 0;opacity:.5;animation-delay:-3000ms;animation-direction:alternate-reverse}
+.motion-on .motion-visible .motion-water{opacity:.16}
+.motion-on .motion-visible .motion-water:before,.motion-on .motion-visible .motion-water:after{animation-play-state:running}
+@keyframes water-reflection{from{transform:translate3d(-8%,0,0) scaleX(.8);opacity:.35}to{transform:translate3d(8%,0,0) scaleX(1.2);opacity:1}}
+.motion-stage-light{position:absolute;inset:0 0 0 45%;z-index:0;pointer-events:none;opacity:0;background:linear-gradient(112deg,transparent 38%,#e96e3140 49%,transparent 60%);transform-origin:100% 0}
+.motion-on .motion-visible .motion-stage-light{opacity:.35}
+.directory-nav [data-motion-toggle]{font-size:11px;margin-left:auto;border-left:1px solid currentColor;padding-left:16px}
+.motion-ready:not(.motion-on) .motion-art-layer{transform:none!important}
+.motion-ready:not(.motion-on) .motion-water,.motion-ready:not(.motion-on) .motion-stage-light{display:none}
+.motion-ready:not(.motion-on) .gallery-grid img,.motion-ready:not(.motion-on) .case-read span{transform:none!important;transition:none!important}
+@media(hover:hover) and (pointer:fine){.motion-ready.motion-on .art-read span,.motion-ready.motion-on .scene-enter{transition:transform 160ms var(--ease-out)}.motion-ready.motion-on .art-read:hover span{transform:translateY(3px)}.motion-ready.motion-on .scene-enter:hover{transform:translateY(-3px)}}
+@media(prefers-reduced-motion:reduce){.motion-art-layer,.motion-art-layer>img{transform:none!important;clip-path:none!important}.motion-water,.motion-stage-light{display:none!important}.gallery-grid a:hover img,.case-read:hover span{transform:none!important}}

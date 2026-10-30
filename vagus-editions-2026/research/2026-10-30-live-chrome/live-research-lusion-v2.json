@@ -1,0 +1,1607 @@
+{
+  "collectedAt": "2026-10-30T14:34:57.029Z",
+  "results": [
+    {
+      "id": "lusion-v2",
+      "requestedUrl": "https://v2.lusion.co/",
+      "status": 200,
+      "consent": null,
+      "initial": {
+        "title": "Lusion",
+        "url": "https://v2.lusion.co/",
+        "viewport": {
+          "width": 1440,
+          "height": 900,
+          "dpr": 1.0000000122914443
+        },
+        "document": {
+          "scrollY": 0,
+          "scrollHeight": 900,
+          "bodyHeight": 900
+        },
+        "headings": [
+          {
+            "level": "h1",
+            "text": "Realise your creative ideas",
+            "top": 405,
+            "fontFamily": "GT-Sectra-Fine, \"Microsoft Yahei\", 微软雅黑, STXihei, 华文细黑, serif",
+            "fontSize": "64px",
+            "fontWeight": "400"
+          },
+          {
+            "level": "h3",
+            "text": "We build real-time graphics foragencies and studios.",
+            "top": 1026,
+            "fontFamily": "GT-Sectra-Fine-Bold, \"Microsoft Yahei\", 微软雅黑, STXihei, 华文细黑, serif",
+            "fontSize": "32px",
+            "fontWeight": "700"
+          },
+          {
+            "level": "h3",
+            "text": "Crafted withDedicationand Love",
+            "top": 3376,
+            "fontFamily": "GT-Sectra-Fine, \"Microsoft Yahei\", 微软雅黑, STXihei, 华文细黑, serif",
+            "fontSize": "153.6px",
+            "fontWeight": "400"
+          }
+        ],
+        "canvases": [
+          {
+            "id": "canvas",
+            "className": "",
+            "role": null,
+            "tag": "canvas",
+            "text": "",
+            "position": "fixed",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            }
+          },
+          {
+            "id": "",
+            "className": "",
+            "role": null,
+            "tag": "canvas",
+            "text": "",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 115,
+              "y": 4121,
+              "width": 1088,
+              "height": 979
+            }
+          },
+          {
+            "id": "",
+            "className": "",
+            "role": null,
+            "tag": "canvas",
+            "text": "",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 115,
+              "y": 4846,
+              "width": 1088,
+              "height": 979
+            }
+          },
+          {
+            "id": "",
+            "className": "",
+            "role": null,
+            "tag": "canvas",
+            "text": "",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 115,
+              "y": 5570,
+              "width": 1088,
+              "height": 979
+            }
+          },
+          {
+            "id": "",
+            "className": "",
+            "role": null,
+            "tag": "canvas",
+            "text": "",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 115,
+              "y": 6295,
+              "width": 1088,
+              "height": 979
+            }
+          },
+          {
+            "id": "",
+            "className": "",
+            "role": null,
+            "tag": "canvas",
+            "text": "",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 115,
+              "y": 7019,
+              "width": 1088,
+              "height": 979
+            }
+          },
+          {
+            "id": "",
+            "className": "",
+            "role": null,
+            "tag": "canvas",
+            "text": "",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 115,
+              "y": 7744,
+              "width": 1088,
+              "height": 979
+            }
+          },
+          {
+            "id": "",
+            "className": "",
+            "role": null,
+            "tag": "canvas",
+            "text": "",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 115,
+              "y": 8468,
+              "width": 1088,
+              "height": 979
+            }
+          },
+          {
+            "id": "",
+            "className": "",
+            "role": null,
+            "tag": "canvas",
+            "text": "",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 115,
+              "y": 9193,
+              "width": 1088,
+              "height": 979
+            }
+          },
+          {
+            "id": "",
+            "className": "",
+            "role": null,
+            "tag": "canvas",
+            "text": "",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 115,
+              "y": 9917,
+              "width": 1088,
+              "height": 979
+            }
+          },
+          {
+            "id": "menu-canvas",
+            "className": "",
+            "role": null,
+            "tag": "canvas",
+            "text": "",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            }
+          },
+          {
+            "id": "",
+            "className": "",
+            "role": null,
+            "tag": "canvas",
+            "text": "",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 1365,
+              "y": 850,
+              "width": 20,
+              "height": 20
+            }
+          },
+          {
+            "id": "preloader-canvas",
+            "className": "",
+            "role": null,
+            "tag": "canvas",
+            "text": "",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            }
+          }
+        ],
+        "fixedOrSticky": [
+          {
+            "id": "header",
+            "className": "font-subheader cache",
+            "role": null,
+            "tag": "header",
+            "text": "中 Contact Work About Home",
+            "position": "absolute",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "zIndex": "2500",
+            "rect": {
+              "x": 0,
+              "y": 60,
+              "width": 1440,
+              "height": 34
+            }
+          }
+        ],
+        "heroCandidates": [
+          {
+            "id": "home-hero",
+            "className": "hero is-full",
+            "role": null,
+            "tag": "section",
+            "text": "Realise your creative ideas We build epic, realtime interactive experiences to blow people’s minds.",
+            "position": "relative",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            }
+          },
+          {
+            "id": "home-about",
+            "className": "",
+            "role": null,
+            "tag": "section",
+            "text": "We build real-time graphics foragencies and studios. A small team of passionate artists and problem solvers. We executeideas by using technical knowledge to cra",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 0,
+              "y": 900,
+              "width": 1440,
+              "height": 450
+            }
+          },
+          {
+            "id": "home-video",
+            "className": "is-full",
+            "role": null,
+            "tag": "section",
+            "text": "",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 0,
+              "y": 1350,
+              "width": 1440,
+              "height": 1800
+            }
+          }
+        ],
+        "transformSamples": [
+          {
+            "id": "main-scroll",
+            "className": "",
+            "role": null,
+            "tag": "div",
+            "text": "Realise your creative ideas We build epic, realtime interactive experiences to blow people’s minds. We build real-time graphics foragencies and studios. A small",
+            "position": "absolute",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 11524
+            }
+          },
+          {
+            "id": "home-hero",
+            "className": "hero is-full",
+            "role": null,
+            "tag": "section",
+            "text": "Realise your creative ideas We build epic, realtime interactive experiences to blow people’s minds.",
+            "position": "relative",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            }
+          },
+          {
+            "id": "home-hero-context",
+            "className": "hero-context flex-vertical",
+            "role": null,
+            "tag": "div",
+            "text": "Realise your creative ideas We build epic, realtime interactive experiences to blow people’s minds.",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            }
+          },
+          {
+            "id": "",
+            "className": "hero-inner",
+            "role": null,
+            "tag": "div",
+            "text": "Realise your creative ideas We build epic, realtime interactive experiences to blow people’s minds.",
+            "position": "static",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 372,
+              "y": 405,
+              "width": 697,
+              "height": 90
+            }
+          },
+          {
+            "id": "home-hero-title",
+            "className": "hero-title",
+            "role": null,
+            "tag": "h1",
+            "text": "Realise your creative ideas",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 372,
+              "y": 405,
+              "width": 697,
+              "height": 64
+            }
+          },
+          {
+            "id": "home-hero-desc",
+            "className": "hero-desc",
+            "role": null,
+            "tag": "h4",
+            "text": "We build epic, realtime interactive experiences to blow people’s minds.",
+            "position": "static",
+            "transform": "none",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 372,
+              "y": 478,
+              "width": 697,
+              "height": 17
+            }
+          },
+          {
+            "id": "home-about-title",
+            "className": "font-header-bold split-line-mask-effect",
+            "role": null,
+            "tag": "h3",
+            "text": "We build real-time graphics foragencies and studios.",
+            "position": "static",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 778,
+              "y": 1026,
+              "width": 490,
+              "height": 78
+            }
+          },
+          {
+            "id": "",
+            "className": "split-line-mask",
+            "role": null,
+            "tag": "div",
+            "text": "",
+            "position": "absolute",
+            "transform": "matrix(1, 0, 0, 1, -635.077, 0)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 143,
+              "y": 1026,
+              "width": 605,
+              "height": 37
+            }
+          },
+          {
+            "id": "",
+            "className": "split-line-mask",
+            "role": null,
+            "tag": "div",
+            "text": "",
+            "position": "absolute",
+            "transform": "matrix(1, 0, 0, 1, -635.077, 0)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 143,
+              "y": 1065,
+              "width": 605,
+              "height": 37
+            }
+          },
+          {
+            "id": "home-about-desc",
+            "className": "font-bold split-line-mask-effect",
+            "role": null,
+            "tag": "div",
+            "text": "A small team of passionate artists and problem solvers. We executeideas by using technical knowledge to craft beautiful artwork.",
+            "position": "static",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 778,
+              "y": 1112,
+              "width": 490,
+              "height": 42
+            }
+          },
+          {
+            "id": "",
+            "className": "split-line-mask",
+            "role": null,
+            "tag": "div",
+            "text": "",
+            "position": "absolute",
+            "transform": "matrix(1, 0, 0, 1, -635.077, 0)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 143,
+              "y": 1112,
+              "width": 605,
+              "height": 19
+            }
+          },
+          {
+            "id": "",
+            "className": "split-line-mask",
+            "role": null,
+            "tag": "div",
+            "text": "",
+            "position": "absolute",
+            "transform": "matrix(1, 0, 0, 1, -635.077, 0)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 143,
+              "y": 1133,
+              "width": 605,
+              "height": 19
+            }
+          },
+          {
+            "id": "home-about-cta-wrapper",
+            "className": "",
+            "role": null,
+            "tag": "a",
+            "text": "More About Us",
+            "position": "relative",
+            "transform": "matrix(1, 0, 0, 1, 0, 0)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 778,
+              "y": 1166,
+              "width": 141,
+              "height": 46
+            }
+          },
+          {
+            "id": "",
+            "className": "split-line-mask",
+            "role": null,
+            "tag": "div",
+            "text": "",
+            "position": "absolute",
+            "transform": "matrix(1, 0, 0, 1, -635.077, 0)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 163,
+              "y": 1185,
+              "width": 605,
+              "height": 9
+            }
+          },
+          {
+            "id": "",
+            "className": "split-line-inner",
+            "role": null,
+            "tag": "div",
+            "text": "Crafted with",
+            "position": "absolute",
+            "transform": "matrix(1, 0, 0, 1, 0, 185.849)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 115,
+              "y": 3561,
+              "width": 822,
+              "height": 177
+            }
+          },
+          {
+            "id": "",
+            "className": "split-line-inner",
+            "role": null,
+            "tag": "div",
+            "text": "Dedication",
+            "position": "absolute",
+            "transform": "matrix(1, 0, 0, 1, 0, 185.849)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 115,
+              "y": 3740,
+              "width": 701,
+              "height": 177
+            }
+          },
+          {
+            "id": "",
+            "className": "split-line-inner",
+            "role": null,
+            "tag": "div",
+            "text": "and Love",
+            "position": "absolute",
+            "transform": "matrix(1, 0, 0, 1, 0, 185.849)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 115,
+              "y": 3919,
+              "width": 585,
+              "height": 177
+            }
+          },
+          {
+            "id": "",
+            "className": "split-line-inner",
+            "role": null,
+            "tag": "div",
+            "text": "We love what we do and combine our expert",
+            "position": "absolute",
+            "transform": "matrix(1, 0, 0, 1, 0, 34.6453)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 925,
+              "y": 3871,
+              "width": 332,
+              "height": 33
+            }
+          },
+          {
+            "id": "",
+            "className": "split-line-inner",
+            "role": null,
+            "tag": "div",
+            "text": "knowledge with enthusiasm to go above and beyond",
+            "position": "absolute",
+            "transform": "matrix(1, 0, 0, 1, 0, 34.6453)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 925,
+              "y": 3906,
+              "width": 395,
+              "height": 33
+            }
+          },
+          {
+            "id": "",
+            "className": "split-line-inner",
+            "role": null,
+            "tag": "div",
+            "text": "for our clients. Check out some of our best work:",
+            "position": "absolute",
+            "transform": "matrix(1, 0, 0, 1, 0, 34.6453)",
+            "opacity": "1",
+            "zIndex": "auto",
+            "rect": {
+              "x": 925,
+              "y": 3941,
+              "width": 364,
+              "height": 33
+            }
+          }
+        ],
+        "links": [
+          {
+            "text": "More About Us",
+            "href": "https://v2.lusion.co/about"
+          },
+          {
+            "text": "An AR experience for Your BelovedBeverage Brands Client: Coca Cola EP, GoSpooky",
+            "href": "https://v2.lusion.co/work/coca-cola-the-soda-experience"
+          },
+          {
+            "text": "An Award Winning Storybook forthe Little Ones Client: Lusion",
+            "href": "https://v2.lusion.co/work/my-little-storybook"
+          },
+          {
+            "text": "A collection of AR experiments forGoogle Creative Lab Client: Google Creative La",
+            "href": "https://v2.lusion.co/work/google-webxr-experiences"
+          },
+          {
+            "text": "A High-Fidelity, Immersive,Automobile Experience Client: Lusion",
+            "href": "https://v2.lusion.co/work/gemini"
+          },
+          {
+            "text": "An Immersive Spatial AudioExperience for Opera North Client: Opera North",
+            "href": "https://v2.lusion.co/work/the-turn-of-the-screw-trailer"
+          },
+          {
+            "text": "Live the new#MaxMaraBearingGifts experiencewith Max The Teddy Client: LOW, MaxMa",
+            "href": "https://v2.lusion.co/work/maxmara-bearing-gifts"
+          },
+          {
+            "text": "Audio driven generativevisualisation Client: AKQA Porland, Palms",
+            "href": "https://v2.lusion.co/work/kaos-logo-generator"
+          },
+          {
+            "text": "A cinematic exploration in globalstorytelling. Client: Julius Onah",
+            "href": "https://v2.lusion.co/work/open-continents"
+          },
+          {
+            "text": "Take Realtime Particle Effects to awhole new level. Client: -",
+            "href": "https://v2.lusion.co/work/particle-love"
+          },
+          {
+            "text": "hello@lusion.co",
+            "href": "mailto:hello@lusion.co"
+          },
+          {
+            "text": "business@lusion.co",
+            "href": "mailto:business@lusion.co"
+          },
+          {
+            "text": "jobs@lusion.co",
+            "href": "mailto:jobs@lusion.co"
+          },
+          {
+            "text": "Facebook",
+            "href": "https://www.facebook.com/lusionltd/"
+          },
+          {
+            "text": "Twitter",
+            "href": "https://twitter.com/lusionltd"
+          },
+          {
+            "text": "Instagram",
+            "href": "https://www.instagram.com/lusionltd/"
+          },
+          {
+            "text": "Medium",
+            "href": "https://medium.com/lusion-ltd/"
+          },
+          {
+            "text": "Subscribe to our newsletter",
+            "href": "https://lusion.us20.list-manage.com/subscribe?u=ea813c53ac6d7a0b76f2e36a1&id=44b41b41bf"
+          },
+          {
+            "text": "Home",
+            "href": "https://v2.lusion.co/"
+          },
+          {
+            "text": "About",
+            "href": "https://v2.lusion.co/about"
+          },
+          {
+            "text": "Work",
+            "href": "https://v2.lusion.co/work"
+          },
+          {
+            "text": "Contact",
+            "href": "https://v2.lusion.co/contact"
+          },
+          {
+            "text": "中",
+            "href": "https://v2.lusion.co/cn"
+          },
+          {
+            "text": "",
+            "href": "https://v2.lusion.co/"
+          },
+          {
+            "text": "中",
+            "href": "https://v2.lusion.co/cn"
+          },
+          {
+            "text": "Contact",
+            "href": "https://v2.lusion.co/contact"
+          },
+          {
+            "text": "Work",
+            "href": "https://v2.lusion.co/work"
+          },
+          {
+            "text": "About",
+            "href": "https://v2.lusion.co/about"
+          },
+          {
+            "text": "Home",
+            "href": "https://v2.lusion.co/"
+          }
+        ]
+      },
+      "states": [
+        {
+          "requestedY": 0,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\screenshots\\lusion-v2-00-0.png",
+          "title": "Lusion",
+          "url": "https://v2.lusion.co/",
+          "viewport": {
+            "width": 1440,
+            "height": 900,
+            "dpr": 1.0000000122914443
+          },
+          "document": {
+            "scrollY": 0,
+            "scrollHeight": 900,
+            "bodyHeight": 900
+          },
+          "headings": [
+            {
+              "level": "h1",
+              "text": "Realise your creative ideas",
+              "top": 405,
+              "fontFamily": "GT-Sectra-Fine, \"Microsoft Yahei\", 微软雅黑, STXihei, 华文细黑, serif",
+              "fontSize": "64px",
+              "fontWeight": "400"
+            },
+            {
+              "level": "h3",
+              "text": "We build real-time graphics foragencies and studios.",
+              "top": 1026,
+              "fontFamily": "GT-Sectra-Fine-Bold, \"Microsoft Yahei\", 微软雅黑, STXihei, 华文细黑, serif",
+              "fontSize": "32px",
+              "fontWeight": "700"
+            },
+            {
+              "level": "h3",
+              "text": "Crafted withDedicationand Love",
+              "top": 3376,
+              "fontFamily": "GT-Sectra-Fine, \"Microsoft Yahei\", 微软雅黑, STXihei, 华文细黑, serif",
+              "fontSize": "153.6px",
+              "fontWeight": "400"
+            }
+          ],
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "role": null,
+              "tag": "canvas",
+              "text": "",
+              "position": "fixed",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              }
+            },
+            {
+              "id": "",
+              "className": "",
+              "role": null,
+              "tag": "canvas",
+              "text": "",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 115,
+                "y": 4121,
+                "width": 1088,
+                "height": 979
+              }
+            },
+            {
+              "id": "",
+              "className": "",
+              "role": null,
+              "tag": "canvas",
+              "text": "",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 115,
+                "y": 4846,
+                "width": 1088,
+                "height": 979
+              }
+            },
+            {
+              "id": "",
+              "className": "",
+              "role": null,
+              "tag": "canvas",
+              "text": "",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 115,
+                "y": 5570,
+                "width": 1088,
+                "height": 979
+              }
+            },
+            {
+              "id": "",
+              "className": "",
+              "role": null,
+              "tag": "canvas",
+              "text": "",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 115,
+                "y": 6295,
+                "width": 1088,
+                "height": 979
+              }
+            },
+            {
+              "id": "",
+              "className": "",
+              "role": null,
+              "tag": "canvas",
+              "text": "",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 115,
+                "y": 7019,
+                "width": 1088,
+                "height": 979
+              }
+            },
+            {
+              "id": "",
+              "className": "",
+              "role": null,
+              "tag": "canvas",
+              "text": "",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 115,
+                "y": 7744,
+                "width": 1088,
+                "height": 979
+              }
+            },
+            {
+              "id": "",
+              "className": "",
+              "role": null,
+              "tag": "canvas",
+              "text": "",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 115,
+                "y": 8468,
+                "width": 1088,
+                "height": 979
+              }
+            },
+            {
+              "id": "",
+              "className": "",
+              "role": null,
+              "tag": "canvas",
+              "text": "",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 115,
+                "y": 9193,
+                "width": 1088,
+                "height": 979
+              }
+            },
+            {
+              "id": "",
+              "className": "",
+              "role": null,
+              "tag": "canvas",
+              "text": "",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 115,
+                "y": 9917,
+                "width": 1088,
+                "height": 979
+              }
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "role": null,
+              "tag": "canvas",
+              "text": "",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              }
+            },
+            {
+              "id": "",
+              "className": "",
+              "role": null,
+              "tag": "canvas",
+              "text": "",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              }
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "role": null,
+              "tag": "canvas",
+              "text": "",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              }
+            }
+          ],
+          "fixedOrSticky": [
+            {
+              "id": "header",
+              "className": "font-subheader cache",
+              "role": null,
+              "tag": "header",
+              "text": "中 Contact Work About Home",
+              "position": "absolute",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1",
+              "zIndex": "2500",
+              "rect": {
+                "x": 0,
+                "y": 60,
+                "width": 1440,
+                "height": 34
+              }
+            }
+          ],
+          "heroCandidates": [
+            {
+              "id": "home-hero",
+              "className": "hero is-full",
+              "role": null,
+              "tag": "section",
+              "text": "Realise your creative ideas We build epic, realtime interactive experiences to blow people’s minds.",
+              "position": "relative",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              }
+            },
+            {
+              "id": "home-about",
+              "className": "",
+              "role": null,
+              "tag": "section",
+              "text": "We build real-time graphics foragencies and studios. A small team of passionate artists and problem solvers. We executeideas by using technical knowledge to cra",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 0,
+                "y": 900,
+                "width": 1440,
+                "height": 450
+              }
+            },
+            {
+              "id": "home-video",
+              "className": "is-full",
+              "role": null,
+              "tag": "section",
+              "text": "",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 0,
+                "y": 1350,
+                "width": 1440,
+                "height": 1800
+              }
+            }
+          ],
+          "transformSamples": [
+            {
+              "id": "main-scroll",
+              "className": "",
+              "role": null,
+              "tag": "div",
+              "text": "Realise your creative ideas We build epic, realtime interactive experiences to blow people’s minds. We build real-time graphics foragencies and studios. A small",
+              "position": "absolute",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 11524
+              }
+            },
+            {
+              "id": "home-hero",
+              "className": "hero is-full",
+              "role": null,
+              "tag": "section",
+              "text": "Realise your creative ideas We build epic, realtime interactive experiences to blow people’s minds.",
+              "position": "relative",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              }
+            },
+            {
+              "id": "home-hero-context",
+              "className": "hero-context flex-vertical",
+              "role": null,
+              "tag": "div",
+              "text": "Realise your creative ideas We build epic, realtime interactive experiences to blow people’s minds.",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              }
+            },
+            {
+              "id": "",
+              "className": "hero-inner",
+              "role": null,
+              "tag": "div",
+              "text": "Realise your creative ideas We build epic, realtime interactive experiences to blow people’s minds.",
+              "position": "static",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 372,
+                "y": 405,
+                "width": 697,
+                "height": 90
+              }
+            },
+            {
+              "id": "home-hero-title",
+              "className": "hero-title",
+              "role": null,
+              "tag": "h1",
+              "text": "Realise your creative ideas",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 372,
+                "y": 405,
+                "width": 697,
+                "height": 64
+              }
+            },
+            {
+              "id": "home-hero-desc",
+              "className": "hero-desc",
+              "role": null,
+              "tag": "h4",
+              "text": "We build epic, realtime interactive experiences to blow people’s minds.",
+              "position": "static",
+              "transform": "none",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 372,
+                "y": 478,
+                "width": 697,
+                "height": 17
+              }
+            },
+            {
+              "id": "home-about-title",
+              "className": "font-header-bold split-line-mask-effect",
+              "role": null,
+              "tag": "h3",
+              "text": "We build real-time graphics foragencies and studios.",
+              "position": "static",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 778,
+                "y": 1026,
+                "width": 490,
+                "height": 78
+              }
+            },
+            {
+              "id": "",
+              "className": "split-line-mask",
+              "role": null,
+              "tag": "div",
+              "text": "",
+              "position": "absolute",
+              "transform": "matrix(1, 0, 0, 1, -635.077, 0)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 143,
+                "y": 1026,
+                "width": 605,
+                "height": 37
+              }
+            },
+            {
+              "id": "",
+              "className": "split-line-mask",
+              "role": null,
+              "tag": "div",
+              "text": "",
+              "position": "absolute",
+              "transform": "matrix(1, 0, 0, 1, -635.077, 0)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 143,
+                "y": 1065,
+                "width": 605,
+                "height": 37
+              }
+            },
+            {
+              "id": "home-about-desc",
+              "className": "font-bold split-line-mask-effect",
+              "role": null,
+              "tag": "div",
+              "text": "A small team of passionate artists and problem solvers. We executeideas by using technical knowledge to craft beautiful artwork.",
+              "position": "static",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 778,
+                "y": 1112,
+                "width": 490,
+                "height": 42
+              }
+            },
+            {
+              "id": "",
+              "className": "split-line-mask",
+              "role": null,
+              "tag": "div",
+              "text": "",
+              "position": "absolute",
+              "transform": "matrix(1, 0, 0, 1, -635.077, 0)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 143,
+                "y": 1112,
+                "width": 605,
+                "height": 19
+              }
+            },
+            {
+              "id": "",
+              "className": "split-line-mask",
+              "role": null,
+              "tag": "div",
+              "text": "",
+              "position": "absolute",
+              "transform": "matrix(1, 0, 0, 1, -635.077, 0)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 143,
+                "y": 1133,
+                "width": 605,
+                "height": 19
+              }
+            },
+            {
+              "id": "home-about-cta-wrapper",
+              "className": "",
+              "role": null,
+              "tag": "a",
+              "text": "More About Us",
+              "position": "relative",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 778,
+                "y": 1166,
+                "width": 141,
+                "height": 46
+              }
+            },
+            {
+              "id": "",
+              "className": "split-line-mask",
+              "role": null,
+              "tag": "div",
+              "text": "",
+              "position": "absolute",
+              "transform": "matrix(1, 0, 0, 1, -635.077, 0)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 163,
+                "y": 1185,
+                "width": 605,
+                "height": 9
+              }
+            },
+            {
+              "id": "",
+              "className": "split-line-inner",
+              "role": null,
+              "tag": "div",
+              "text": "Crafted with",
+              "position": "absolute",
+              "transform": "matrix(1, 0, 0, 1, 0, 185.849)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 115,
+                "y": 3561,
+                "width": 822,
+                "height": 177
+              }
+            },
+            {
+              "id": "",
+              "className": "split-line-inner",
+              "role": null,
+              "tag": "div",
+              "text": "Dedication",
+              "position": "absolute",
+              "transform": "matrix(1, 0, 0, 1, 0, 185.849)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 115,
+                "y": 3740,
+                "width": 701,
+                "height": 177
+              }
+            },
+            {
+              "id": "",
+              "className": "split-line-inner",
+              "role": null,
+              "tag": "div",
+              "text": "and Love",
+              "position": "absolute",
+              "transform": "matrix(1, 0, 0, 1, 0, 185.849)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 115,
+                "y": 3919,
+                "width": 585,
+                "height": 177
+              }
+            },
+            {
+              "id": "",
+              "className": "split-line-inner",
+              "role": null,
+              "tag": "div",
+              "text": "We love what we do and combine our expert",
+              "position": "absolute",
+              "transform": "matrix(1, 0, 0, 1, 0, 34.6453)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 925,
+                "y": 3871,
+                "width": 332,
+                "height": 33
+              }
+            },
+            {
+              "id": "",
+              "className": "split-line-inner",
+              "role": null,
+              "tag": "div",
+              "text": "knowledge with enthusiasm to go above and beyond",
+              "position": "absolute",
+              "transform": "matrix(1, 0, 0, 1, 0, 34.6453)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 925,
+                "y": 3906,
+                "width": 395,
+                "height": 33
+              }
+            },
+            {
+              "id": "",
+              "className": "split-line-inner",
+              "role": null,
+              "tag": "div",
+              "text": "for our clients. Check out some of our best work:",
+              "position": "absolute",
+              "transform": "matrix(1, 0, 0, 1, 0, 34.6453)",
+              "opacity": "1",
+              "zIndex": "auto",
+              "rect": {
+                "x": 925,
+                "y": 3941,
+                "width": 364,
+                "height": 33
+              }
+            }
+          ],
+          "links": [
+            {
+              "text": "More About Us",
+              "href": "https://v2.lusion.co/about"
+            },
+            {
+              "text": "An AR experience for Your BelovedBeverage Brands Client: Coca Cola EP, GoSpooky",
+              "href": "https://v2.lusion.co/work/coca-cola-the-soda-experience"
+            },
+            {
+              "text": "An Award Winning Storybook forthe Little Ones Client: Lusion",
+              "href": "https://v2.lusion.co/work/my-little-storybook"
+            },
+            {
+              "text": "A collection of AR experiments forGoogle Creative Lab Client: Google Creative La",
+              "href": "https://v2.lusion.co/work/google-webxr-experiences"
+            },
+            {
+              "text": "A High-Fidelity, Immersive,Automobile Experience Client: Lusion",
+              "href": "https://v2.lusion.co/work/gemini"
+            },
+            {
+              "text": "An Immersive Spatial AudioExperience for Opera North Client: Opera North",
+              "href": "https://v2.lusion.co/work/the-turn-of-the-screw-trailer"
+            },
+            {
+              "text": "Live the new#MaxMaraBearingGifts experiencewith Max The Teddy Client: LOW, MaxMa",
+              "href": "https://v2.lusion.co/work/maxmara-bearing-gifts"
+            },
+            {
+              "text": "Audio driven generativevisualisation Client: AKQA Porland, Palms",
+              "href": "https://v2.lusion.co/work/kaos-logo-generator"
+            },
+            {
+              "text": "A cinematic exploration in globalstorytelling. Client: Julius Onah",
+              "href": "https://v2.lusion.co/work/open-continents"
+            },
+            {
+              "text": "Take Realtime Particle Effects to awhole new level. Client: -",
+              "href": "https://v2.lusion.co/work/particle-love"
+            },
+            {
+              "text": "hello@lusion.co",
+              "href": "mailto:hello@lusion.co"
+            },
+            {
+              "text": "business@lusion.co",
+              "href": "mailto:business@lusion.co"
+            },
+            {
+              "text": "jobs@lusion.co",
+              "href": "mailto:jobs@lusion.co"
+            },
+            {
+              "text": "Facebook",
+              "href": "https://www.facebook.com/lusionltd/"
+            },
+            {
+              "text": "Twitter",
+              "href": "https://twitter.com/lusionltd"
+            },
+            {
+              "text": "Instagram",
+              "href": "https://www.instagram.com/lusionltd/"
+            },
+            {
+              "text": "Medium",
+              "href": "https://medium.com/lusion-ltd/"
+            },
+            {
+              "text": "Subscribe to our newsletter",
+              "href": "https://lusion.us20.list-manage.com/subscribe?u=ea813c53ac6d7a0b76f2e36a1&id=44b41b41bf"
+            },
+            {
+              "text": "Home",
+              "href": "https://v2.lusion.co/"
+            },
+            {
+              "text": "About",
+              "href": "https://v2.lusion.co/about"
+            },
+            {
+              "text": "Work",
+              "href": "https://v2.lusion.co/work"
+            },
+            {
+              "text": "Contact",
+              "href": "https://v2.lusion.co/contact"
+            },
+            {
+              "text": "中",
+              "href": "https://v2.lusion.co/cn"
+            },
+            {
+              "text": "",
+              "href": "https://v2.lusion.co/"
+            },
+            {
+              "text": "中",
+              "href": "https://v2.lusion.co/cn"
+            },
+            {
+              "text": "Contact",
+              "href": "https://v2.lusion.co/contact"
+            },
+            {
+              "text": "Work",
+              "href": "https://v2.lusion.co/work"
+            },
+            {
+              "text": "About",
+              "href": "https://v2.lusion.co/about"
+            },
+            {
+              "text": "Home",
+              "href": "https://v2.lusion.co/"
+            }
+          ]
+        }
+      ],
+      "targets": [],
+      "events": []
+    }
+  ]
+}

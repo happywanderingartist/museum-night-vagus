@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vagus · 思想者｜免费动效试稿</title><link rel="stylesheet" href="./style.css"><script type="importmap">{"imports":{"three":"./vendor/three/three.module.js","three/addons/":"./vendor/three/addons/"}}</script></head>
+<body><link rel="stylesheet" href="./type.css">
+<a class="skip" href="#works">跳过动画，阅读项目</a>
+<header><a class="wordmark" href="#top">Vagus</a><span>名画奇妙夜 · 动作试稿 01</span><a href="#works">阅读项目 ↘</a></header>
+<main>
+<section id="top" class="hero" aria-labelledby="title">
+  <div class="art" role="img" aria-label="古典思想者坐在深绿书房里，望着旧书上的橘红手机。"><img src="./assets/thinker-original.png" alt="" class="poster"><canvas id="stage" aria-hidden="true"></canvas></div>
+  <div class="veil"></div>
+  <div class="copy"><p class="eyebrow">01 / 人工智能观察</p><h1 id="title">AI 行业<br>观察。</h1><p class="english">After-hours thinking.</p><p class="intro">更关心 AI 如何进入真实生活，<br>改变创作、工作与表达。</p><nav class="article-links" aria-label="AI 观察作品"><a href="#seed">SeedRealtime <span>↗</span></a><a href="#vibe">Vibe Coding <span>↗</span></a><a href="#selection">AI产品榜与热门精选 <span>↗</span></a></nav></div>
+  <div class="quote">人类又训练了<br><span>一个新模型？</span></div>
+  <div class="bottomline"><span>古典问题，现代手势。</span><a href="#works">往下，读点真的 ↓</a></div>
+</section>
+<section id="works" class="reading" aria-labelledby="works-title"><div class="reading-no">01 / 观察与思考</div><div><h2 id="works-title">把观察留在这里。</h2><p>以下保留已有作品标题和类型；原文、案例与真实外链尚未接入，不用虚构正文代替作品。</p><section id="seed" class="article" tabindex="-1"><h3>SeedRealtime</h3><p>产品测评 · 原文待接入</p></section><section id="vibe" class="article" tabindex="-1"><h3>Vibe Coding</h3><p>创意玩法 · 原文待接入</p></section><section id="selection" class="article" tabindex="-1"><h3>AI产品榜与热门精选</h3><p>行业观察与内容策划 · 原文待接入</p></section><a href="#top">回到思想者 ↑</a></div></section>
+</main>
+<aside class="controls" aria-label="动效试稿控制"><button id="toggle" type="button" aria-pressed="false">暂停动作</button><label>检查画面 <select id="review"><option value="live">正常播放</option><option value="0">起始 · 0 秒</option><option value="1">首次露屏 · 1 秒</option><option value="2.6">回位 · 2.6 秒</option><option value="5.5">思考暂停 · 5.5 秒</option><option value="8">后续滑动 · 8 秒</option></select></label><output id="status" role="status">正在载入本地模型…</output><span id="clock" aria-hidden="true"></span></aside>
+<details class="notes"><summary>这一版做到了什么</summary><p>三维手机由本地 Blender 制作，手部保留原画像素，以独立的 2.5D 曲面变形。房间与面部仍是绘画，不是完整人物或房间三维重建。另附可编辑的三维手部关节代理，但其造型还不足以替代原画，网页默认不展示它。无云端生成、无付费调用；文案独立于画面。</p><p>首次露屏只播放一次，之后滑动五秒、思考两秒循环。开启系统“减少动态效果”时显示静止画面。检查下拉菜单是逐帧检查，不代表实时性能测试。</p></details>
+<script>document.querySelector('#status').textContent='正在载入三维程序…';window.addEventListener('error',e=>{if(e.target.tagName==='SCRIPT')document.querySelector('#status').textContent='程序未载入 · 原画可阅读';},true);setTimeout(()=>{if(document.body.dataset.boot!=='ready'){document.querySelector('#status').textContent='三维未载入 · 原画可阅读';document.querySelector('#toggle').disabled=true;document.querySelector('#review').disabled=true;}},20000);</script><script type="module" src="./bootstrap.mjs"></script></body></html>

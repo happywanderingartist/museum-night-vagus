@@ -1,0 +1,42 @@
+✔ directory combines category and meaningful Chinese or case-insensitive query (2.6492ms)
+✔ actor loads only on activation, moves the hand mesh, then holds for two seconds (9.9624ms)
+✔ pausing or destroying cancels animation immediately and keeps a static fallback (1.5058ms)
+✔ failed pose files never show a blank patch over the original painting (1.0443ms)
+✔ Mona Lisa blink affects only the source-matched eyelid overlay (0.9373ms)
+✔ six remaining scenes have bounded, returning character actions (3.7404ms)
+✔ held props and hands share one rigid transform, with no folded triangles (14.3127ms)
+✔ every new scene actually mounts, lazy-loads, changes its own pose and stops (18.356ms)
+✔ new actions leave the original scene visible when loading fails (1.4068ms)
+✔ Thinker has exactly five seconds of strokes followed by two seconds of stillness (2.1915ms)
+✔ the finger travels along the fixed phone edge, with an unmoving wrist (0.4078ms)
+✔ blink closes briefly and leaves eyes open for the reading interval (0.1869ms)
+✔ SVG crop follows object-fit cover at desktop and off-center mobile positions (1.1858ms)
+✔ 2D mesh keeps its outer boundary fixed and never folds over itself (3.9039ms)
+✔ real-material URLs accept local files or web sources and reject executable or credential URLs (1.3846ms)
+✔ personal gallery contains only supplied titled images and keeps plain text captions (1.5985ms)
+✔ shared chapter module mounts motion on initial load, without requiring the toggle (8.5652ms)
+✔ entry starts automatically once and scroll moves artwork, never the reading content (3.6659ms)
+✔ manual off cancels running animations and removes the camera; re-enable does not replay (0.4855ms)
+✔ system reduced motion wins even when motion-on was set by another script (0.3138ms)
+✔ hidden tabs cancel entry synchronously and clear ambient visibility (0.3574ms)
+✔ hash destinations, keyboard focus and fast scrolling skip the entry instead of delaying reading (0.6654ms)
+✔ late-loading artwork can animate on load, but failed media remains static (0.4716ms)
+✔ lack of the Web Animations API leaves all text statically visible (0.2873ms)
+✔ scroll camera is deterministic, reversible and bounded without hiding text (2.5306ms)
+✔ system/manual off and narrow layout have an exact static fallback (1.2026ms)
+✔ chapter entry and route thresholds cope with fast skips and short sections (0.3043ms)
+✔ declared directory footer colors retain readable contrast instead of inheriting white (10.5332ms)
+✔ invalid article entries do not prevent valid audio initialization (8.5234ms)
+✔ supplied audio updates stale missing-material text as well as the player (4.2937ms)
+✔ read-only server serves the full portfolio, JSON and artwork while hiding sources (300.066ms)
+✔ provided PDF and audio assets can be served from public without exposing source files (46.9215ms)
+✔ new motion modules and stylesheet are served rather than silently failing with 404 (84.4736ms)
+✔ all ten pages and their local links, fragments and visual assets are usable (33.1661ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1400.5314

@@ -1,0 +1,16 @@
+{
+  "mode": "isolated installed Google Chrome, no personal profile",
+  "passed": true,
+  "checks": [
+    "actual GLB loads in default back view",
+    "five explicit keyframe screenshots",
+    "contact side explicitly labelled audit only",
+    "pause freezes actual visible clock",
+    "7.8-second real recording includes swipe and hold",
+    "system reduced motion overrides controls",
+    "narrow layout has no horizontal overflow",
+    "failed model preserves poster and disabled controls after preference changes",
+    "actual WebGL context loss restores static poster",
+    "no unexpected page errors"
+  ]
+}

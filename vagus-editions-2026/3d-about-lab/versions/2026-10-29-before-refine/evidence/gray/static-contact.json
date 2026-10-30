@@ -1,0 +1,76 @@
+{
+  "overlapsByDigit": {
+    "palm": 0,
+    "index": 0,
+    "middle": 0,
+    "ring": 0,
+    "pinky": 0,
+    "thumb": 0
+  },
+  "method": "evaluated world-space BVH; digit material filtered contact; 0.5mm card grid",
+  "sourceBlendSha256": "cd6305ab05c953eb1f13666ba67339d7b0c68f8c541d26a748cde7c02da6ee0e",
+  "handCardTrianglePairs": 0,
+  "handFrameTrianglePairs": 0,
+  "cardFrameTrianglePairs": 0,
+  "indexFrontContactM": 0.00013002420018892735,
+  "thumbBackContactM": 0.00025171705055981874,
+  "witnesses": {
+    "indexFront": {
+      "digit": "index",
+      "material": "Skin_index",
+      "cardSide": 1,
+      "distanceM": 0.00013002420018892735,
+      "cardPointWorld": [
+        -0.024081537500023842,
+        0.035421933978796005,
+        -1.6033962965011597
+      ],
+      "skinPointWorld": [
+        -0.024172170087695122,
+        0.03542061150074005,
+        -1.603303074836731
+      ],
+      "skinNormalWorld": [
+        0.6976534724235535,
+        0.002686925930902362,
+        -0.7164303660392761
+      ],
+      "skinFace": 133,
+      "cardNormalWorld": [
+        0.20928820967674255,
+        0.15294010937213898,
+        0.9658197164535522
+      ]
+    },
+    "thumbBack": {
+      "digit": "thumb",
+      "material": "Skin_thumb",
+      "cardSide": -1,
+      "distanceM": 0.00025171705055981874,
+      "cardPointWorld": [
+        -0.0048963590525090694,
+        0.011548030190169811,
+        -1.604187250137329
+      ],
+      "skinPointWorld": [
+        -0.004947906360030174,
+        0.011484092101454735,
+        -1.6044251918792725
+      ],
+      "skinNormalWorld": [
+        0.4671424329280853,
+        0.27206820249557495,
+        0.8412827849388123
+      ],
+      "skinFace": 27,
+      "cardNormalWorld": [
+        -0.20928820967674255,
+        -0.15294010937213898,
+        -0.9658197164535522
+      ]
+    }
+  },
+  "contactDistanceMeaning": "sampled upper bound to specified digit surface, not pressure or physics simulation",
+  "notCovered": "no animation, no skin deformation acceptance, no aesthetic acceptance, no complete self-collision certification",
+  "technicalPass": true
+}

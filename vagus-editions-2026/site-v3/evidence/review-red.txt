@@ -1,0 +1,62 @@
+✖ declared directory footer colors retain readable contrast instead of inheriting white (12.6011ms)
+✖ invalid article entries do not prevent valid audio initialization (11.1508ms)
+✖ supplied audio updates stale missing-material text as well as the player (2.2877ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 0
+ℹ fail 3
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 591.59
+
+✖ failing tests:
+
+test at tests\review-regressions.test.mjs:4:1
+✖ declared directory footer colors retain readable contrast instead of inheriting white (12.6011ms)
+  AssertionError [ERR_ASSERTION]: footer text contrast fails
+      at TestContext.<anonymous> (file:///D:/AI-Data/%E5%8D%9A%E7%89%A9%E9%A6%86%E5%A5%87%E5%A6%99%E5%A4%9C/vagus-editions-2026/site-v3/tests/review-regressions.test.mjs:4:518)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:385:3) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }
+
+test at tests\review-regressions.test.mjs:13:1
+✖ invalid article entries do not prevent valid audio initialization (11.1508ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (file:///D:/AI-Data/%E5%8D%9A%E7%89%A9%E9%A6%86%E5%A5%87%E5%A6%99%E5%A4%9C/vagus-editions-2026/site-v3/tests/review-regressions.test.mjs:13:207)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\review-regressions.test.mjs:14:1
+✖ supplied audio updates stale missing-material text as well as the player (2.2877ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /data-audio-description/. Input:
+  
+  '<!doctype html>\n' +
+    '<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#edf0e5"><title>播客 · Vagus</title><link rel="icon" href="assets/mark.svg"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="chapter-pages.css"><link rel="stylesheet" href="completion.css"><script type="module" src="chapter-motion.mjs"></script><script type="module" src="site-features.mjs"></script></head><body class="project-page completed-page theme-podcast"><a class="skip-link" href="#project-intro">直接阅读内容</a><header class="case-nav"><a class="case-brand" href="index.html">Vagus</a><a href="index.html#podcast">返回展厅</a><a href="works.html">速览作品</a><a href="literature.html">下一页：文学节</a><button data-motion-toggle type="button" hidden aria-pressed="false">关闭动态</button></header><main><section class="collection-art theme-podcast" id="top"  data-chapter="podcast" aria-labelledby="project-title" tabindex="-1"><img class="collection-image" src="assets/podcast.webp" width="1672" height="941" alt="深茄紫背景里，戴蓝色头巾和珍珠耳环的古典少女自然佩戴银灰色现代耳机。" fetchpriority="high"><div class="art-copy"><p class="art-category">声音与策划</p><h1 id="project-title">把声音，<br>留给认真听的人。</h1><p class="art-subtitle">从一个问题，到一段值得听完的表达。</p><div class="audio-portal"><div class="audio-empty" data-audio-empty><span class="quiet-play" aria-hidden="true">▷</span><div><strong>音频待接入</strong><p>真实音频接入后，可在这里直接收听。</p></div></div><audio controls preload="none" hidden data-audio-player aria-label="播客播放器"></audio><p class="audio-message" data-audio-message role="status">由你选择何时开始，不自动播放。</p></div><a class="art-read" href="#project-intro">阅读播客<span aria-hidden="true">↓</span></a></div><p class="art-quip">“嘘，有人在说话。”</p></section><section class="case-opening" id="project-intro" tabindex="-1"><p class="case-kicker">让声音，有自己的空间。</p><h2>先让内容被听见。</h2><p>这里呈现节目的主题、策划过程、本人制作角色与代表单集。播放器只消费真实音频，默认不自动播放。</p></section><div class="case-layout"><aside class="case-contents"><span>本页内容</span><nav aria-label="播客阅读目录"><a href="#concept">节目定位</a><a href="#production">制作过程</a><a href="#episodes">代表单集</a></nav><a href="works.html">全部作品</a></aside><div class="case-body"><section id="concept" tabindex="-1"><p class="case-section-label">节目定位</p><h2 >一次对话，从什么开始？</h2><p >先说明节目的议题、听众与表达方式，再进入具体单集。标题、简介与文字说明应帮助访客决定是否收听。</p></section><section id="production" tabindex="-1"><p class="case-section-label">制作过程</p><h2 >从提纲，到最后一次剪辑。</h2><p >策划、资料准备、录制、剪辑和发布是本页的阅读顺序；本人承担的工作与具体过程材料接入后，会在对应环节明确说明。</p><dl class="process-pairs"><div><dt>策划与准备</dt><dd>主题、问题、提纲及资料。</dd></div><div><dt>录制与编辑</dt><dd>真实音频、剪辑选择及制作角色。</dd></div><div><dt>单集与文字</dt><dd>节目简介、代表单集与文字稿或摘要。</dd></div></dl></section><section id="episodes" tabindex="-1"><p class="case-section-label">代表单集</p><h2 >等一段真实的声音。</h2><p >节目名称、音频文件、封面、时长及文字稿尚未接入。不会使用假波形、伪造的单集或模拟时长冒充节目。</p><p class="material-note" >音频待提供。接入后可播放、暂停、拖动进度与调整音量。</p></section></div></div><nav class="project-switch" aria-label="继续浏览"><a href="xiaohongshu.html"><small>上一页</small><strong>小红书运营</strong></a><a href="literature.html"><small>下一页</small><strong>文学节</strong></a></nav></main><footer><a href="index.html">Vagus</a><a href="works.html">作品速览</a><a href="about.html#resume" data-resume-link>看看简历</a><a href="#top">回到页首</a></footer></body></html>'
+  
+      at TestContext.<anonymous> (file:///D:/AI-Data/%E5%8D%9A%E7%89%A9%E9%A6%86%E5%A5%87%E5%A6%99%E5%A4%9C/vagus-editions-2026/site-v3/tests/review-regressions.test.mjs:14:175)
+      at async Test.run (node:internal/test_runner/test:1332:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:911:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: '<!doctype html>\n<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#edf0e5"><title>播客 · Vagus</title><link rel="icon" href="assets/mark.svg"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="chapter-pages.css"><link rel="stylesheet" href="completion.css"><script type="module" src="chapter-motion.mjs"></script><script type="module" src="site-features.mjs"></script></head><body class="project-page completed-page theme-podcast"><a class="skip-link" href="#project-intro">直接阅读内容</a><header class="case-nav"><a class="case-brand" href="index.html">Vagus</a><a href="index.html#podcast">返回展厅</a><a href="works.html">速览作品</a><a href="literature.html">下一页：文学节</a><button data-motion-toggle type="button" hidden aria-pressed="false">关闭动态</button></header><main><section class="collection-art theme-podcast" id="top"  data-chapter="podcast" aria-labelledby="project-title" tabindex="-1"><img class="collection-image" src="assets/podcast.webp" width="1672" height="941" alt="深茄紫背景里，戴蓝色头巾和珍珠耳环的古典少女自然佩戴银灰色现代耳机。" fetchpriority="high"><div class="art-copy"><p class="art-category">声音与策划</p><h1 id="project-title">把声音，<br>留给认真听的人。</h1><p class="art-subtitle">从一个问题，到一段值得听完的表达。</p><div class="audio-portal"><div class="audio-empty" data-audio-empty><span class="quiet-play" aria-hidden="true">▷</span><div><strong>音频待接入</strong><p>真实音频接入后，可在这里直接收听。</p></div></div><audio controls preload="none" hidden data-audio-player aria-label="播客播放器"></audio><p class="audio-message" data-audio-message role="status">由你选择何时开始，不自动播放。</p></div><a class="art-read" href="#project-intro">阅读播客<span aria-hidden="true">↓</span></a></div><p class="art-quip">“嘘，有人在说话。”</p></section><section class="case-opening" id="project-intro" tabindex="-1"><p class="case-kicker">让声音，有自己的空间。</p><h2>先让内容被听见。</h2><p>这里呈现节目的主题、策划过程、本人制作角色与代表单集。播放器只消费真实音频，默认不自动播放。</p></section><div class="case-layout"><aside class="case-contents"><span>本页内容</span><nav aria-label="播客阅读目录"><a href="#concept">节目定位</a><a href="#production">制作过程</a><a href="#episodes">代表单集</a></nav><a href="works.html">全部作品</a></aside><div class="case-body"><section id="concept" tabindex="-1"><p class="case-section-label">节目定位</p><h2 >一次对话，从什么开始？</h2><p >先说明节目的议题、听众与表达方式，再进入具体单集。标题、简介与文字说明应帮助访客决定是否收听。</p></section><section id="production" tabindex="-1"><p class="case-section-label">制作过程</p><h2 >从提纲，到最后一次剪辑。</h2><p >策划、资料准备、录制、剪辑和发布是本页的阅读顺序；本人承担的工作与具体过程材料接入后，会在对应环节明确说明。</p><dl class="process-pairs"><div><dt>策划与准备</dt><dd>主题、问题、提纲及资料。</dd></div><div><dt>录制与编辑</dt><dd>真实音频、剪辑选择及制作角色。</dd></div><div><dt>单集与文字</dt><dd>节目简介、代表单集与文字稿或摘要。</dd></div></dl></section><section id="episodes" tabindex="-1"><p class="case-section-label">代表单集</p><h2 >等一段真实的声音。</h2><p >节目名称、音频文件、封面、时长及文字稿尚未接入。不会使用假波形、伪造的单集或模拟时长冒充节目。</p><p class="material-note" >音频待提供。接入后可播放、暂停、拖动进度与调整音量。</p></section></div></div><nav class="project-switch" aria-label="继续浏览"><a href="xiaohongshu.html"><small>上一页</small><strong>小红书运营</strong></a><a href="literature.html"><small>下一页</small><strong>文学节</strong></a></nav></main><footer><a href="index.html">Vagus</a><a href="works.html">作品速览</a><a href="about.html#resume" data-resume-link>看看简历</a><a href="#top">回到页首</a></footer></body></html>',
+    expected: /data-audio-description/,
+    operator: 'match',
+    diff: 'simple'
+  }

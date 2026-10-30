@@ -1,0 +1,80 @@
+{
+  "canvas": [
+    {
+      "box": {
+        "bottom": 467.11712646484375,
+        "height": 467.11712646484375,
+        "left": 0,
+        "right": 960.3603515625,
+        "top": 0,
+        "width": 960.3603515625,
+        "x": 0,
+        "y": 0
+      },
+      "position": "static"
+    },
+    {
+      "box": {
+        "bottom": 10211.725463867188,
+        "height": 430.1590576171875,
+        "left": 192.08192443847656,
+        "right": 948.3671417236328,
+        "top": 9781.56640625,
+        "width": 756.2852172851562,
+        "x": 192.08192443847656,
+        "y": 9781.56640625
+      },
+      "position": "absolute"
+    }
+  ],
+  "heads": [
+    {
+      "box": {
+        "bottom": 513.935788154602,
+        "height": 524.0709228515625,
+        "left": 192.07489013671875,
+        "right": 960.3603515625,
+        "top": -10.13513469696045,
+        "width": 768.2854614257812,
+        "x": 192.07489013671875,
+        "y": -10.13513469696045
+      },
+      "style": {
+        "opacity": "1",
+        "position": "static",
+        "transform": "none"
+      }
+    }
+  ],
+  "nav": [
+    {
+      "box": {
+        "bottom": 50,
+        "height": 50,
+        "left": 0,
+        "right": 960.3603515625,
+        "top": 0,
+        "width": 960.3603515625,
+        "x": 0,
+        "y": 0
+      },
+      "position": "static",
+      "text": "Skip to main contentShopify EditionsWinter '26EditionsDismissSpring ’2"
+    },
+    {
+      "box": {
+        "bottom": 553.9907150268555,
+        "height": 463.99212646484375,
+        "left": 310.1738586425781,
+        "right": 650.1724548339844,
+        "top": 89.99858856201172,
+        "width": 339.99859619140625,
+        "x": 310.1738586425781,
+        "y": 89.99858856201172
+      },
+      "position": "absolute",
+      "text": "The Renaissance EditionA new world of commerce. 150+ product updates.S"
+    }
+  ],
+  "rootTop": -710.810791015625
+}

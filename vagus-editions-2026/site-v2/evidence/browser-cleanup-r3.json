@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "result": {
+    "rejected": true,
+    "loaded": 1,
+    "disposed": 1,
+    "rendererListenerReleased": true
+  }
+}

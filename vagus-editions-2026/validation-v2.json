@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "generatedAt": "2026-10-22T19:08:28.498Z",
+  "files": {
+    "SKILL.md": "515c258feae728cfcf80ee5175fc4dde26da35c6cc98dc41d43fae8739580ce6",
+    "agents/openai.yaml": "24eb3af99368f2d788e79da0f86fd2c9ffd6174c64db6ffc11873bfb4fde22d0",
+    "references/anti-examples.md": "9cf7777036f4cc38eebfd02c2b94de4ecb4b34cc251657bcde548a6c53c330d9",
+    "references/checklist.md": "8dd104a9ca0f9f3209dd6e48832f67b6bb8d7faeea1eb9c70b7094e1af582e71",
+    "references/codex-guide.md": "4b27edbc1b2dc4241c881ce81a081c5056d1564080003c5342beeea655c44941",
+    "references/scene-grammar.md": "5270a0bdd67a8832196d87879d53351c9008b6261c5a8e0e3e45f73a34536d46",
+    "references/sources.md": "d2ea8c4b99f604b388a4556e781b5cff5f35e437458a4f04eadd612e61241437",
+    "references/storyboard.md": "92d23b469490632bc16864dcbd7da27d1c42302ecb3d86b449d8e4e6055274c4",
+    "references/vagus-constraints.md": "3d549771fff76371e8fe3b6fddb6943ee06c5ef9152f1e28590c84692e479172",
+    "references/visual-study.md": "a91a347676627fe686bc6ad9ee59f247fce708053916f13e65ac857b5e251aad"
+  },
+  "archiveSha256": "f041141d030bcf966004e426c0a0f39446b9c31c24f6ad03dfdf936a84f16054",
+  "checks": {
+    "basicFrontmatter": "pass; not full YAML parser",
+    "relativeMarkdownLinks": "pass",
+    "fileCount": 10,
+    "archiveCRCAndContentRoundtrip": "pass"
+  },
+  "limits": [
+    "Official Python validator not run: PyYAML unavailable.",
+    "Only basic structure/link/archive checks; not proof of design quality.",
+    "No new visual generated; prior two drafts rejected.",
+    "Browser recovered usable sessions, intermittent timeout remains.",
+    "Independent behavior test reported separately; not user acceptance."
+  ]
+}

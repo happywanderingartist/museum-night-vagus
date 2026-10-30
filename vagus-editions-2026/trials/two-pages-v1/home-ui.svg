@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1600" height="900" viewBox="0 0 1600 900"><defs><radialGradient id="brand-wash" gradientUnits="userSpaceOnUse" cx="160" cy="180" r="380"><stop offset="0" stop-color="#e8ece5" stop-opacity=".58"/><stop offset=".4" stop-color="#e8ece5" stop-opacity=".5"/><stop offset=".7" stop-color="#e8ece5" stop-opacity=".2"/><stop offset="1" stop-color="#e8ece5" stop-opacity="0"/></radialGradient></defs>
+ <rect x="0" y="0" width="600" height="600" fill="url(#brand-wash)"/>
+ <g fill="#17231b" font-family="Microsoft YaHei, sans-serif">
+ <text x="80" y="124" font-size="88" font-family="Georgia, serif" letter-spacing="-5">Vagus</text>
+ <text x="80" y="178" font-size="20" >让好奇心成为方法，</text><text x="80" y="213" font-size="20" >让想象力成为作品。</text>
+ <text x="80" y="252" font-size="16" font-family="Georgia, serif">Curiosity as a method.</text><text x="80" y="276" font-size="16" font-family="Georgia, serif">Imagination made real.</text>
+ <path d="M1180 207h270q17 0 17 17v28q0 17-17 17h-270l-14 12v-57q0-17 14-17z" fill="#edf0ed" stroke="#58635b"/>
+ <text x="1187" y="245" font-size="16" >咋的，没看过名画上班吗？</text>
+ <rect x="272" y="704" width="1056" height="164" fill="#e8ece5" stroke="#647267"/>
+ <text x="304" y="738" font-size="24" font-family="Georgia, Microsoft YaHei, sans-serif">Hello，我是 Vagus。</text>
+ <text x="304" y="768" font-size="16" >欢迎来到我的网站，这里记录了我在艺术、设计与 AI 之间的游走与探索。</text>
+ <text x="304" y="795" font-size="16" >你愿意和我一起开启这场博物馆奇妙夜吗？</text>
+ <text x="304" y="842" font-size="16" >速览作品</text>
+ <rect x="702" y="812" width="196" height="43" fill="#344b3d"/>
+ <text x="736" y="840" font-size="16" fill="#f0f3ed">接受邀请　↗</text>
+ <text x="1228" y="842" font-size="16" text-anchor="end">看看简历</text>
+ </g></svg>

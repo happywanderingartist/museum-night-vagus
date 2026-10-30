@@ -1,0 +1,69 @@
+[
+  {
+    "id": "xiaohongshu",
+    "master": "sources/character-motion-02/xiaohongshu-v3.png",
+    "web": "assets/xiaohongshu.webp",
+    "size": [
+      1672,
+      941
+    ],
+    "bytes": 254288,
+    "sourceSHA256": "b186b49a273eda529fb7b97f2de321be06731f3ac504b24d751b5adfa01aefc1",
+    "generatedWith": "built-in image_gen",
+    "role": "original AI-assisted art for this website, not portfolio evidence",
+    "revision": "2026-10-27-character-02"
+  },
+  {
+    "id": "podcast",
+    "master": "sources/artwork/podcast.png",
+    "web": "assets/podcast.webp",
+    "size": [
+      1672,
+      941
+    ],
+    "bytes": 126918,
+    "sourceSHA256": "0a62f436765ee956b7cf81145d02b4d2ac56e8bd1f207ec07b0c60998171d91c",
+    "generatedWith": "built-in image_gen",
+    "role": "original AI-assisted art for this website, not portfolio evidence"
+  },
+  {
+    "id": "literature",
+    "master": "sources/artwork/literature.png",
+    "web": "assets/literature.webp",
+    "size": [
+      1672,
+      941
+    ],
+    "bytes": 323164,
+    "sourceSHA256": "b45335453c8df5b0a0102e706738e665dbd6fd351045b6868328f815453fe9ed",
+    "generatedWith": "built-in image_gen",
+    "role": "original AI-assisted art for this website, not portfolio evidence"
+  },
+  {
+    "id": "visual",
+    "master": "sources/artwork/visual.png",
+    "web": "assets/visual.webp",
+    "size": [
+      1672,
+      941
+    ],
+    "bytes": 181868,
+    "sourceSHA256": "78040d86cbf00d2ed3c9a4f1a8750118d6c7f6864dd7a21617c0c371ff48fa1d",
+    "generatedWith": "built-in image_gen",
+    "role": "original AI-assisted art for this website, not portfolio evidence"
+  },
+  {
+    "id": "about",
+    "master": "sources/character-motion-02/about.png",
+    "web": "assets/about.webp",
+    "size": [
+      1672,
+      941
+    ],
+    "bytes": 344854,
+    "sourceSHA256": "b89811c50a8d0aceaad56b8ce99aff9650a36e1e92ea321fc8fffb2db415e23c",
+    "generatedWith": "built-in image_gen",
+    "role": "original AI-assisted art for this website, not portfolio evidence",
+    "revision": "2026-10-27-character-02"
+  }
+]

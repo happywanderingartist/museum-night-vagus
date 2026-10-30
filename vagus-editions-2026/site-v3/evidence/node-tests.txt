@@ -1,0 +1,17 @@
+✔ directory combines category and meaningful Chinese or case-insensitive query (2.0642ms)
+✔ real-material URLs accept local files or web sources and reject executable or credential URLs (1.1661ms)
+✔ personal gallery contains only supplied titled images and keeps plain text captions (1.1047ms)
+✔ declared directory footer colors retain readable contrast instead of inheriting white (8.6791ms)
+✔ invalid article entries do not prevent valid audio initialization (9.5101ms)
+✔ supplied audio updates stale missing-material text as well as the player (3.7838ms)
+✔ read-only server serves the full portfolio, JSON and artwork while hiding sources (302.394ms)
+✔ provided PDF and audio assets can be served from public without exposing source files (57.6562ms)
+✔ all ten pages and their local links, fragments and visual assets are usable (34.2637ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2171.9509

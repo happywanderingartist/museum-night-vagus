@@ -1,0 +1,10 @@
+const fs=require('node:fs');const path=require('node:path');
+const root=path.resolve(__dirname,'..'),src=path.join(root,'node_modules/three');
+const out=path.join(root,'vendor/three');
+fs.mkdirSync(path.join(out,'addons/loaders'),{recursive:true});
+fs.mkdirSync(path.join(out,'addons/utils'),{recursive:true});
+for(const [a,b] of [['build/three.module.js','three.module.js'],['build/three.core.js','three.core.js'],['examples/jsm/loaders/GLTFLoader.js','addons/loaders/GLTFLoader.js'],['examples/jsm/utils/BufferGeometryUtils.js','addons/utils/BufferGeometryUtils.js'],['LICENSE','LICENSE']])fs.copyFileSync(path.join(src,a),path.join(out,b));
+fs.mkdirSync(path.join(root,'assets'),{recursive:true});
+fs.copyFileSync(path.join(root,'../storyboards/batch-01/assets/thinker-master.png'),path.join(root,'assets/thinker-original.png'));
+console.log('Official Three.js modules and unmodified source image copied.');
+fs.copyFileSync(path.join(src,'examples/jsm/utils/SkeletonUtils.js'),path.join(out,'addons/utils/SkeletonUtils.js'));

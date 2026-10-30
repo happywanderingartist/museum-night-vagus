@@ -1,0 +1,13 @@
+{
+  "mode": "isolated Google Chrome",
+  "passed": true,
+  "results": [
+    "START route draws with real scroll and resets on reverse",
+    "Hug water has localized clip and one 1.6-second pass",
+    "Hug water pauses offscreen",
+    "failed 3D module keeps poster and working HTML link",
+    "index.html readable with JavaScript disabled",
+    "start.html readable with JavaScript disabled",
+    "hug.html readable with JavaScript disabled"
+  ]
+}

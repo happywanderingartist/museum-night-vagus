@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-27",
+  "kind": "Node source-controller and own HTTP checks only; no rendered-browser validation",
+  "tests": 21,
+  "passed": 21,
+  "changedExistingFiles": [
+    "app.js",
+    "chapter-motion.mjs",
+    "site-features.mjs",
+    "completion.css",
+    "server.cjs",
+    "scripts/build-pages.cjs",
+    "about.html",
+    "ai.html",
+    "hug.html",
+    "index.html",
+    "literature.html",
+    "podcast.html",
+    "start.html",
+    "visual.html",
+    "works.html",
+    "xiaohongshu.html"
+  ],
+  "newRuntimeFiles": [
+    "motion-state.mjs",
+    "scene-motion.mjs",
+    "scene-motion.css"
+  ],
+  "backup": "sources/backups/2026-10-27-motion-01",
+  "artHashes": [
+    {
+      "id": "home",
+      "sha256": "5059bb46f0d93e068c9c20620b7401b51f31170f9e38e5a8cfef7caa24b80c22"
+    },
+    {
+      "id": "ai",
+      "sha256": "2f2b7f105f19d23d7dfd28039ffffd8d1fb8cd7a26cb1b50ed19fa7db9698360"
+    },
+    {
+      "id": "start",
+      "sha256": "5ec4074e4bc130a119f47e382323aaddd2e6379b071a90dbc67e02a4c623a3a6"
+    },
+    {
+      "id": "hug",
+      "sha256": "13411ea0e5dce972f008f46e2603b968f63bff325da8ccf0d3fd198fe49549e1"
+    },
+    {
+      "id": "xiaohongshu",
+      "sha256": "94a292ef5f0af0837a8ebde3c7d32d457003c228e156a5feb58b9c0237156b8c"
+    },
+    {
+      "id": "podcast",
+      "sha256": "df26dc71b57fab54c1e39e8e8e80b9397df34b532b849e06d7b4c95942cc3fc4"
+    },
+    {
+      "id": "literature",
+      "sha256": "c655ee2477d2241170cb7a05d3512da5db89dd3286dcfa2c1014d7ad545d2d73"
+    },
+    {
+      "id": "visual",
+      "sha256": "ed12a39cfebbcf821d40be6ea6f8a43947daf384233f6a90d3a0f2e22d9260cf"
+    },
+    {
+      "id": "about",
+      "sha256": "5e4b8922f8e5c31443c32210b1d5a0ee4dc16b70973b8808aa3c5b5559e504a9"
+    }
+  ],
+  "currentHTTP": {
+    "port": 4182,
+    "resource": "scene-motion.mjs",
+    "status": 200
+  },
+  "visualQA": "NOT RUN: prior browser open action rejected by automatic approval review because account usage limit; no alternative browser/control workaround",
+  "scope": "2D camera, title entry, START route and environment light only. No articulated character motion or 3D.",
+  "oldZIP": "Vagus-site-v3-2026-10-26.zip is unchanged and contains the previous static edition."
+}

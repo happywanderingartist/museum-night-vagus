@@ -1,0 +1,281 @@
+{
+  "records": [
+    {
+      "selector": "#home",
+      "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\vagus-audit\\home.png",
+      "scrollY": 0,
+      "bodyClass": "motion-ready js-enhanced motion-on",
+      "section": {
+        "tag": "section",
+        "id": "home",
+        "className": "home motion-visible",
+        "top": 0,
+        "height": 900
+      },
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Vagus",
+          "fontFamily": "\"Times New Roman\", serif",
+          "fontSize": "110.887px"
+        },
+        {
+          "tag": "h2",
+          "text": "Hello，我是 Vagus。",
+          "fontFamily": "STZhongsong, 华文中宋, \"Noto Serif SC\", serif",
+          "fontSize": "30.2419px"
+        }
+      ]
+    },
+    {
+      "selector": "#ai",
+      "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\vagus-audit\\ai.png",
+      "scrollY": 1213.5135498046875,
+      "bodyClass": "motion-ready js-enhanced motion-on has-scrolled",
+      "section": {
+        "tag": "section",
+        "id": "ai",
+        "className": "ai chapter",
+        "top": 900,
+        "height": 1527
+      },
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "把观察留在这里。",
+          "fontFamily": "STZhongsong, 华文中宋, \"Noto Serif SC\", serif",
+          "fontSize": "57.6036px"
+        }
+      ]
+    },
+    {
+      "selector": "#ai-reading",
+      "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\vagus-audit\\ai-reading.png",
+      "scrollY": 1527.0269775390625,
+      "bodyClass": "motion-ready js-enhanced motion-on has-scrolled",
+      "section": {
+        "tag": "section",
+        "id": "seed",
+        "className": "",
+        "top": 1943,
+        "height": 109
+      },
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "把观察留在这里。",
+          "fontFamily": "STZhongsong, 华文中宋, \"Noto Serif SC\", serif",
+          "fontSize": "57.6036px"
+        }
+      ]
+    },
+    {
+      "selector": "#start",
+      "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\vagus-audit\\start.png",
+      "scrollY": 2427.027099609375,
+      "bodyClass": "motion-ready js-enhanced motion-on has-scrolled",
+      "section": {
+        "tag": "div",
+        "id": "",
+        "className": "scene-track is-in-view motion-visible",
+        "top": 2427,
+        "height": 900
+      },
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "START",
+          "fontFamily": "\"Times New Roman\", serif",
+          "fontSize": "132.488px"
+        }
+      ]
+    },
+    {
+      "selector": "#start-reading",
+      "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\vagus-audit\\start-reading.png",
+      "scrollY": 3161.711669921875,
+      "bodyClass": "motion-ready js-enhanced motion-on has-scrolled",
+      "section": {
+        "tag": "section",
+        "id": "start",
+        "className": "start chapter",
+        "top": 2427,
+        "height": 1833
+      },
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "从一张票，到下一站。",
+          "fontFamily": "STZhongsong, 华文中宋, \"Noto Serif SC\", serif",
+          "fontSize": "57.6036px"
+        }
+      ]
+    },
+    {
+      "selector": "#hug",
+      "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\vagus-audit\\hug.png",
+      "scrollY": 4642.34228515625,
+      "bodyClass": "motion-ready js-enhanced motion-on has-scrolled",
+      "section": {
+        "tag": "div",
+        "id": "",
+        "className": "scene-track is-in-view motion-visible",
+        "top": 4260,
+        "height": 900
+      },
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "把小小的照顾，留给自己。",
+          "fontFamily": "STZhongsong, 华文中宋, \"Noto Serif SC\", serif",
+          "fontSize": "57.6036px"
+        }
+      ]
+    },
+    {
+      "selector": "#hug-reading",
+      "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\vagus-audit\\hug-reading.png",
+      "scrollY": 4995.044921875,
+      "bodyClass": "motion-ready js-enhanced motion-on has-scrolled",
+      "section": {
+        "tag": "section",
+        "id": "",
+        "className": "",
+        "top": 5380,
+        "height": 164
+      },
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "把小小的照顾，留给自己。",
+          "fontFamily": "STZhongsong, 华文中宋, \"Noto Serif SC\", serif",
+          "fontSize": "57.6036px"
+        }
+      ]
+    },
+    {
+      "selector": "#xiaohongshu",
+      "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\vagus-audit\\xiaohongshu.png",
+      "scrollY": 5847.74755859375,
+      "bodyClass": "motion-ready js-enhanced motion-on has-scrolled",
+      "section": {
+        "tag": "section",
+        "id": "xiaohongshu",
+        "className": "collection-art theme-xiaohongshu is-in-view motion-visible",
+        "top": 5925,
+        "height": 846
+      },
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "内容，也有比例。",
+          "fontFamily": "STZhongsong, 华文中宋, \"Noto Serif SC\", serif",
+          "fontSize": "57.6036px"
+        }
+      ]
+    },
+    {
+      "selector": "#podcast",
+      "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\vagus-audit\\podcast.png",
+      "scrollY": 6990.54052734375,
+      "bodyClass": "motion-ready js-enhanced motion-on has-scrolled",
+      "section": {
+        "tag": "section",
+        "id": "podcast",
+        "className": "collection-art theme-podcast is-in-view motion-visible",
+        "top": 7041,
+        "height": 900
+      },
+      "headings": [
+        {
+          "tag": "h2",
+          "text": "把声音，留给认真听的人。",
+          "fontFamily": "STZhongsong, 华文中宋, \"Noto Serif SC\", serif",
+          "fontSize": "53.2833px"
+        }
+      ]
+    },
+    {
+      "selector": "#literature",
+      "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\vagus-audit\\literature.png",
+      "scrollY": 8133.3330078125,
+      "bodyClass": "motion-ready js-enhanced motion-on has-scrolled",
+      "section": {
+        "tag": "section",
+        "id": "literature",
+        "className": "collection-art theme-literature is-in-view motion-visible",
+        "top": 8210,
+        "height": 846
+      },
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "让声音，有自己的空间。",
+          "fontFamily": "STZhongsong, 华文中宋, \"Noto Serif SC\", serif",
+          "fontSize": "43.2027px"
+        },
+        {
+          "tag": "h2",
+          "text": "把文字，带到现场。",
+          "fontFamily": "STZhongsong, 华文中宋, \"Noto Serif SC\", serif",
+          "fontSize": "67.6842px"
+        }
+      ]
+    },
+    {
+      "selector": "#visual",
+      "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\vagus-audit\\visual.png",
+      "scrollY": 9177.02734375,
+      "bodyClass": "motion-ready js-enhanced motion-on has-scrolled",
+      "section": {
+        "tag": "section",
+        "id": "visual",
+        "className": "collection-art theme-visual is-in-view motion-visible",
+        "top": 9326,
+        "height": 702
+      },
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "当文字走出书页。",
+          "fontFamily": "STZhongsong, 华文中宋, \"Noto Serif SC\", serif",
+          "fontSize": "43.2027px"
+        },
+        {
+          "tag": "h2",
+          "text": "把想象，交到手上。",
+          "fontFamily": "STZhongsong, 华文中宋, \"Noto Serif SC\", serif",
+          "fontSize": "54.7234px"
+        }
+      ]
+    },
+    {
+      "selector": "#about",
+      "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\vagus-audit\\about.png",
+      "scrollY": 10167.1171875,
+      "bodyClass": "motion-ready js-enhanced motion-on has-scrolled",
+      "section": {
+        "tag": "section",
+        "id": "about",
+        "className": "collection-art theme-about is-in-view motion-visible",
+        "top": 10298,
+        "height": 738
+      },
+      "headings": [
+        {
+          "tag": "h3",
+          "text": "灵感之后，是作品。",
+          "fontFamily": "STZhongsong, 华文中宋, \"Noto Serif SC\", serif",
+          "fontSize": "43.2027px"
+        },
+        {
+          "tag": "h2",
+          "text": "展览之后，认识 Vagus。",
+          "fontFamily": "STZhongsong, 华文中宋, \"Noto Serif SC\", serif",
+          "fontSize": "67.6842px"
+        }
+      ]
+    }
+  ],
+  "events": []
+}

@@ -1,0 +1,40 @@
+✔ painted source is byte-identical to the approved baseline (10.7492ms)
+✔ every exported motion channel actually moves then holds exactly from 5 to 7 seconds (6.4046ms)
+✔ every static relative vendor module dependency exists locally (13.5019ms)
+✔ local GLB contains real phone and articulated finger geometry plus animation (1.7863ms)
+✔ backgrounding pauses CSS scene synchronously even if animation frames are suspended (7.276ms)
+✔ ticket line draws forward with scroll and restores on reverse (1.226ms)
+✔ reduced motion exposes reading with no animated line or water (1.3393ms)
+✔ scene progress clamps malformed input without hiding content (0.2065ms)
+✔ real screen keeps the fingertip touching its glass at every sampled swipe and hold (20.129ms)
+✔ pose remains motionless during thought and leaves the wrist anchored (4.1294ms)
+✔ finger actually travels upward on glass instead of merely staying attached (3.7293ms)
+✔ phone lower support does not rise from the book during first reveal (3.4119ms)
+✔ phone stays completely fixed even with legacy reveal input while fingertip moves (3.2702ms)
+✔ phone never reveals or turns, including the first swipe (1.272ms)
+✔ later seven-second cycles never reveal the screen (0.2068ms)
+✔ five seconds of gesture followed by two seconds of thought (0.2705ms)
+✔ hand moves within swipe and remains motionless throughout thought (1.1353ms)
+✔ reduced motion has no screen reveal and a stable pose (0.3392ms)
+✔ negative or invalid time produces a stable starting frame (0.257ms)
+✔ clock freezes while hidden and does not catch up on resume (0.3455ms)
+✔ leaving a scene consumes intro without restarting its reveal (0.1729ms)
+✔ every local page link and image resolves to a real file and a real anchor (17.792ms)
+✔ glass faces the approaching painted hand rather than the back shell (28.7766ms)
+✔ the observer sees the back shell, with every interior glass sample hidden behind the phone (16.2535ms)
+✔ the complete moving finger stays in front of glass instead of cutting through the phone (11.8699ms)
+✔ an approach ray meets glass before any phone shell at every swipe height (11.5769ms)
+✔ render failures invoke poster fallback, not an escaping exception (1.5339ms)
+✔ bounded boot aborts a never-ending model load (19.01ms)
+✔ successful boot returns real result without abort (0.5341ms)
+✔ a stage that completes after context failure is disposed and never accepted (0.4312ms)
+✔ a stage completing after timeout cannot activate a late canvas (0.2957ms)
+✔ both project pages, shared modules, and fixed-phone assets are publicly served (70.4047ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1014.4114

@@ -1,0 +1,9 @@
+{
+  "mode": "isolated Google Chrome; simulated failures",
+  "passed": true,
+  "results": [
+    "mobile initial WebGL creation failure hides canvas and retains link",
+    "mobile context loss after successful render hides canvas and retains link",
+    "mobile Hug water and painting crops match"
+  ]
+}

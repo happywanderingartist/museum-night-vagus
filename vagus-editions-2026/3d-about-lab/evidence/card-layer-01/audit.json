@@ -1,0 +1,8 @@
+{
+  "status": "static source-preserving card layer test; not a completed 3D hand or motion",
+  "sourceSha256": "b89811c50a8d0aceaad56b8ce99aff9650a36e1e92ea321fc8fffb2db415e23c",
+  "whitePaperPixelsEligible": 12362,
+  "pixelsOutsideCardQuadChanged": 0,
+  "frontLimit": "Original painting remains behind the card, so card movement cannot be used until a clean underlay and hand matte exist.",
+  "sideLimit": "The card is 3D; the source person is not."
+}

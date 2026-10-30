@@ -1,0 +1,12 @@
+{
+  "oldSiteUnchanged": true,
+  "oldSiteFiles": 69,
+  "changedOldSite": [],
+  "preserved3D": {
+    "gray-model-lab": true,
+    "thinker-refinement-v2": true
+  },
+  "firstFourArtUnchanged": true,
+  "thinkerOriginalSHA256": "45ca5d65a17e921e3bf0ee5353f4b5ed9a51c7eb061c7a1650020347bd314735",
+  "passed": true
+}

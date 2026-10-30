@@ -1,0 +1,4555 @@
+{
+  "collectedAt": "2026-10-30T15:30:45.910Z",
+  "results": [
+    {
+      "id": "about",
+      "requestedUrl": "https://v2.lusion.co/about/",
+      "status": 200,
+      "initial": {
+        "title": "Lusion - About",
+        "url": "https://v2.lusion.co/about/",
+        "scrollY": 0,
+        "innerHeight": 900,
+        "bodyHeight": 900,
+        "htmlHeight": 900,
+        "bodyClass": "",
+        "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active",
+        "canvases": [
+          {
+            "id": "canvas",
+            "className": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1440,
+              "height": 900
+            },
+            "position": "fixed",
+            "opacity": "1",
+            "zIndex": "auto"
+          },
+          {
+            "id": "",
+            "className": "",
+            "rect": {
+              "x": 115,
+              "y": 5367,
+              "width": 1088,
+              "height": 612
+            },
+            "position": "static",
+            "opacity": "1",
+            "zIndex": "auto"
+          },
+          {
+            "id": "",
+            "className": "",
+            "rect": {
+              "x": 115,
+              "y": 6091,
+              "width": 1088,
+              "height": 612
+            },
+            "position": "static",
+            "opacity": "1",
+            "zIndex": "auto"
+          },
+          {
+            "id": "",
+            "className": "",
+            "rect": {
+              "x": 115,
+              "y": 6816,
+              "width": 1088,
+              "height": 612
+            },
+            "position": "static",
+            "opacity": "1",
+            "zIndex": "auto"
+          },
+          {
+            "id": "",
+            "className": "",
+            "rect": {
+              "x": 115,
+              "y": 7540,
+              "width": 1088,
+              "height": 612
+            },
+            "position": "static",
+            "opacity": "1",
+            "zIndex": "auto"
+          },
+          {
+            "id": "",
+            "className": "",
+            "rect": {
+              "x": 115,
+              "y": 8265,
+              "width": 1088,
+              "height": 612
+            },
+            "position": "static",
+            "opacity": "1",
+            "zIndex": "auto"
+          },
+          {
+            "id": "",
+            "className": "",
+            "rect": {
+              "x": 115,
+              "y": 8989,
+              "width": 1088,
+              "height": 612
+            },
+            "position": "static",
+            "opacity": "1",
+            "zIndex": "auto"
+          },
+          {
+            "id": "",
+            "className": "",
+            "rect": {
+              "x": 115,
+              "y": 9714,
+              "width": 1088,
+              "height": 612
+            },
+            "position": "static",
+            "opacity": "1",
+            "zIndex": "auto"
+          },
+          {
+            "id": "",
+            "className": "",
+            "rect": {
+              "x": 115,
+              "y": 10438,
+              "width": 1088,
+              "height": 612
+            },
+            "position": "static",
+            "opacity": "1",
+            "zIndex": "auto"
+          },
+          {
+            "id": "",
+            "className": "",
+            "rect": {
+              "x": 115,
+              "y": 11163,
+              "width": 1088,
+              "height": 612
+            },
+            "position": "static",
+            "opacity": "1",
+            "zIndex": "auto"
+          },
+          {
+            "id": "menu-canvas",
+            "className": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "position": "static",
+            "opacity": "1",
+            "zIndex": "auto"
+          },
+          {
+            "id": "",
+            "className": "",
+            "rect": {
+              "x": 1365,
+              "y": 850,
+              "width": 20,
+              "height": 20
+            },
+            "position": "static",
+            "opacity": "1",
+            "zIndex": "auto"
+          },
+          {
+            "id": "preloader-canvas",
+            "className": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 0,
+              "height": 0
+            },
+            "position": "static",
+            "opacity": "1",
+            "zIndex": "auto"
+          }
+        ],
+        "visibleText": [
+          {
+            "tag": "h1",
+            "id": "about-hero-title",
+            "className": "hero-title flex-vertical",
+            "text": "About Lusion",
+            "rect": {
+              "x": 538,
+              "y": 405,
+              "width": 364,
+              "height": 64
+            },
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "tag": "a",
+            "id": "",
+            "className": "header-lang-item is-cn",
+            "text": "中",
+            "rect": {
+              "x": 1357,
+              "y": 60,
+              "width": 33,
+              "height": 34
+            },
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "tag": "a",
+            "id": "",
+            "className": "",
+            "text": "Contact",
+            "rect": {
+              "x": 1260,
+              "y": 60,
+              "width": 76,
+              "height": 34
+            },
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "tag": "a",
+            "id": "",
+            "className": "",
+            "text": "Work",
+            "rect": {
+              "x": 1192,
+              "y": 60,
+              "width": 56,
+              "height": 34
+            },
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "tag": "a",
+            "id": "",
+            "className": "",
+            "text": "About",
+            "rect": {
+              "x": 1119,
+              "y": 60,
+              "width": 62,
+              "height": 34
+            },
+            "transform": "none",
+            "opacity": "1"
+          },
+          {
+            "tag": "a",
+            "id": "",
+            "className": "",
+            "text": "Home",
+            "rect": {
+              "x": 1052,
+              "y": 60,
+              "width": 56,
+              "height": 34
+            },
+            "transform": "none",
+            "opacity": "1"
+          }
+        ]
+      },
+      "records": [
+        {
+          "step": 0,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-00.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5367,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6091,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6816,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7540,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8265,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8989,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9714,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 10438,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 11163,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "h1",
+              "id": "about-hero-title",
+              "className": "hero-title flex-vertical",
+              "text": "About Lusion",
+              "rect": {
+                "x": 538,
+                "y": 405,
+                "width": 364,
+                "height": 64
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1260,
+                "y": 60,
+                "width": 76,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1192,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1119,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1052,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "step": 1,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-01.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5101,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5825,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6550,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7274,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7999,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8723,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9448,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 10172,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 10897,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "h1",
+              "id": "about-hero-title",
+              "className": "hero-title flex-vertical",
+              "text": "About Lusion",
+              "rect": {
+                "x": 538,
+                "y": 139,
+                "width": 364,
+                "height": 64
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1260,
+                "y": 60,
+                "width": 76,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1192,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1119,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1052,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-02.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 4835,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5559,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6284,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7008,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7733,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8457,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9182,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9906,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 10631,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "h3",
+              "id": "about-lusion-title",
+              "className": "about-sec-title",
+              "text": "Who we are",
+              "rect": {
+                "x": 720,
+                "y": 723,
+                "width": 605,
+                "height": 11
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1260,
+                "y": 60,
+                "width": 76,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1192,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1119,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1052,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-03.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 4569,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5293,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6018,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6742,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7467,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8191,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8916,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9640,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 10365,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "h3",
+              "id": "about-lusion-title",
+              "className": "about-sec-title",
+              "text": "Who we are",
+              "rect": {
+                "x": 720,
+                "y": 457,
+                "width": 605,
+                "height": 11
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1260,
+                "y": 60,
+                "width": 76,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1192,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1119,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1052,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "step": 4,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-04.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 4303,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5027,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5752,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6476,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7201,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7925,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8650,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9374,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 10099,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "h3",
+              "id": "about-lusion-title",
+              "className": "about-sec-title",
+              "text": "Who we are",
+              "rect": {
+                "x": 720,
+                "y": 191,
+                "width": 605,
+                "height": 11
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1260,
+                "y": 60,
+                "width": 76,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1192,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1119,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1052,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "step": 5,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-05.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 4037,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 4761,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5486,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6210,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6935,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7659,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8384,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9108,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9833,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1260,
+                "y": 60,
+                "width": 76,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1192,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1119,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1052,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "step": 6,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-06.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 3771,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 4495,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5220,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5944,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6669,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7393,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8118,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8842,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9567,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1260,
+                "y": 60,
+                "width": 76,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1192,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1119,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1052,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "step": 7,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-07.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 3505,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 4229,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 4954,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5678,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6403,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7127,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7852,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8576,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9301,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1260,
+                "y": 60,
+                "width": 76,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1192,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1119,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1052,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "step": 8,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-08.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 3239,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 3963,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 4688,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5412,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6137,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6861,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7586,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8310,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9035,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "h3",
+              "id": "about-services-title",
+              "className": "about-sec-title",
+              "text": "What we do",
+              "rect": {
+                "x": 720,
+                "y": 897,
+                "width": 605,
+                "height": 11
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1260,
+                "y": 60,
+                "width": 76,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1192,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1119,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1052,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "step": 9,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-09.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 2973,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 3697,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 4422,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5146,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5871,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6595,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7320,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8044,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8769,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "h3",
+              "id": "about-services-title",
+              "className": "about-sec-title",
+              "text": "What we do",
+              "rect": {
+                "x": 720,
+                "y": 631,
+                "width": 605,
+                "height": 11
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1260,
+                "y": 60,
+                "width": 76,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1192,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1119,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1052,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "step": 10,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-10.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 2707,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 3431,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 4156,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 4880,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5605,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6329,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7054,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7778,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8503,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "h3",
+              "id": "about-services-title",
+              "className": "about-sec-title",
+              "text": "What we do",
+              "rect": {
+                "x": 720,
+                "y": 365,
+                "width": 605,
+                "height": 11
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1260,
+                "y": 60,
+                "width": 76,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1192,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1119,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1052,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "step": 11,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-11.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 2452,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 3177,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 3901,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 4626,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5350,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6075,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6799,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7524,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8248,
+                "width": 1088,
+                "height": 612
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "h3",
+              "id": "about-services-title",
+              "className": "about-sec-title",
+              "text": "What we do",
+              "rect": {
+                "x": 720,
+                "y": 96,
+                "width": 605,
+                "height": 11
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1259,
+                "y": 60,
+                "width": 78,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1191,
+                "y": 60,
+                "width": 57,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1117,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1050,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "step": 12,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-12.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active at-about",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5471,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6196,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6920,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7645,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8369,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9094,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9818,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 10543,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 11267,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "h1",
+              "id": "about-hero-title",
+              "className": "hero-title flex-vertical",
+              "text": "About Lusion",
+              "rect": {
+                "x": 538,
+                "y": 405,
+                "width": 364,
+                "height": 64
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1259,
+                "y": 60,
+                "width": 78,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1191,
+                "y": 60,
+                "width": 57,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1117,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1050,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "step": 13,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-13.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active at-about",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5205,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5930,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6654,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7379,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8103,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8828,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9552,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 10277,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 11001,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "h1",
+              "id": "about-hero-title",
+              "className": "hero-title flex-vertical",
+              "text": "About Lusion",
+              "rect": {
+                "x": 538,
+                "y": 365,
+                "width": 364,
+                "height": 64
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "h3",
+              "id": "about-lusion-title",
+              "className": "about-sec-title",
+              "text": "Who we are",
+              "rect": {
+                "x": 720,
+                "y": 493,
+                "width": 605,
+                "height": 11
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1259,
+                "y": 60,
+                "width": 78,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1191,
+                "y": 60,
+                "width": 57,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1117,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1050,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "step": 14,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-14.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active at-about",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 4939,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5664,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6388,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7113,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7837,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8562,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9286,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 10011,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 10735,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "h3",
+              "id": "about-lusion-title",
+              "className": "about-sec-title",
+              "text": "Who we are",
+              "rect": {
+                "x": 720,
+                "y": 414,
+                "width": 605,
+                "height": 11
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1259,
+                "y": 60,
+                "width": 78,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1191,
+                "y": 60,
+                "width": 57,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1117,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1050,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        },
+        {
+          "step": 15,
+          "screenshot": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\research\\2026-10-30-live-chrome\\lusion-sequence\\about-15.png",
+          "title": "Lusion - About",
+          "url": "https://v2.lusion.co/about/",
+          "scrollY": 0,
+          "innerHeight": 900,
+          "bodyHeight": 900,
+          "htmlHeight": 900,
+          "bodyClass": "",
+          "htmlClass": "js is-en is-desktop use-webgl is-ready wf-gtsectrafinebold-n7-active wf-gtsectrafine-n4-active wf-nbakademiemedium-n7-active wf-nbakademielight-n4-active wf-active at-about",
+          "canvases": [
+            {
+              "id": "canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 1440,
+                "height": 900
+              },
+              "position": "fixed",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 4673,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 5398,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6122,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 6847,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 7571,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 8296,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9020,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 9745,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 115,
+                "y": 10469,
+                "width": 1088,
+                "height": 979
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "menu-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "",
+              "className": "",
+              "rect": {
+                "x": 1365,
+                "y": 850,
+                "width": 20,
+                "height": 20
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            },
+            {
+              "id": "preloader-canvas",
+              "className": "",
+              "rect": {
+                "x": 0,
+                "y": 0,
+                "width": 0,
+                "height": 0
+              },
+              "position": "static",
+              "opacity": "1",
+              "zIndex": "auto"
+            }
+          ],
+          "visibleText": [
+            {
+              "tag": "h3",
+              "id": "about-lusion-title",
+              "className": "about-sec-title",
+              "text": "Who we are",
+              "rect": {
+                "x": 720,
+                "y": 355,
+                "width": 605,
+                "height": 11
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "header-lang-item is-cn",
+              "text": "中",
+              "rect": {
+                "x": 1357,
+                "y": 60,
+                "width": 33,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Contact",
+              "rect": {
+                "x": 1259,
+                "y": 60,
+                "width": 78,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Work",
+              "rect": {
+                "x": 1191,
+                "y": 60,
+                "width": 57,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "About",
+              "rect": {
+                "x": 1117,
+                "y": 60,
+                "width": 62,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            },
+            {
+              "tag": "a",
+              "id": "",
+              "className": "",
+              "text": "Home",
+              "rect": {
+                "x": 1050,
+                "y": 60,
+                "width": 56,
+                "height": 34
+              },
+              "transform": "none",
+              "opacity": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

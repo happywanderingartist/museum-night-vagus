@@ -1,0 +1,19 @@
+{
+  "generator": "Blender 4.5.15 LTS",
+  "kind": "refined gray model v2, art acceptance pending",
+  "cloud_calls": 0,
+  "hand_vertices": 50535,
+  "hand_polygons": 76228,
+  "skin_bones": [
+    "IndexProximal",
+    "IndexMiddle",
+    "IndexDistal",
+    "HandAnchor"
+  ],
+  "seconds": 7,
+  "fps": 30,
+  "phone_base_m": 0.02802,
+  "glass_front_m": 0.0055,
+  "pad_correction_after_remesh_m": 0.0003728755281865604,
+  "scope": "hand/forearm, phone, open book, table and thick open sleeve; source-view registration only, no final material stage"
+}

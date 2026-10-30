@@ -1,0 +1,26 @@
+TimeoutError: locator.click: Timeout 15000ms exceeded.
+Call log:
+[2m  - waiting for getByRole('link', { name: 'Sidekick', exact: true }).first()[22m
+[2m    - locator resolved to <a data-discover="true" data-component-name="menu-item-link" href="/editions/winter2026#sidekick" class="headline-6 py-2 flex justify-between items-end relative sidebar-link text-white [html[data-sidebar-theme="light"]_&]:text-grey-mid">…</a>[22m
+[2m  - attempting click action[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <a data-discover="true" href="/editions/winter2026" class="text-light pointer-events-auto">…</a> from <h2 class="title-link headline-4 inline-block w-[55%]">…</h2> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    2 × waiting for element to be visible, enabled and stable[22m
+[2m      - element is visible, enabled and stable[22m
+[2m      - scrolling into view if needed[22m
+[2m      - done scrolling[22m
+[2m      - <a data-discover="true" href="/editions/winter2026" class="text-light pointer-events-auto">…</a> from <h2 class="title-link headline-4 inline-block w-[55%]">…</h2> subtree intercepts pointer events[22m
+[2m    - retrying click action[22m
+[2m      - waiting 100ms[22m
+[2m    27 × waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <a data-discover="true" href="/editions/winter2026" class="text-light pointer-events-auto">…</a> from <h2 class="title-link headline-4 inline-block w-[55%]">…</h2> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m

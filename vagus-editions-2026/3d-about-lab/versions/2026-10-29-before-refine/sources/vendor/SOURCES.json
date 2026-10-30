@@ -1,0 +1,9 @@
+{
+  "url": "https://mirror.blender.org/demo/asset-bundles/human-base-meshes/human-base-meshes-bundle-v1.4.1.zip",
+  "officialPage": "https://www.blender.org/download/demo-files/",
+  "license": "CC0-1.0 (official page specifies Human Base Meshes bundle)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "sha256": "811f43accbb31a88266d932f8f5563b2d13586fca0ba2693aad1f5fe582b3515",
+  "bytes": 50643039,
+  "scope": "anatomy base for hand/forearm only; not replacing the portrait"
+}

@@ -1,0 +1,14 @@
+{
+  "y": 900,
+  "height": 900,
+  "doc": 6864,
+  "ai": {
+    "top": 0,
+    "height": 1449.84375
+  },
+  "title": {
+    "top": 135.59375,
+    "height": 84.234375
+  },
+  "stage": "ai-scene is-awake has-three"
+}

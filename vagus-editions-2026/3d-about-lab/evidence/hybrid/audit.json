@@ -1,0 +1,19 @@
+{
+  "scope": "source-faithful 2.5D review; painted hand preserved",
+  "sourceImage": "sources/about/reference.png",
+  "visibleLayers": [
+    "original painting",
+    "physical card with source-projected front and real edge"
+  ],
+  "physicalDepth": {
+    "paintingM": 1.621,
+    "cardM": 1.613542079925537,
+    "cardOffsetM": 0.007457920074462887
+  },
+  "notDelivered": [
+    "rigged hand",
+    "reconstructed sleeve",
+    "full character 3D",
+    "accepted web integration"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-25 R3",
+  "files": [
+    {
+      "file": "assets/ai.webp",
+      "bytes": 135888,
+      "sha256": "2f2b7f105f19d23d7dfd28039ffffd8d1fb8cd7a26cb1b50ed19fa7db9698360"
+    },
+    {
+      "file": "assets/gesture.glb",
+      "bytes": 395780,
+      "sha256": "923eaa8a20b251fa1f55d16c08785a717e3a4efe955f3b85e059696010fbb368"
+    },
+    {
+      "file": "assets/home.webp",
+      "bytes": 263836,
+      "sha256": "5059bb46f0d93e068c9c20620b7401b51f31170f9e38e5a8cfef7caa24b80c22"
+    },
+    {
+      "file": "assets/hug.webp",
+      "bytes": 163336,
+      "sha256": "13411ea0e5dce972f008f46e2603b968f63bff325da8ccf0d3fd198fe49549e1"
+    },
+    {
+      "file": "assets/manifest.json",
+      "bytes": 1880,
+      "sha256": "76f6015569ae5ff687cdda748ff5f4d8987a7e2388bc3ef6a3ac3a799c1d00f9"
+    },
+    {
+      "file": "assets/mark.svg",
+      "bytes": 227,
+      "sha256": "886c17b4bf93f707a61f77636789525c17d1f69e2ae8316bf3d9dbb7d4a38e57"
+    },
+    {
+      "file": "assets/start.webp",
+      "bytes": 208590,
+      "sha256": "5ec4074e4bc130a119f47e382323aaddd2e6379b071a90dbc67e02a4c623a3a6"
+    },
+    {
+      "file": "assets/thinker-clean-plate-r3.png",
+      "bytes": 1928599,
+      "sha256": "731ad6b4d527eecb573bccd203cf94d0f51e0cc96091d6381fd897212b31cd58"
+    },
+    {
+      "file": "assets/thinker-original.png",
+      "bytes": 1975399,
+      "sha256": "45ca5d65a17e921e3bf0ee5353f4b5ed9a51c7eb061c7a1650020347bd314735"
+    }
+  ]
+}

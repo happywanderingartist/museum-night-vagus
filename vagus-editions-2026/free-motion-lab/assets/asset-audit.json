@@ -1,0 +1,12 @@
+{
+  "generator": "Blender 4.5.15 LTS",
+  "procedural": true,
+  "cloud_calls": 0,
+  "frames": 211,
+  "fps": 30,
+  "duration_seconds": 7,
+  "scope": "3D phone, open book, articulated geometric hand proxy; not a complete sculpted person",
+  "web_scope": "3D phone plus source-textured 2.5D hand; proxy hand and model book hidden in webpage",
+  "source_sha256": "45ca5d65a17e921e3bf0ee5353f4b5ed9a51c7eb061c7a1650020347bd314735",
+  "source_script": "scripts/build-thinker.py"
+}

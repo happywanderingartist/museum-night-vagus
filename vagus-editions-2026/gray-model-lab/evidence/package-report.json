@@ -1,0 +1,17 @@
+{
+  "archive": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\Vagus-thinker-graymodel-v1-2026-10-26.zip",
+  "bytes": 5604518,
+  "sha256": "c20fe61181a8af71a271d676ae88e18e2a468b838ee46f1c9af85fdcbde44f4b",
+  "files": 48,
+  "extractedTo": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\toolchain\\gray-model-extracted-_yc3_hrh",
+  "extractedTestsExit": 0,
+  "exclusions": [
+    "toolchain/browser profiles/cache",
+    "node_modules",
+    "Blender executable",
+    "blend backups",
+    "old ZIPs",
+    "logs",
+    "accounts"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "motiondivision/motion": [
+    "tests/scroll/scroll.spec.ts",
+    "tests/scroll/scroll-reverse-direction.spec.ts",
+    "packages/framer-motion/src/render/dom/scroll/index.ts"
+  ],
+  "pmndrs/drei": [
+    "src/web/View.tsx",
+    "test/e2e/snapshot.test.ts"
+  ],
+  "pmndrs/examples": [
+    "examples/gltf-animations-tied-to-scroll/src/App.tsx",
+    "examples/scrollcontrols-with-minimap/src/App.tsx",
+    "packages/e2e/snapshot.test.js"
+  ],
+  "martinlaxenaire/curtainsjs": [
+    "examples/multiple-planes-scroll-effect/js/multiple.planes.parallax.setup.js",
+    "examples/tests/context-lost/js/simple.plane.setup.js",
+    "package.json"
+  ]
+}

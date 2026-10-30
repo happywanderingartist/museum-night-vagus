@@ -1,0 +1,6 @@
+{
+  "extractedTestsExit": 0,
+  "artMastersHashPassed": true,
+  "browserValidation": "not-run: approval review could not complete due to usage limit",
+  "scope": "code/assets/HTTP checks only; no rendered-browser acceptance"
+}

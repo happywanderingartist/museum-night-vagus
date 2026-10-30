@@ -1,0 +1,53 @@
+/* Namespaced integration scaffold; visual assets and palette remain project-owned. */
+.vagus-scene{position:relative;isolation:isolate;background:var(--scene-bg,#e9ecea);color:var(--scene-fg,#182a29)}
+.vagus-scene *{box-sizing:border-box}
+.vagus-stage{position:relative;min-height:80svh;padding:6rem 5vw;overflow:hidden}
+.vagus-art{--scene-bleed:24px;position:relative;min-height:40svh;overflow:hidden}
+/* Shared expanded canvas: identical gutters on every art layer preserve registration.
+   24px covers the bundled -20..16px moves. Recalculate when changing transforms. */
+.vagus-art [data-layer]{position:absolute;inset:calc(-1 * var(--scene-bleed));pointer-events:none;transform-origin:62% 55%}
+.vagus-art img{width:100%;height:100%;object-fit:cover}
+.vagus-title,.vagus-description{position:relative;max-width:46rem}
+.vagus-title{font-size:clamp(2.5rem,6vw,6.5rem);line-height:1.05}
+.vagus-reading-edge{display:none;pointer-events:none}
+.vagus-reading-intro{padding:20vh 5vw 3rem;color:var(--reading-fg,#202521);max-width:55rem}
+.vagus-reading-intro h2{font-size:clamp(2rem,5vw,5rem);margin:0 0 1rem}
+.vagus-reading-intro p{font-size:1.25rem;line-height:1.6}
+.vagus-works{position:relative;z-index:2;padding:4rem max(5vw,1rem);background:var(--reading-bg,#f4f2ec);color:var(--reading-fg,#202521)}
+.vagus-works:focus{outline:3px solid currentColor;outline-offset:-8px}
+.vagus-links{position:relative;z-index:5;display:grid;gap:1rem}
+.vagus-links a{color:inherit;width:fit-content;text-underline-offset:.25em}
+.vagus-links a:focus-visible{outline:2px solid currentColor;outline-offset:5px}
+.vagus-copy{position:relative;z-index:4}
+@media(min-width:1024px) and (prefers-reduced-motion:no-preference){
+ .vagus-scene[data-enhanced=true][data-profile=immersive]{height:200svh}
+ .vagus-scene[data-enhanced=true][data-profile=immersive] .vagus-stage{height:100svh;min-height:0;position:sticky;top:0}
+ .vagus-scene[data-enhanced=true] .vagus-art{position:absolute;inset:0;min-height:0}
+ .vagus-scene[data-enhanced=true][data-profile=immersive] .vagus-title{max-width:90%;font-size:clamp(4rem,9vw,10rem);margin:8vh 0}
+ .vagus-scene[data-enhanced=true][data-profile=immersive] .vagus-copy{position:static}
+ .vagus-scene[data-enhanced=true][data-profile=immersive] .vagus-title{z-index:4}
+ .vagus-scene[data-enhanced=true][data-profile=immersive] .vagus-description{position:absolute;z-index:4;top:20vh;left:5vw;max-width:50vw;font-size:clamp(1.5rem,3vw,3rem);pointer-events:none}
+ .vagus-scene[data-enhanced=true][data-profile=immersive] .vagus-links{position:absolute;left:5vw;bottom:8vh}
+ .vagus-scene[data-enhanced=true][data-profile=immersive] .vagus-reading-edge{
+  display:block;position:absolute;inset:-1px;z-index:3;background:var(--reading-bg,#f4f2ec);
+  clip-path:polygon(0 3%,8% 2%,15% 4%,25% 1%,35% 3%,45% 2%,55% 4%,65% 1%,75% 3%,85% 2%,94% 4%,100% 2%,100% 100%,0 100%);
+ }
+ .vagus-scene[data-enhanced=true][data-profile=immersive][data-nav-tone=dark]{color:var(--hero-ink,#fff)}
+ .vagus-scene[data-enhanced=true][data-profile=immersive] .vagus-title,
+ .vagus-scene[data-enhanced=true][data-profile=immersive] .vagus-description{color:var(--hero-ink,#fff)}
+ .vagus-scene[data-enhanced=true][data-profile=editorial] .vagus-art{height:100%}
+ .vagus-scene[data-enhanced=true][data-profile=editorial] .vagus-copy{max-width:42%;padding-top:5vh}
+}
+@media(hover:hover) and (pointer:fine){
+ .vagus-links a{transition:text-decoration-color 160ms ease;text-decoration-color:transparent}
+ .vagus-links a:hover{ text-decoration-color:currentColor }
+}
+@media(prefers-reduced-motion:reduce){
+ .vagus-scene{height:auto!important}
+ .vagus-stage{position:relative!important;height:auto!important}
+ .vagus-reading-edge{display:none!important}
+ .vagus-title,.vagus-description{opacity:1!important;transform:none!important}
+}
+@media(max-width:1023px){
+ .vagus-title,.vagus-description{opacity:1!important;transform:none!important}
+}
