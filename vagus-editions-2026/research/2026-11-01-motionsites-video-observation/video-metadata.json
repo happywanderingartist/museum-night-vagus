@@ -1,0 +1,50 @@
+[
+  {
+    "file": "art-landing.mp4",
+    "bytes": 1656986,
+    "sha256": "d2fb8775a66ae8111a1738ee42efc493092ae6b38de552b1b144c3ac7ffd71a9",
+    "duration_seconds": 8.21,
+    "frame_count_sampled": 17,
+    "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\AI-Data\\\u535a\u7269\u9986\u5947\u5999\u591c\\vagus-editions-2026\\research\\2026-11-01-motionsites-video-observation\\source\\art-landing.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf61.7.100\r\n  Duration: 00:00:08.21, start: 0.000000, bitrate: 1614 kb/s\r\n    Stream #0:0(und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 800x590, 1611 kb/s, 24 fps, 24 tbr, 12288 tbn, 48 tbc (default)\r\n    Metadata:\r\n      handler_name    : VideoHandler\r\n      encoder         : Lavc61.19.100 libx264\r\nAt least one output file must be specified\r\n"
+  },
+  {
+    "file": "bitcoin-yield.mp4",
+    "bytes": 1767787,
+    "sha256": "7f4ac9ba278f2ca71323420504cf6a8205d3ccb134b2ec9b8f8276d47cce0cfe",
+    "duration_seconds": 6.67,
+    "frame_count_sampled": 14,
+    "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\AI-Data\\\u535a\u7269\u9986\u5947\u5999\u591c\\vagus-editions-2026\\research\\2026-11-01-motionsites-video-observation\\source\\bitcoin-yield.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf61.7.100\r\n  Duration: 00:00:06.67, start: 0.000000, bitrate: 2121 kb/s\r\n    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1460x1080, 2119 kb/s, 30 fps, 30 tbr, 57600 tbn, 115200 tbc (default)\r\n    Metadata:\r\n      handler_name    : mp4-muxer-hdlr\r\nAt least one output file must be specified\r\n"
+  },
+  {
+    "file": "golden-portal.mp4",
+    "bytes": 469563,
+    "sha256": "9419de0d809fa29574e9cf5a0f4a727615e09808c3071d444dd0b0b3c87693e0",
+    "duration_seconds": 5.0,
+    "frame_count_sampled": 10,
+    "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\AI-Data\\\u535a\u7269\u9986\u5947\u5999\u591c\\vagus-editions-2026\\research\\2026-11-01-motionsites-video-observation\\source\\golden-portal.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf61.7.100\r\n  Duration: 00:00:05.00, start: 0.000000, bitrate: 751 kb/s\r\n    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 640x470, 747 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)\r\n    Metadata:\r\n      handler_name    : VideoHandler\r\n      encoder         : Lavc61.19.100 libx264\r\nAt least one output file must be specified\r\n"
+  },
+  {
+    "file": "nature-portfolio.mp4",
+    "bytes": 3985608,
+    "sha256": "f1808e07b3ef7d9e9f05e03ae73d68fad04b6d3167d55e138a6ad29532311ab7",
+    "duration_seconds": 6.33,
+    "frame_count_sampled": 13,
+    "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\AI-Data\\\u535a\u7269\u9986\u5947\u5999\u591c\\vagus-editions-2026\\research\\2026-11-01-motionsites-video-observation\\source\\nature-portfolio.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf61.7.100\r\n  Duration: 00:00:06.33, start: 0.000000, bitrate: 5033 kb/s\r\n    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, smpte170m/bt709/iec61966-2-1), 1920x1412 [SAR 1:1 DAR 480:353], 5032 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)\r\n    Metadata:\r\n      handler_name    : MediabunnyVideoHandler\r\nAt least one output file must be specified\r\n"
+  },
+  {
+    "file": "sea-serenade.mp4",
+    "bytes": 7186189,
+    "sha256": "8c1ee07e468eefe762bd44587beb5f2e060698dea2730b1e64154dddad97c43e",
+    "duration_seconds": 7.88,
+    "frame_count_sampled": 17,
+    "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\AI-Data\\\u535a\u7269\u9986\u5947\u5999\u591c\\vagus-editions-2026\\research\\2026-11-01-motionsites-video-observation\\source\\sea-serenade.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf61.7.100\r\n  Duration: 00:00:07.88, start: 0.000000, bitrate: 7295 kb/s\r\n    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1054, 7292 kb/s, 25 fps, 25 tbr, 12800 tbn, 50 tbc (default)\r\n    Metadata:\r\n      handler_name    : mp4-muxer-hdlr\r\n      encoder         : Lavc61.19.100 libx264\r\nAt least one output file must be specified\r\n"
+  },
+  {
+    "file": "urban-jungle.mp4",
+    "bytes": 3444733,
+    "sha256": "b484f4c0322604227f873ef0ac019eee1038d4437c254d96b745e1c1c7b0ba17",
+    "duration_seconds": 6.8,
+    "frame_count_sampled": 14,
+    "metadata": "Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'D:\\AI-Data\\\u535a\u7269\u9986\u5947\u5999\u591c\\vagus-editions-2026\\research\\2026-11-01-motionsites-video-observation\\source\\urban-jungle.mp4':\r\n  Metadata:\r\n    major_brand     : isom\r\n    minor_version   : 512\r\n    compatible_brands: isomiso2avc1mp41\r\n    encoder         : Lavf59.16.100\r\n  Duration: 00:00:06.80, start: 0.000000, bitrate: 4052 kb/s\r\n    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1460x1080, 4050 kb/s, 30 fps, 30 tbr, 57600 tbn, 115200 tbc (default)\r\n    Metadata:\r\n      handler_name    : mp4-muxer-hdlr\r\nAt least one output file must be specified\r\n"
+  }
+]

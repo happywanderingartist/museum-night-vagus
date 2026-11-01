@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1760" height="1120" viewBox="0 0 1760 1120"><title>Vagus 两幅画空间位置、侧剖面与五个相机位置</title><desc>左为等比例x-z水平剖面，右为放大的y-z单画侧剖面。首页在左、AI在右、画面朝向观众，镜头先后退再右移再推进。相机不穿人物。</desc><style>text{font-family:'Microsoft YaHei','Noto Sans CJK SC',sans-serif;fill:#243335;font-size:20px}.title{font-size:34px;font-weight:700}.head{font-size:25px;font-weight:700}.small{font-size:18px;fill:#526368}.micro{font-size:16px;fill:#526368}.white{fill:#fff8e8}.ui{font-size:24px;fill:#f5ecd8}.uismall{font-size:17px;fill:#f5ecd8}.gold{fill:#9b5d21}</style><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0L8 4L0 8" fill="#ac692b"/></marker><marker id="linearrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0 0L7 3L0 6" fill="#647a7b"/></marker></defs><rect width="1760" height="1120" fill="#f3f1e8"/>
+<text x="48" y="57" class="title">Vagus｜两幅独立作品的空间关系</text>
+<text x="48" y="94" class="small">2026-10-31 · 设计参数，待灰模锁定 · W=单画开口宽，H=.5625W · 左图x/z等比例，右图专门放大深度</text>
+<rect x="32" y="124" width="1085" height="650" rx="12" fill="#e7e9df"/>
+<text x="56" y="162" class="head">01  水平剖面（x-z）｜两画平行、同高、无夹角</text>
+<text x="56" y="193" class="small">+x向右；+z朝观众；相机光轴始终平行−z，高度y=0、roll=0。</text>
+<rect x="140" y="234" width="420" height="46" fill="#9c947e"/><rect x="150" y="240" width="400" height="40" fill="#e7e9df"/><line x1="150" y1="240" x2="550" y2="240" stroke="#9fbbb0" stroke-width="9"/>
+<text x="280" y="227" class="head">首页工作室</text>
+<path d="M350 296V440" stroke="#647a7b" stroke-dasharray="6 6" marker-end="url(#linearrow)"/>
+<rect x="588" y="234" width="420" height="46" fill="#9c947e"/><rect x="598" y="240" width="400" height="40" fill="#e7e9df"/><line x1="598" y1="240" x2="998" y2="240" stroke="#74765f" stroke-width="9"/>
+<text x="728" y="227" class="head">AI阅览室</text>
+<path d="M798 296V440" stroke="#647a7b" stroke-dasharray="6 6" marker-end="url(#linearrow)"/>
+<text x="559" y="318" class="micro">开口间隙 .12W</text>
+<text x="559" y="344" class="micro">外框净距 .07W</text>
+<text x="559" y="370" class="micro">中心距 1.12W</text>
+<path d="M350 596V680H798V596" fill="none" stroke="#ac692b" stroke-width="5"/>
+<path d="M350 624V670" fill="none" stroke="#ac692b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M422 680H534" fill="none" stroke="#ac692b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M798 664V624" fill="none" stroke="#ac692b" stroke-width="3" marker-end="url(#arrow)"/>
+<circle cx="350" cy="596" r="8" fill="#ac692b" stroke="#f3f1e8" stroke-width="2"/>
+<circle cx="350" cy="680" r="8" fill="#ac692b" stroke="#f3f1e8" stroke-width="2"/>
+<circle cx="574.0000000000001" cy="680" r="8" fill="#ac692b" stroke="#f3f1e8" stroke-width="2"/>
+<circle cx="798" cy="646.6782502667277" r="8" fill="#ac692b" stroke="#f3f1e8" stroke-width="2"/>
+<circle cx="798" cy="596" r="8" fill="#ac692b" stroke="#f3f1e8" stroke-width="2"/>
+<text x="88" y="586" class="head">K0 起点 (0, .89)</text>
+<text x="88" y="713" class="head">K1 (0, 1.10)</text>
+<text x="510" y="713" class="head">K2 (.56, 1.10)</text>
+<text x="825" y="649" class="small">K3 (1.12, 1.017)</text>
+<text x="825" y="582" class="head">K4 终点 (1.12, .89)</text>
+<text x="390" y="506" class="head">后退 → 右移 → 沿AI法线推进</text>
+<text x="390" y="538" class="small">相机右移时：首页左退，AI从右入屏</text>
+<rect x="1140" y="124" width="588" height="650" rx="12" fill="#e7e9df"/>
+<text x="1166" y="162" class="head">02  单画侧剖面（y-z）</text>
+<text x="1166" y="194" class="small">深度放大以说明结构；两画均用相同方向。</text>
+<rect x="1232" y="273" width="5" height="330" fill="#788e7f"/><rect x="1320" y="330" width="5" height="228" fill="#90a897"/><rect x="1408" y="510" width="5" height="93" fill="#ac8e68"/><rect x="1276" y="250" width="176" height="22" fill="#9c947e"/><rect x="1276" y="604" width="176" height="22" fill="#9c947e"/>
+<text x="1170" y="666" class="small">背景 z=0；主体候选 .04；前景候选 .08</text>
+<text x="1170" y="699" class="small">框背 .02 → 框正面 .10：实体厚 .08W</text>
+<text x="1170" y="732" class="small">绘画至框口的内侧壁补齐凹槽，不能留空。</text>
+<path d="M1477 440H1680" fill="none" stroke="#647a7b" stroke-width="2"/><path d="M1660 440H1510" fill="none" stroke="#ac692b" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="1510" y="398" class="small">相机在框前</text>
+<text x="1510" y="471" class="small">z≥.89W</text>
+<text x="1510" y="505" class="small">视线向左</text>
+<text x="1166" y="238" class="small">y↑</text>
+<text x="1610" y="603" class="small">+z →</text>
+<rect x="32" y="798" width="1696" height="282" rx="12" fill="#fffdf4"/>
+<text x="56" y="841" class="head">03  屏幕所见与资产边界</text>
+<text x="56" y="885" class="small">K0 / K4：画框在视野外，原画占满画面；K1：后退露框；K2：两画局部同屏；K3：AI框边逐渐退出。</text>
+<text x="56" y="928" class="small">“进入画内”指构图和框口从视野周边经过；本路线不让相机穿过人物、桌面或真实跨过z=.10的框正面。</text>
+<text x="56" y="971" class="small">背景/主体/前景的z是候选深度，须在参考机位对位；猫＋杯＋桌面、人物手＋手机＋古书＋承托面必须保持接触。</text>
+<text x="56" y="1014" class="small">横移不产生新的人物观看角度：只显示原画正面。没有补底或真alpha，就保留整图代理，不开启分层差速。</text>
+<text x="56" y="1056" class="small">固定视野角35°；框条宽.025W；哑光框与中性暗展面为待审外观。完整曲线、尺寸与素材状态见设计说明。</text>
+</svg>

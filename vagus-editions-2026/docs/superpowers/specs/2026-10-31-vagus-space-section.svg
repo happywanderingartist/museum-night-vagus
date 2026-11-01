@@ -1,0 +1,18 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900">
+<title>Vagus 两画空间剖面与相机路径</title><desc>x-z俯视剖面展示并排两画，后退、向右横移、推进。下方为单画深度侧视。</desc>
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0 0L8 3L0 6" fill="#e4b66d"/></marker></defs>
+<style>text{font-family:'Microsoft YaHei',sans-serif;font-size:21px;fill:#e8e6df}.small{font-size:18px;fill:#b9bdc1}.title{font-size:30px;font-weight:bold}.path{fill:none;stroke:#e4b66d;stroke-width:4;marker-end:url(#a)}</style>
+<rect width="1440" height="900" fill="#202429"/><text x="48" y="55" class="title">Vagus｜两幅独立作品 · 空间剖面</text><text x="48" y="91" class="small">2026-10-31 · 设计示意，非等比例灰模 · 上图 x-z 俯视，高度 y 省略，+z 朝观众</text>
+<rect x="100" y="166" width="500" height="14" fill="#a4c5bd"/><rect x="800" y="166" width="500" height="14" fill="#74664f"/>
+<path d="M85 170V235H100V170 M600 170V235H615V170 M785 170V235H800V170 M1300 170V235H1315V170" fill="#b2a38b"/>
+<text x="240" y="147">首页工作室</text><text x="930" y="147">AI 阅览室</text><text x="638" y="191" class="small">间隙</text><text x="638" y="220" class="small">.12W</text>
+<text x="100" y="276" class="small">框背面 z=.02W；正面 z=.10W；实体厚度 .08W</text><text x="800" y="276" class="small">画面中心距 1.12W；框条单边宽 .025W</text>
+<path d="M350 415V565" class="path"/><path d="M350 565H1050" class="path"/><path d="M1050 565V415" class="path"/>
+<path d="M350 400V250 M1050 400V250" stroke="#92989d" stroke-dasharray="7 6"/>
+<g fill="#e4b66d"><circle cx="350" cy="415" r="8"/><circle cx="350" cy="565" r="8"/><circle cx="1025" cy="565" r="8"/><circle cx="1050" cy="465" r="8"/><circle cx="1050" cy="415" r="8"/></g>
+<text x="110" y="420">K0 起点 z=.89W</text><text x="110" y="607">K1 后退 z=1.10W</text><text x="880" y="607">K2 交接尾部</text><text x="1070" y="472">K3 推进</text><text x="1070" y="422">K4 终点 z=.89W</text>
+<text x="470" y="370">相机向右 → 画面向左</text><text x="470" y="407" class="small">不摇头、不滚转、不绕人物侧面</text><text x="470" y="444" class="small">两画位置固定，独立保留各自光色</text>
+<rect x="48" y="665" width="1344" height="181" rx="8" fill="#2b3036"/><text x="72" y="703">单画深度侧视：背景 → 主体 → 近景 → 框正面 → 相机（间距不按比例）</text>
+<path d="M180 730V785 M390 730V785 M620 730V785 M850 730V785 M1150 730V785" stroke="#b2a38b" stroke-width="6"/><path d="M220 758H1100" class="path"/>
+<text x="125" y="819" class="small">背景 0</text><text x="330" y="819" class="small">主体 .04W</text><text x="560" y="819" class="small">近景 .08W</text><text x="790" y="819" class="small">框 .10W</text><text x="1080" y="819" class="small">相机 .89W</text>
+<text x="48" y="880" class="small">框边越过视野，不声称相机物理穿过框平面；接触组优先于视差。深度、厚度与间距均为待审起点。</text></svg>

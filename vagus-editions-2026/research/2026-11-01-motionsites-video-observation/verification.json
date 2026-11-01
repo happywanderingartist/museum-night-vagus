@@ -1,0 +1,44 @@
+[
+  {
+    "file": "art-landing.mp4",
+    "duration": 8.21,
+    "full_decode_exit_code": 0,
+    "decode_errors": "",
+    "contact_sheet_exists": true
+  },
+  {
+    "file": "bitcoin-yield.mp4",
+    "duration": 6.67,
+    "full_decode_exit_code": 0,
+    "decode_errors": "",
+    "contact_sheet_exists": true
+  },
+  {
+    "file": "golden-portal.mp4",
+    "duration": 5.0,
+    "full_decode_exit_code": 0,
+    "decode_errors": "",
+    "contact_sheet_exists": true
+  },
+  {
+    "file": "nature-portfolio.mp4",
+    "duration": 6.33,
+    "full_decode_exit_code": 0,
+    "decode_errors": "",
+    "contact_sheet_exists": true
+  },
+  {
+    "file": "sea-serenade.mp4",
+    "duration": 7.88,
+    "full_decode_exit_code": 0,
+    "decode_errors": "",
+    "contact_sheet_exists": true
+  },
+  {
+    "file": "urban-jungle.mp4",
+    "duration": 6.8,
+    "full_decode_exit_code": 0,
+    "decode_errors": "",
+    "contact_sheet_exists": true
+  }
+]

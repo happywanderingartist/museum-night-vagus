@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {shouldStopPlayback} from '../input.mjs';
+test('programmatic scroll and control activation do not pre-empt the pause button',()=>{assert.equal(shouldStopPlayback({type:'scroll'}),false);assert.equal(shouldStopPlayback({type:'keydown',key:' ',buttonFocused:true}),false);assert.equal(shouldStopPlayback({type:'pointerdown',scrollbar:false}),false);});
+test('user wheel, touch, page scrolling keys and scrollbar drag interrupt playback',()=>{for(const type of ['wheel','touchstart'])assert.equal(shouldStopPlayback({type}),true);assert.equal(shouldStopPlayback({type:'keydown',key:'PageDown',buttonFocused:false}),true);assert.equal(shouldStopPlayback({type:'pointerdown',scrollbar:true}),true);});
+test('page scrolling keys interrupt playback even while a button has focus',()=>{assert.equal(shouldStopPlayback({type:'keydown',key:'PageDown',buttonFocused:true}),true);});
