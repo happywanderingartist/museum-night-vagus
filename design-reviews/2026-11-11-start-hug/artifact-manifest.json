@@ -1,0 +1,321 @@
+{
+  "date": "2026-11-12",
+  "repository": "happywanderingartist/museum-night-vagus",
+  "branch": "codex/start-hug-case-design-2026-11-11",
+  "base": "e8317dea8168208fc69d5cd347cccb0f17906ea0",
+  "baselineHasReflection": false,
+  "files": [
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/asset-manifest.json",
+      "bytes": 2405,
+      "sha256": "1cada512d1ae51e3166151b6eaa5dab700477d9125f344f7783d1de743199b05"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/assets/hug-art.webp",
+      "bytes": 163336,
+      "sha256": "13411ea0e5dce972f008f46e2603b968f63bff325da8ccf0d3fd198fe49549e1"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/assets/hug-failure.jpg",
+      "bytes": 24658,
+      "sha256": "848d899365ea25d655160ea297abad5de9d6ed89f8abe4b91dc039e5720eec6f"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/assets/hug-highest.jpg",
+      "bytes": 27874,
+      "sha256": "6a0ca82489c47a4934159969389f8ea1a14046b9f0c127bcf2d9c30e4fec10b1"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/assets/hug-intro.jpg",
+      "bytes": 89580,
+      "sha256": "9c3fbbe47c6636d288e378d4d6c87b77d41b8875e414bd224ed23f7227d88099"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/assets/hug-returned.jpg",
+      "bytes": 29204,
+      "sha256": "ebef482ee756438214f25f879ba3e0631c32db42eaa7733e184df9777faa85ae"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/assets/start-art.webp",
+      "bytes": 208590,
+      "sha256": "5ec4074e4bc130a119f47e382323aaddd2e6379b071a90dbc67e02a4c623a3a6"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/assets/start-intro.jpg",
+      "bytes": 146340,
+      "sha256": "7c0ad1403111ac4b236637511101a498ca707324b0f0ee2db63ad90a4295910b"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/assets/start-search.png",
+      "bytes": 33629,
+      "sha256": "9fada9b32903ffd1a846685a9d24345b5f59766f37940e357af45b3f31722a26"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/assets/start-states.png",
+      "bytes": 48623,
+      "sha256": "3eaa2538024f9f3fddc56bc9442afd2d4a5647e1ff0e151edbe7d0507a20dace"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/browser-navigation.json",
+      "bytes": 1325,
+      "sha256": "ba7abe62dcbda66b184af09d4b2961584e387f4455ca1e2fde7e9a98e6f57279"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/cases.css",
+      "bytes": 12536,
+      "sha256": "ba63837274dedab956bd1fbfaeb90c52560c1e4449d14d5e59cc26f8dd237887"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/content-integration.json",
+      "bytes": 1573,
+      "sha256": "7b75ad43a9ae7fa8212cf3432d77e38fcad533c8c508c59c8570b4f9c715f67b"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/export-manifest.json",
+      "bytes": 6677,
+      "sha256": "5a628af079615f24f4d9bafdeb9fb9d5ae29bee01561f4c5648f9e1c4baee337"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/hug-compare.html",
+      "bytes": 6090,
+      "sha256": "8467d88b900cae9108e582ed1bf9af8759a4e786441151d4c26b78f0b9dd8f88"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/hug-content.json",
+      "bytes": 11744,
+      "sha256": "c2bc2df53176a445ffea230c7b1903e2d1520ea4428ab9f6f80c4d1dd952f8aa"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/hug-intro.html",
+      "bytes": 1494,
+      "sha256": "923331776d14a0bb01583b50d74f4edcffbbf22ea1bae9f5561d6afec77eb0b3"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/hug.html",
+      "bytes": 12279,
+      "sha256": "9626f581903cc808c6f7fead8886ef45015b23202345812a493a1b704935ad88"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/index.html",
+      "bytes": 2138,
+      "sha256": "8746fb10d125a3793cf62691ddd9ecb948181af3818ede9859138b8d69d3ce90"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/research/coda-body.jpg",
+      "bytes": 35439,
+      "sha256": "183e3bb50f0c79c4b68c09ea1ded5e642369e6a3a23ac8a1061a925384afca0e"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/research/coda-first.jpg",
+      "bytes": 46698,
+      "sha256": "17d071c5b48ad0c72c46de5c037f8638a063a7e30419248e76183240370a8c87"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/research/growth-access.jpg",
+      "bytes": 43122,
+      "sha256": "aabb731ad6503bd527406d4a1412e7483806a8ae0739ffe5ed68e41675494269"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/research/headspace-body.jpg",
+      "bytes": 24860,
+      "sha256": "e2d6a4691e281d014de1b74b8d33b5d760edbe51fe7811626393a3ee29ed863f"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/research/headspace-first.jpg",
+      "bytes": 32065,
+      "sha256": "08e3299110b2901a09f588d0abe4f005308cb0b10eebe7df78fa53062d9a3146"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/research/linear-body.jpg",
+      "bytes": 28339,
+      "sha256": "5bb3befb0686e31e3485f847b7d5641cff87a003a5df2c6931240773155acb6a"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/research/linear-first.jpg",
+      "bytes": 22665,
+      "sha256": "ecc4818a881025c7564399d2bb1fbc8f58099ec59f8ba7de4c48d6c700304f44"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/research/todoist-body.jpg",
+      "bytes": 43991,
+      "sha256": "30b747244a215d5b54de46973aae6d4e177b4a8a3c5ad1d32ea9e55dfdf56d60"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/research/todoist-first.jpg",
+      "bytes": 35234,
+      "sha256": "95ff1430c4d3dc18fa089f8ecd0118f612162472f1902bb1f17627fea16a939f"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/start-compare.html",
+      "bytes": 5742,
+      "sha256": "702c62fdaeaeb30c7f7309cb03d946fb8743c7ee5480ebff9581a8ecc3bb8e4e"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/start-content.json",
+      "bytes": 10293,
+      "sha256": "d732b57bb1198810f3780bf7a75eef307ba1e606ddb162f264cbdfee264d4e02"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/start-intro.html",
+      "bytes": 1893,
+      "sha256": "e026e8818f0a7b760b6fe6e3118c53943318b5ff00cc34fa7b56e4a979e66373"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/start.html",
+      "bytes": 11273,
+      "sha256": "13dd1298d5c95226912b42dd175d48d0a580660e103a8928ae5b4b732e16bcac"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/verification.json",
+      "bytes": 42135,
+      "sha256": "7eed6cc94a3eda1542d33cd414e293f11531e454d42a1770aa381fb624a11428"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/views/hug-compare.jpg",
+      "bytes": 28718,
+      "sha256": "030747073bd266e16bda56b11acffb694ff954f293e4c48ff895fb59e63eaab5"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/views/hug-page.jpg",
+      "bytes": 45991,
+      "sha256": "ea0fb80ca8d289d0b1dcd75961c1ff713a918f5e019358e892980c823ea8aa22"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/views/start-compare.jpg",
+      "bytes": 29318,
+      "sha256": "55e1361489d45e4a27b8acc170ea0790ae4aa35c970ff0c2e25e68c09138204d"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11/views/start-page.jpg",
+      "bytes": 58899,
+      "sha256": "df70953ddcb0872275ffafecf8ea56a17262770d942953cffc9f36d1364de28e"
+    },
+    {
+      "path": "files/vagus-editions-2026/research/2026-11-11-product-case-reference-study.md",
+      "bytes": 6434,
+      "sha256": "3a8d27c4987d39f63badf08593900fd85cb1f834fdb52adda0631e8882cf1dc6"
+    },
+    {
+      "path": "files/vagus-editions-2026/docs/superpowers/specs/2026-11-11-start-hug-case-design.md",
+      "bytes": 7843,
+      "sha256": "bda2690c9e8982d584851cd355481631fad0ff3f15287362de6fe21bbc44ac8d"
+    },
+    {
+      "path": "files/vagus-editions-2026/docs/superpowers/specs/2026-11-11-product-cases-before/hug.html",
+      "bytes": 5861,
+      "sha256": "08898a95acdc3ab6e54f4484650510645d703dfe1db4d197f89ab549910955e1"
+    },
+    {
+      "path": "files/vagus-editions-2026/docs/superpowers/specs/2026-11-11-product-cases-before/reflection.mjs",
+      "bytes": 23269,
+      "sha256": "f8e520c9d1947a2ce563fa33bc09018c1317dbdc4e9f0d8cd28a355a2e097653"
+    },
+    {
+      "path": "files/vagus-editions-2026/docs/superpowers/specs/2026-11-11-product-cases-before/server.cjs",
+      "bytes": 3119,
+      "sha256": "f86c0ba7c2d1e73544b2de19bae485a296796d5cdab7632bb17bdd30492f86c7"
+    },
+    {
+      "path": "files/vagus-editions-2026/docs/superpowers/specs/2026-11-11-product-cases-before/site-server.cjs",
+      "bytes": 3760,
+      "sha256": "58a8bcf176a8f5ad9f438de3f4b2f91d5c1af68dcf75250ed92fe892cad94bb0"
+    },
+    {
+      "path": "files/vagus-editions-2026/docs/superpowers/specs/2026-11-11-product-cases-before/start.html",
+      "bytes": 5599,
+      "sha256": "85b5134e49daae9bf794e70cea467811790067bea8eb8198129bed9f652e2624"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/start.html",
+      "bytes": 6053,
+      "sha256": "64db2a85f0ca1c2309e848f49b245e9930503595c74d249108c3516c9557e48f"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/hug.html",
+      "bytes": 6393,
+      "sha256": "ffb7a1a9cce92f295a25ea8c44c9ff9632382ffce74dd43619c8cb15342d8398"
+    },
+    {
+      "path": "files/vagus-editions-2026/site-v4/server.cjs",
+      "bytes": 4016,
+      "sha256": "4fa1db1a6b5087149013f7194dd5812465702faeb86ba247c4ba7ec33f02fcbc"
+    },
+    {
+      "path": "files/vagus-editions-2026/reference-rebuild-2026-11-09/server.cjs",
+      "bytes": 3160,
+      "sha256": "625e4afa344ce9e94d6636fb6146cfc987bcf7b2810bcfe807547d02c5698cce"
+    },
+    {
+      "path": "files/vagus-editions-2026/reference-rebuild-2026-11-09/reference/eye-reflection/reflection.mjs",
+      "bytes": 23506,
+      "sha256": "7014d3af2a96e94f9adbcca40fee8e1f837972005c6cb442cc569a4d9d770272"
+    },
+    {
+      "path": "content-package/00-编排与素材索引.md",
+      "bytes": 9665,
+      "sha256": "d4b74b3d9c74987b5cdeeb991f90a5910a82731db16bf6eddd72665abf53fe51"
+    },
+    {
+      "path": "content-package/HUG-页面文案.md",
+      "bytes": 8110,
+      "sha256": "5137c6224a539297d38d248babd50da8f788769167e9a596b9ca579b583474fb"
+    },
+    {
+      "path": "content-package/START-页面文案.md",
+      "bytes": 7010,
+      "sha256": "429298ea2e110e92e93f9da447ec9b221665f817992ed4e75205b27a873718a5"
+    },
+    {
+      "path": "authoring/build-cases.mjs",
+      "bytes": 27332,
+      "sha256": "996ea42574dd973fce9acf0ece59dac17604bc19260adf2d7b464cb2a330c60c"
+    },
+    {
+      "path": "authoring/cases.css",
+      "bytes": 12536,
+      "sha256": "ba63837274dedab956bd1fbfaeb90c52560c1e4449d14d5e59cc26f8dd237887"
+    },
+    {
+      "path": "authoring/publish-cases.mjs",
+      "bytes": 4314,
+      "sha256": "e997c27b96578b1792a8bd8e0a3faec3337a152a991ef49073274452d860421b"
+    },
+    {
+      "path": "authoring/verify-cases.mjs",
+      "bytes": 5835,
+      "sha256": "c12e1bbb3412407d481e29b5b9826cd4089fe0d03bf58a5fc2b3b1c9d5048761"
+    }
+  ],
+  "integration": [
+    {
+      "relative": "site-v4/start.html",
+      "beforeFile": "start.html",
+      "beforeSha256": "85b5134e49daae9bf794e70cea467811790067bea8eb8198129bed9f652e2624",
+      "afterSha256": "64db2a85f0ca1c2309e848f49b245e9930503595c74d249108c3516c9557e48f"
+    },
+    {
+      "relative": "site-v4/hug.html",
+      "beforeFile": "hug.html",
+      "beforeSha256": "08898a95acdc3ab6e54f4484650510645d703dfe1db4d197f89ab549910955e1",
+      "afterSha256": "ffb7a1a9cce92f295a25ea8c44c9ff9632382ffce74dd43619c8cb15342d8398"
+    },
+    {
+      "relative": "site-v4/server.cjs",
+      "beforeFile": "site-server.cjs",
+      "beforeSha256": "58a8bcf176a8f5ad9f438de3f4b2f91d5c1af68dcf75250ed92fe892cad94bb0",
+      "afterSha256": "4fa1db1a6b5087149013f7194dd5812465702faeb86ba247c4ba7ec33f02fcbc"
+    },
+    {
+      "relative": "reference-rebuild-2026-11-09/server.cjs",
+      "beforeFile": "server.cjs",
+      "beforeSha256": "f86c0ba7c2d1e73544b2de19bae485a296796d5cdab7632bb17bdd30492f86c7",
+      "afterSha256": "625e4afa344ce9e94d6636fb6146cfc987bcf7b2810bcfe807547d02c5698cce"
+    },
+    {
+      "relative": "reference-rebuild-2026-11-09/reference/eye-reflection/reflection.mjs",
+      "beforeFile": "reflection.mjs",
+      "beforeSha256": "f8e520c9d1947a2ce563fa33bc09018c1317dbdc4e9f0d8cd28a355a2e097653",
+      "afterSha256": "7014d3af2a96e94f9adbcca40fee8e1f837972005c6cb442cc569a4d9d770272"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-12",
+  "browser": "Connected Google Chrome",
+  "viewportReset": true,
+  "normalChains": {
+    "start": "works → start → full case → compare → case → index#start",
+    "hug": "works → hug → full case → compare → case → index#hug"
+  },
+  "reflectionChains": {
+    "start": "skip → seven-entry list → start → full case → compare → browser back to globe",
+    "hug": "seven-entry list → hug → full case → compare → site-v4/index#hug"
+  },
+  "sevenEntriesObserved": true,
+  "replayControlObserved": true,
+  "staticControlClicked": true,
+  "returnBehavior": "Case header returns to original index chapter anchor. Browser history returned to globe in START chain.",
+  "exports": [
+    "start-intro-20261111.jpg",
+    "hug-intro-20261111.jpg"
+  ],
+  "captureNotes": "Export-only st-root removal verified. Original embedded source screenshots retain original small translation controls.",
+  "recoverableToolIssues": [
+    "Old browser id had changed. Fresh inventory selected connected Chrome 5.",
+    "Old preview tab had no debugger attachment, so a new Chrome tab was used.",
+    "Local previews initially refused connection and were restarted.",
+    "Checkbox setChecked did not apply to the button-based static control. Used actual click after inspecting its DOM."
+  ]
+}

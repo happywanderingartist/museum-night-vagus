@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-11",
+  "assets": [
+    {
+      "name": "start-art.webp",
+      "source": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\assets\\start.webp",
+      "caption": "既有 START 舞会艺术，沿用项目来源与授权记录",
+      "bytes": 208590,
+      "sha256": "5ec4074e4bc130a119f47e382323aaddd2e6379b071a90dbc67e02a4c623a3a6"
+    },
+    {
+      "name": "hug-art.webp",
+      "source": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\assets\\hug.webp",
+      "caption": "既有 HUG 水面艺术，沿用项目来源与授权记录",
+      "bytes": 163336,
+      "sha256": "13411ea0e5dce972f008f46e2603b968f63bff325da8ccf0d3fd198fe49549e1"
+    },
+    {
+      "name": "start-search.png",
+      "source": "D:\\AI-Data\\Projects\\ChatGPT\\AI产品\\evidence\\start-b2-2026-11-10\\artist-search.png",
+      "caption": "2026-11-10 合成艺人、上海、合成咖啡的实际搜索结果",
+      "bytes": 33629,
+      "sha256": "9fada9b32903ffd1a846685a9d24345b5f59766f37940e357af45b3f31722a26"
+    },
+    {
+      "name": "start-states.png",
+      "source": "D:\\AI-Data\\Projects\\ChatGPT\\AI产品\\evidence\\start-b2-2026-11-10\\state-review.png",
+      "caption": "七态设计提案，合成示例，界面方案待验收",
+      "bytes": 48623,
+      "sha256": "3eaa2538024f9f3fddc56bc9442afd2d4a5647e1ff0e151edbe7d0507a20dace"
+    },
+    {
+      "name": "hug-returned.jpg",
+      "source": "D:/AI-Data/Projects/心灵花园/.setup/persistence-demo-20261111/returned.jpg",
+      "caption": "2026-11-11 Chrome 普通合成事项刷新后恢复",
+      "bytes": 29204,
+      "sha256": "ebef482ee756438214f25f879ba3e0631c32db42eaa7733e184df9777faa85ae"
+    },
+    {
+      "name": "hug-failure.jpg",
+      "source": "D:/AI-Data/Projects/心灵花园/.setup/persistence-demo-20261111/save-failure.jpg",
+      "caption": "模拟保存失败，保留上一份结果并提供重试和取消",
+      "bytes": 24658,
+      "sha256": "848d899365ea25d655160ea297abad5de9d6ed89f8abe4b91dc039e5720eec6f"
+    },
+    {
+      "name": "hug-highest.jpg",
+      "source": "D:/AI-Data/Projects/心灵花园/.setup/persistence-demo-20261111/highest-stage.jpg",
+      "caption": "合成记录撤销后保留最高已解锁阶段，露水按记录回退",
+      "bytes": 27874,
+      "sha256": "6a0ca82489c47a4934159969389f8ea1a14046b9f0c127bcf2d9c30e4fec10b1"
+    }
+  ]
+}
