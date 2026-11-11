@@ -10,7 +10,7 @@ files/vagus-editions-2026/site-v4/public/product-cases-2026-11-11 包含七个HT
 
 ## 工程整合状态
 
-本工件基于私有仓库 main 的 e8317dea8168208fc69d5cd347cccb0f17906ea0 保存。该基线含当前球面入口为 false。本地存在此前独立的空间与球面探索，本批采用附加目录保存，主站合并范围继续按对应工程基线核对。云端没有运行或部署本预览。
+本工件基于私有仓库 main 的 e8317dea8168208fc69d5cd347cccb0f17906ea0 保存。当前球面工程仍在本机工作区保存。本地存在此前独立的空间与球面探索，本批采用附加目录保存，主站合并范围继续按对应工程基线核对。云端没有运行或部署本预览。
 
 files 保留五个本轮接入文件的完整 after 版本，原文件在 docs/superpowers/specs/2026-11-11-product-cases-before，before/after指纹在 content-integration.json。应用到已有项目之前，逐一比较目标文件与 beforeSha256。完全匹配时可复制 after 文件，已经匹配 afterSha256 时可跳过。其他情况按差异合并本批字段、精确白名单和JPG类型支持。完整 reflection.mjs 的整合还需要其当前球面工程文件，单个 after 文件的保存状态仅表示该文件已保全。
 

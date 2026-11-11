@@ -41,7 +41,7 @@ START 使用酒红、墨紫与浅纸色，沿用递票舞会原画。HUG 使用�
 
 本轮全部图像来自既有项目资产和已记录演示。原画约 1672 像素宽，本轮以静态阅读和 1400 像素导出使用，超大屏放大清晰度继续属于素材审核项。人物移开后的补背景、额外观看角度和分层接触关系需要独立素材审核。本轮图文方案采用现有完整画面，不作资产齐备判断。
 
-`asset-manifest.json` 记录七份源素材、尺寸及 SHA256，`export-manifest.json` 记录研究截图、两张最终主图和页面编排截图的复制指纹。主要艺术资产为 `start-art.webp`、`hug-art.webp`，界面证据为 `start-search.png`、`hug-returned.jpg`、`hug-failure.jpg`、`hug-highest.jpg`。`start-states.png` 在可展开区域明确标为设计提案。
+`asset-manifest.json` 记录七份源素材、字节数及 SHA256，`export-manifest.json` 记录研究截图、两张最终主图和页面编排截图的复制指纹。主要艺术资产为 `start-art.webp`、`hug-art.webp`，界面证据为 `start-search.png`、`hug-returned.jpg`、`hug-failure.jpg`、`hug-highest.jpg`。`start-states.png` 在可展开区域明确标为设计提案。
 
 ## 文案与结论的范围
 
