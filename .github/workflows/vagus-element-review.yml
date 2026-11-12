@@ -19,14 +19,18 @@ jobs:
           set -euo pipefail
           mkdir -p checked/assets
           for file in index.html styles.css motion.mjs motion.test.mjs server.mjs; do
-            gh api --method GET -H 'Accept: application/vnd.github.raw+json' \
-              "repos/${GITHUB_REPOSITORY}/contents/design-lab/vagus-elements-2026-11-12/${file}?ref=${GITHUB_SHA}" \
-              > "checked/${file}"
+            curl --fail --silent --show-error --location \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              -H 'Accept: application/vnd.github.raw+json' \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/contents/design-lab/vagus-elements-2026-11-12/${file}?ref=${GITHUB_SHA}" \
+              --output "checked/${file}"
           done
           for file in start.webp hug.webp; do
-            gh api --method GET -H 'Accept: application/vnd.github.raw+json' \
-              "repos/${GITHUB_REPOSITORY}/contents/design-lab/vagus-elements-2026-11-12/assets/${file}?ref=${GITHUB_SHA}" \
-              > "checked/assets/${file}"
+            curl --fail --silent --show-error --location \
+              -H "Authorization: Bearer ${GH_TOKEN}" \
+              -H 'Accept: application/vnd.github.raw+json' \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/contents/design-lab/vagus-elements-2026-11-12/assets/${file}?ref=${GITHUB_SHA}" \
+              --output "checked/assets/${file}"
           done
       - name: Check syntax and artwork integrity
         run: |
