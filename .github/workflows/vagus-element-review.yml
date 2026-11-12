@@ -1,0 +1,31 @@
+name: Vagus element review
+on:
+  push:
+    branches: [codex/vagus-element-motion-20261112]
+    paths:
+      - design-lab/vagus-elements-2026-11-12/**
+      - .github/workflows/vagus-element-review.yml
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Retrieve only the reviewed sample files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir checked
+          for file in index.html motion.mjs motion.test.mjs server.mjs; do
+            gh api --method GET -H 'Accept: application/vnd.github.raw+json' \
+              "repos/${GITHUB_REPOSITORY}/contents/design-lab/vagus-elements-2026-11-12/${file}?ref=${GITHUB_SHA}" \
+              > "checked/${file}"
+          done
+      - name: Check syntax and motion regressions
+        run: |
+          node --version
+          node --check checked/motion.mjs
+          node --check checked/server.mjs
+          node --test checked/motion.test.mjs

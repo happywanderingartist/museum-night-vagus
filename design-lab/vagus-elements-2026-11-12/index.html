@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Vagus · 局部动效审稿</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="motion.mjs"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#top">Vagus<span>个人博物馆</span></a>
+    <nav aria-label="样稿导航">
+      <a class="exhibit-link" href="#start">START <span aria-hidden="true">↗</span></a>
+      <a class="exhibit-link" href="#hug">HUG <span aria-hidden="true">↗</span></a>
+    </nav>
+    <label class="motion-option requires-script"><input id="static-mode" type="checkbox"> 静态阅读</label>
+  </header>
+  <main id="top">
+    <section class="intro" aria-labelledby="intro-title">
+      <p class="eyebrow">局部动效审稿 · 2026.11</p>
+      <h1 id="intro-title">让细节回应，<br>让内容慢慢展开。</h1>
+      <p class="intro-copy">链接、翻页和一次小小的采纳，共用同一套字体、细线与运动曲线。这里的内容与反馈均为交互样稿。</p>
+      <a class="text-link" href="#start">翻开一页 <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section id="start" class="chapter start-chapter" aria-labelledby="start-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">START · 产品介绍片段</p><h2 id="start-title">把喜欢，变成一次出发。</h2></div>
+        <p>从作品里的一个线索开始，<br>看清依据，再决定要不要出发。</p>
+      </div>
+      <div class="book-shell">
+        <div class="book-stage" id="book-stage" tabindex="0" role="region" aria-label="START介绍册">
+          <article class="book-leaf" id="leaf-1" tabindex="-1" aria-labelledby="leaf-title-1">
+            <div class="leaf-copy"><p class="eyebrow">起念</p><h3 id="leaf-title-1">有些地方，<br>因为喜欢才想去。</h3><p>一本书、一首歌、一部作品。START试着把这份喜欢，接到一个可以了解和核对的地点。</p><span class="page-mark">START / 起念</span></div>
+            <div class="leaf-art ticket-art" aria-label="原创线索票面示意"><div class="ticket"><span>一条线索</span><strong>向着<br>喜欢的地方</strong><div class="ticket-line"></div><small>示例 · 待核对地点</small></div></div>
+          </article>
+          <article class="book-leaf" id="leaf-2" tabindex="-1" aria-labelledby="leaf-title-2">
+            <div class="leaf-copy"><p class="eyebrow">核对</p><h3 id="leaf-title-2">值得去，<br>也值得先问清。</h3><p>关联来自哪里，信息是否过期，今天能否到访。来源与当前条件，应该出现在决定之前。</p><span class="page-mark">START / 核对</span></div>
+            <div class="leaf-art evidence-art"><div class="evidence-note"><span>出发前的三件事</span><p>作品与地点的关联依据</p><p>可追溯的信息来源</p><p>当前到访条件</p><small>此处展示产品信息层级</small></div></div>
+          </article>
+          <article class="book-leaf" id="leaf-3" tabindex="-1" aria-labelledby="leaf-title-3">
+            <div class="leaf-copy"><p class="eyebrow">留下</p><h3 id="leaf-title-3">走过之后，<br>留下自己的那一页。</h3><p>把到访时的观察与感受留在Book里。每次重新翻开，都能找到当初出发的理由。</p><span class="page-mark">START / 留下</span></div>
+            <div class="leaf-art memory-art"><div class="memory-note"><span>今天的这一页</span><p>“终于走到了<br>曾经想象过的地方。”</p><small>原创示例文案 · Book方向试稿</small></div></div>
+          </article>
+        </div>
+        <div class="book-controls requires-script">
+          <button id="book-prev" class="arrow-button" aria-label="上一页" disabled><span aria-hidden="true">←</span></button>
+          <label class="page-choice"><span class="sr-only">跳转章节</span><select id="book-choice"><option value="0">起念</option><option value="1">核对</option><option value="2">留下</option></select></label>
+          <p id="book-status" role="status" aria-live="polite">第1页，共3页</p>
+          <button id="book-next" class="arrow-button" aria-label="下一页"><span aria-hidden="true">→</span></button>
+        </div>
+      </div>
+      <div class="motion-caption"><p>三折翻页参考GoShuin。票面、内容与版式为Vagus样稿。</p><label class="requires-script">翻页节奏 <select id="book-pace"><option value="480">Vagus · 480ms</option><option value="1280">原站对照 · 1280ms</option></select></label></div>
+    </section>
+
+    <section id="hug" class="chapter hug-chapter" aria-labelledby="hug-title">
+      <div class="section-heading"><div><p class="eyebrow">HUG · 产品介绍片段</p><h2 id="hug-title">从愿意的一小步，重新开始。</h2></div><p>给情绪留一个出口，<br>也给今天留一点余地。</p></div>
+      <div class="hug-layout">
+        <div class="hug-reading">
+          <div class="tabs requires-script" role="tablist" aria-label="了解这一步">
+            <button id="tab-scene" type="button" role="tab" aria-controls="panel-scene" aria-selected="true" tabindex="0">使用场景</button>
+            <button id="tab-step" type="button" role="tab" aria-controls="panel-step" aria-selected="false" tabindex="-1">可接受的一步</button>
+            <button id="tab-choice" type="button" role="tab" aria-controls="panel-choice" aria-selected="false" tabindex="-1">自己的选择</button>
+          </div>
+          <div class="tab-panels">
+            <section id="panel-scene"><h3>今天，有点难开始。</h3><p>当生活的事情挤在一起，先找到一件现在愿意做、也能够停下的小事。</p></section>
+            <section id="panel-step"><h3>先腾出眼前的一小块。</h3><p>把手边的一件物品放回原处。只处理这一件，也可以中途停下。</p></section>
+            <section id="panel-choice"><h3>可以接受，也可以先休息。</h3><p>采纳后保留这一步，之后再决定何时尝试。花园只回应此刻的选择。</p></section>
+          </div>
+          <details class="design-details"><summary>这段交互想表达什么 <span aria-hidden="true">＋</span></summary><p>切换内容时，标题位置保持稳定。采纳反馈与完成反馈分开，用户仍能选择休息或撤回。心理卡内容需专业审阅，此处只演示交互。</p></details>
+        </div>
+        <div class="garden-card" id="garden-card">
+          <p class="eyebrow">今天的一步</p><h3>整理一件手边的小物。</h3>
+          <div class="garden" aria-hidden="true"><div class="plant"><i class="stem"></i><i class="plant-leaf left-leaf"></i><i class="plant-leaf right-leaf"></i><i class="bud"></i></div><div class="ground"></div></div>
+          <p id="garden-status" class="garden-status" role="status" aria-live="polite">按自己的节奏决定。</p>
+          <div class="garden-actions requires-script"><button id="accept-step" class="primary-button" type="button">接受这一步 <span aria-hidden="true">↗</span></button><button id="rest-step" class="quiet-button" type="button">先休息</button><button id="undo-step" class="quiet-button" type="button" hidden>撤回采纳</button></div>
+          <small>交互样稿 · 采纳状态仅保留在当前页面</small>
+        </div>
+      </div>
+    </section>
+    <footer><p>本页用于审核局部设计与动效，正式页面待审核后接入。</p><a class="text-link" href="engine-notes.md">查看参考依据 <span aria-hidden="true">↗</span></a></footer>
+  </main>
+</body>
+</html>
