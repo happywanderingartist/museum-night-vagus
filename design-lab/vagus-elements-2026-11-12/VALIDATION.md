@@ -4,6 +4,8 @@
 
 本次修订后Node测试7/7通过，motion.mjs与server.mjs语法检查通过，原有两幅画的SHA-256与来源清单一致。Chrome实际打开修订后的预览失败，本机4199端口连接超时；直接打开file协议受到浏览器策略拒绝。因此下面的Chrome操作记录仅证明修订前版本，不能用于宣称本次图文动效已经视觉验收。当前文件为待审样稿，用户审核与真实浏览器动效检查仍待完成。修订默认节奏为340ms轻页切，三折1280ms仅作为参考对照。
 
+私有仓库`happywanderingartist/museum-night-vagus`的`codex/vagus-element-motion-20261112`分支已收到同源文件。首次云端拉取资源使用`gh api`时失败，错误为`transform: short source buffer`；改用限定路径的`curl`后，工作流[43210566549](https://github.com/happywanderingartist/museum-night-vagus/actions/runs/43210566549)成功，云端也通过7项测试与语法检查。云端成功不等于视觉验收。
+
 2026-11-12，Windows Node 24.22.1与已连接Google Chrome。源站与现有Vagus在本机比较，本轮先在既有本地环境完成验证。云端运行未验证。
 
 ## 已完成
