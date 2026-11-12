@@ -46,7 +46,7 @@ const safeLink=value=>resolveContentURL(value,location.href);
 // Optional real materials progressively enhance otherwise complete static reading.
 fetch('./assets/site-content.json').then(r=>{if(!r.ok)throw Error('Content not connected');return r.json();}).then(content=>{
  const resume=safeLink(content.resume?.url);
- if(resume){document.querySelectorAll('[data-resume-link],[data-resume-download]').forEach(a=>{a.href=resume;a.hidden=false;});document.querySelectorAll('[data-resume-pending]').forEach(el=>{el.hidden=true;});const description=document.querySelector('[data-resume-description]');if(description)description.textContent='在下方打开个人简历，也可以先从完整作品目录了解各个方向。';}
+ if(resume){document.querySelectorAll('[data-resume-link],[data-resume-download]').forEach(a=>{a.href=resume;a.hidden=false;});document.querySelectorAll('[data-resume-pending]').forEach(el=>{el.hidden=true;});const description=document.querySelector('[data-resume-description]');if(description)description.textContent='按求职方向准备了两份两页简历：AI 产品运营与 AI 内容策略。';}
  const email=content.contact?.email;
  if(typeof email==='string'&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){document.querySelectorAll('[data-contact-link]').forEach(a=>{a.href='mailto:'+email;a.textContent=email;a.hidden=false;});const description=document.querySelector('[data-contact-description]');if(description)description.textContent='欢迎通过下面的邮箱联系，交流作品、创意与合作。';}
  for(const article of Array.isArray(content.articles)?content.articles:[]){

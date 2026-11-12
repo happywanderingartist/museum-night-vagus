@@ -46,13 +46,6 @@
    observer.observe(ai);
   }else ai.classList.toggle('is-awake',true);
  }
- const dialog=document.querySelector('#asset-dialog');let opener=null;
- document.querySelectorAll('[data-missing]').forEach(el=>{el.addEventListener('click',()=>{
-  opener=el;document.querySelector('#dialog-title').textContent=el.dataset.missing+' · 待接入';
-  document.querySelector('#dialog-description').textContent='当前原型尚未接入'+el.dataset.missing+'。';
-  if(typeof dialog.showModal==='function')dialog.showModal();else alert(document.querySelector('#dialog-description').textContent);
- });el.hidden=false;});
- dialog.addEventListener('close',()=>{if(opener?.isConnected)opener.focus({preventScroll:true});});
  function focusHash(align=false){
   let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
   const target=document.getElementById(id);

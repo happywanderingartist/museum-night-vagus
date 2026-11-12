@@ -2,6 +2,8 @@ const http=require('node:http'),fs=require('node:fs/promises'),path=require('nod
 const {createReadStream}=require('node:fs');
 const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.json':'application/json; charset=utf-8','.pdf':'application/pdf','.mp3':'audio/mpeg','.m4a':'audio/mp4','.wav':'audio/wav','.ogg':'audio/ogg','.jpg':'image/jpeg','.jpeg':'image/jpeg'};
 const entries=new Set(['about-rigid.mjs','assets/about-clean-plate.png','about-depth.mjs','about-depth-state.mjs','vendor/three.module.js','vendor/three.core.js','index.html','start.html','hug.html','xiaohongshu.html','podcast.html','literature.html','visual.html','about.html','works.html','ai.html','style.css','completion.css','app.js','state.js','chapter-pages.css','chapter-motion.mjs','chapter-state.mjs','catalog-state.mjs','content-state.mjs','site-features.mjs','scene-motion.mjs','motion-state.mjs','scene-motion.css','character-motion.mjs','character-state.mjs','character-profiles.mjs','assets/mona-blink.webp','assets/thinker-hand.webp','assets/home.webp','assets/ai.webp','assets/start.webp','assets/hug.webp','assets/xiaohongshu.webp','assets/podcast.webp','assets/literature.webp','assets/visual.webp','assets/about.webp','assets/mark.svg','assets/site-content.json','assets/catalog.json']);
+const productCaseReviewEntries=['start-compare.html','hug-compare.html','cases.css'];
+for(const file of productCaseReviewEntries)entries.add('public/product-cases-2026-11-11/'+file);
 function createServer(){return http.createServer(async(req,res)=>{
   const headers={'Cache-Control':'no-store','X-Content-Type-Options':'nosniff','Referrer-Policy':'no-referrer'};
   if(!['GET','HEAD'].includes(req.method)){res.writeHead(405,{...headers,Allow:'GET, HEAD'});res.end();return;}
@@ -28,4 +30,4 @@ function createServer(){return http.createServer(async(req,res)=>{
    const stream=createReadStream(target,{start,end});stream.on('error',()=>res.destroy());res.on('close',()=>stream.destroy());stream.pipe(res);
   }catch{if(!res.headersSent){res.writeHead(404,headers);res.end();}else res.destroy();}
 });}
-module.exports={createServer};if(require.main===module)createServer().listen(4184,'127.0.0.1',()=>console.log('Vagus site-v4: http://127.0.0.1:4184'));
+module.exports={createServer};if(require.main===module)createServer().listen(4197,'127.0.0.1',()=>console.log('Vagus review: http://127.0.0.1:4197'));
