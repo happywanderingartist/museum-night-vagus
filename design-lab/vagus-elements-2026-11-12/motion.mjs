@@ -32,6 +32,9 @@ function initialize() {
   let currentPage = 0;
   let frame = 0;
   let foldLayer = null;
+  let pageGhost = null;
+  let pageAnimations = [];
+  const entranceAnimations = new Set();
   let panelAnimation = null;
   let plantAnimation = null;
 
@@ -40,10 +43,61 @@ function initialize() {
   function stopFold() {
     cancelAnimationFrame(frame);
     frame = 0;
+    pageAnimations.forEach(animation => animation.cancel());
+    pageAnimations = [];
+    pageGhost?.remove();
+    pageGhost = null;
     foldLayer?.remove();
     foldLayer = null;
     pages.forEach(page => { page.style.opacity = ''; });
     stage.dataset.turning = 'false';
+  }
+
+  function animateElement(element, keyframes, options) {
+    if (!motionAllowed()) return null;
+    const animation = element.animate(keyframes, { easing: 'cubic-bezier(.23,1,.32,1)', fill: 'both', ...options });
+    animation.finished.catch(() => {}).finally(() => {
+      animation.cancel();
+      entranceAnimations.delete(animation);
+    });
+    entranceAnimations.add(animation);
+    return animation;
+  }
+
+  function lightPageTurn(source, destination) {
+    const ghost = source.cloneNode(true);
+    ghost.removeAttribute('id');
+    ghost.querySelectorAll('[id], [aria-labelledby]').forEach(element => {
+      element.removeAttribute('id');
+      element.removeAttribute('aria-labelledby');
+    });
+    ghost.classList.add('page-ghost');
+    ghost.hidden = false;
+    ghost.setAttribute('aria-hidden', 'true');
+    ghost.inert = true;
+    stage.append(ghost);
+    pageGhost = ghost;
+    stage.dataset.turning = 'true';
+    pageAnimations = [
+      ghost.animate([{ opacity: 1, transform: 'translateX(0)' }, { opacity: 0, transform: 'translateX(-12px)' }], { duration: 280, easing: 'cubic-bezier(.23,1,.32,1)', fill: 'forwards' }),
+      destination.animate([{ opacity: .12 }, { opacity: 1 }], { duration: 340, easing: 'cubic-bezier(.23,1,.32,1)' }),
+    ];
+    destination.querySelectorAll('.leaf-copy .eyebrow, .leaf-copy h3, .leaf-copy > p:not(.eyebrow)').forEach((element, index) => {
+      const animation = animateElement(element,
+        [{ opacity: 0, transform: 'translateY(9px)' }, { opacity: 1, transform: 'translateY(0)' }],
+        { duration: 340, delay: 50 + index * 55 });
+      if (animation) pageAnimations.push(animation);
+    });
+    const image = destination.querySelector('.chapter-image');
+    if (image) {
+      const animation = animateElement(image,
+        [{ transform: 'scale(1.035)' }, { transform: 'scale(1)' }],
+        { duration: 460 });
+      if (animation) pageAnimations.push(animation);
+    }
+    Promise.allSettled(pageAnimations.map(animation => animation.finished)).then(() => {
+      if (pageGhost === ghost) stopFold();
+    });
   }
 
   function makeFold(source) {
@@ -90,7 +144,8 @@ function initialize() {
     const focusedControl = document.activeElement;
     const oldPage = pages[currentPage];
     const forward = nextPage > currentPage;
-    const folded = motionAllowed() ? makeFold(oldPage) : null;
+    const useFold = pace.value === '1280' && motionAllowed();
+    const folded = useFold ? makeFold(oldPage) : null;
     oldPage.hidden = true;
     oldPage.inert = true;
     currentPage = nextPage;
@@ -106,7 +161,10 @@ function initialize() {
       || (focusedControl === nextButton && nextButton.disabled)) {
       destination.focus({ preventScroll: true });
     }
-    if (!folded) return;
+    if (!folded) {
+      if (motionAllowed()) lightPageTurn(oldPage, destination);
+      return;
+    }
     foldLayer = folded.layer;
     stage.dataset.turning = 'true';
     destination.style.opacity = '0';
@@ -149,10 +207,14 @@ function initialize() {
       document.getElementById(item.getAttribute('aria-controls')).hidden = !selected;
     });
     const panel = document.getElementById(tab.getAttribute('aria-controls'));
-    if (motionAllowed()) panelAnimation = panel.animate([
-      { opacity: 0, transform: 'translateY(6px)' },
-      { opacity: 1, transform: 'translateY(0)' },
-    ], { duration: 240, easing: 'cubic-bezier(.23,1,.32,1)' });
+    if (motionAllowed()) {
+      panelAnimation = panel.animate([
+        { opacity: 0 }, { opacity: 1 },
+      ], { duration: 300, easing: 'cubic-bezier(.23,1,.32,1)' });
+      panel.querySelectorAll('h3, p').forEach((element, index) => animateElement(element,
+        [{ opacity: 0, transform: 'translateY(8px)' }, { opacity: 1, transform: 'translateY(0)' }],
+        { duration: 360, delay: index * 65 }));
+    }
   }
   tabs.forEach((tab, index) => {
     tab.addEventListener('click', () => selectTab(tab));
@@ -195,6 +257,8 @@ function initialize() {
     stopFold();
     panelAnimation?.cancel();
     plantAnimation?.cancel();
+    entranceAnimations.forEach(animation => animation.cancel());
+    entranceAnimations.clear();
   }
   staticMode.addEventListener('change', () => {
     document.body.dataset.static = String(staticMode.checked);
@@ -219,6 +283,24 @@ function initialize() {
   });
   stage.setAttribute('aria-label', 'START介绍册，左右方向键翻页');
   document.body.dataset.enhanced = 'true';
+  const revealTargets = [...document.querySelectorAll('[data-reveal], [data-image-reveal]')];
+  const revealObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      revealObserver.unobserve(entry.target);
+      if (entry.target.hasAttribute('data-image-reveal')) {
+        const image = entry.target.querySelector('img');
+        if (image) animateElement(image,
+          [{ opacity: .55, transform: 'scale(1.035)' }, { opacity: 1, transform: 'scale(1)' }],
+          { duration: 560 });
+      } else {
+        animateElement(entry.target,
+          [{ opacity: 0, transform: 'translateY(10px)' }, { opacity: 1, transform: 'translateY(0)' }],
+          { duration: 440, delay: Math.min(revealTargets.indexOf(entry.target) % 3, 2) * 60 });
+      }
+    });
+  }, { threshold: .18 });
+  revealTargets.forEach(target => revealObserver.observe(target));
 }
 
 if (typeof document !== 'undefined') initialize();

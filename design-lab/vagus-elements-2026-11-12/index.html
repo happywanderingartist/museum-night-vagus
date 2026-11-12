@@ -19,22 +19,26 @@
   </header>
   <main id="top">
     <section class="intro" aria-labelledby="intro-title">
-      <p class="eyebrow">局部动效审稿 · 2026.11</p>
-      <h1 id="intro-title">让细节回应，<br>让内容慢慢展开。</h1>
-      <p class="intro-copy">链接、翻页和一次小小的采纳，共用同一套字体、细线与运动曲线。这里的内容与反馈均为交互样稿。</p>
-      <a class="text-link" href="#start">翻开一页 <span aria-hidden="true">↓</span></a>
+      <div class="intro-text"><p class="eyebrow" data-reveal>VAGUS · 交互审稿 / 2026.11</p>
+        <h1 id="intro-title" data-reveal>让故事有呼吸，<br>让行动有回响。</h1>
+        <p class="intro-copy" data-reveal>两件作品，两种开始。文字与画面一起出现，留下足够的时间让人读完、看见，再作选择。</p>
+        <a class="text-link" href="#start">翻开一页 <span aria-hidden="true">↓</span></a></div>
+      <div class="intro-gallery" aria-label="两件作品的原有章节画作">
+        <figure data-image-reveal><img src="assets/start.webp" alt="START，舞会中伸手递票的人物" decoding="async"><figcaption>01 / START</figcaption></figure>
+        <figure data-image-reveal><img src="assets/hug.webp" alt="HUG，夕阳下的安静河面" decoding="async"><figcaption>02 / HUG</figcaption></figure>
+      </div>
     </section>
 
     <section id="start" class="chapter start-chapter" aria-labelledby="start-title">
       <div class="section-heading">
-        <div><p class="eyebrow">START · 产品介绍片段</p><h2 id="start-title">把喜欢，变成一次出发。</h2></div>
-        <p>从作品里的一个线索开始，<br>看清依据，再决定要不要出发。</p>
+        <div><p class="eyebrow" data-reveal>01 / START</p><h2 id="start-title" data-reveal>把喜欢，变成一次出发。</h2></div>
+        <p data-reveal>从作品里的一个线索开始，<br>看清依据，再决定要不要出发。</p>
       </div>
       <div class="book-shell">
         <div class="book-stage" id="book-stage" tabindex="0" role="region" aria-label="START介绍册">
           <article class="book-leaf" id="leaf-1" tabindex="-1" aria-labelledby="leaf-title-1">
             <div class="leaf-copy"><p class="eyebrow">起念</p><h3 id="leaf-title-1">有些地方，<br>因为喜欢才想去。</h3><p>一本书、一首歌、一部作品。START试着把这份喜欢，接到一个可以了解和核对的地点。</p><span class="page-mark">START / 起念</span></div>
-            <div class="leaf-art ticket-art" aria-label="原创线索票面示意"><div class="ticket"><span>一条线索</span><strong>向着<br>喜欢的地方</strong><div class="ticket-line"></div><small>示例 · 待核对地点</small></div></div>
+            <div class="leaf-art start-image" data-image-reveal><img class="chapter-image" src="assets/start.webp" alt="舞会中的人物伸出手，递来一张票" decoding="async"><span class="image-credit">START · 原有章节画作</span></div>
           </article>
           <article class="book-leaf" id="leaf-2" tabindex="-1" aria-labelledby="leaf-title-2">
             <div class="leaf-copy"><p class="eyebrow">核对</p><h3 id="leaf-title-2">值得去，<br>也值得先问清。</h3><p>关联来自哪里，信息是否过期，今天能否到访。来源与当前条件，应该出现在决定之前。</p><span class="page-mark">START / 核对</span></div>
@@ -52,11 +56,11 @@
           <button id="book-next" class="arrow-button" aria-label="下一页"><span aria-hidden="true">→</span></button>
         </div>
       </div>
-      <div class="motion-caption"><p>三折翻页参考GoShuin。票面、内容与版式为Vagus样稿。</p><label class="requires-script">翻页节奏 <select id="book-pace"><option value="480">Vagus · 480ms</option><option value="1280">原站对照 · 1280ms</option></select></label></div>
+      <div class="motion-caption"><p>默认以轻页切保持阅读节奏；可切换三折翻页，比较运动差别。</p><label class="requires-script">翻页方式 <select id="book-pace"><option value="340">Vagus · 轻页切</option><option value="1280">GoShuin · 三折对照</option></select></label></div>
     </section>
 
     <section id="hug" class="chapter hug-chapter" aria-labelledby="hug-title">
-      <div class="section-heading"><div><p class="eyebrow">HUG · 产品介绍片段</p><h2 id="hug-title">从愿意的一小步，重新开始。</h2></div><p>给情绪留一个出口，<br>也给今天留一点余地。</p></div>
+      <div class="section-heading"><div><p class="eyebrow" data-reveal>02 / HUG</p><h2 id="hug-title" data-reveal>从愿意的一小步，重新开始。</h2></div><p data-reveal>给情绪留一个出口，<br>也给今天留一点余地。</p></div>
       <div class="hug-layout">
         <div class="hug-reading">
           <div class="tabs requires-script" role="tablist" aria-label="了解这一步">
@@ -72,6 +76,7 @@
           <details class="design-details"><summary>这段交互想表达什么 <span aria-hidden="true">＋</span></summary><p>切换内容时，标题位置保持稳定。采纳反馈与完成反馈分开，用户仍能选择休息或撤回。心理卡内容需专业审阅，此处只演示交互。</p></details>
         </div>
         <div class="garden-card" id="garden-card">
+          <div class="hug-image" data-image-reveal><img class="chapter-image" src="assets/hug.webp" alt="夕阳照在安静的河面上" loading="lazy" decoding="async"><span class="image-credit">HUG · 原有章节画作</span></div>
           <p class="eyebrow">今天的一步</p><h3>整理一件手边的小物。</h3>
           <div class="garden" aria-hidden="true"><div class="plant"><i class="stem"></i><i class="plant-leaf left-leaf"></i><i class="plant-leaf right-leaf"></i><i class="bud"></i></div><div class="ground"></div></div>
           <p id="garden-status" class="garden-status" role="status" aria-live="polite">按自己的节奏决定。</p>

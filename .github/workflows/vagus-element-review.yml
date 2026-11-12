@@ -17,13 +17,18 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
-          mkdir checked
-          for file in index.html motion.mjs motion.test.mjs server.mjs; do
+          mkdir -p checked/assets
+          for file in index.html styles.css motion.mjs motion.test.mjs server.mjs; do
             gh api --method GET -H 'Accept: application/vnd.github.raw+json' \
               "repos/${GITHUB_REPOSITORY}/contents/design-lab/vagus-elements-2026-11-12/${file}?ref=${GITHUB_SHA}" \
               > "checked/${file}"
           done
-      - name: Check syntax and motion regressions
+          for file in start.webp hug.webp; do
+            gh api --method GET -H 'Accept: application/vnd.github.raw+json' \
+              "repos/${GITHUB_REPOSITORY}/contents/design-lab/vagus-elements-2026-11-12/assets/${file}?ref=${GITHUB_SHA}" \
+              > "checked/assets/${file}"
+          done
+      - name: Check syntax and artwork integrity
         run: |
           node --version
           node --check checked/motion.mjs

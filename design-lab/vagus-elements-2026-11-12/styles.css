@@ -39,7 +39,15 @@ nav { display: flex; gap: 32px; margin-left: auto; font-size: 14px; }
 .motion-option { font-size: 13px; display: flex; gap: 6px; align-items: center; }
 input { accent-color: var(--ink); }
 main { max-width: 1300px; padding: 0 5%; margin: auto; }
-.intro { padding: 70px 0 72px; max-width: 850px; }
+.intro { padding: 56px 0 60px; display: grid; grid-template-columns: 1.15fr .85fr; gap: 8%; align-items: center; }
+.intro-text { max-width: 730px; }
+.intro-gallery { display: grid; grid-template-columns: 1fr 1fr; align-items: end; gap: 12px; min-width: 0; }
+.intro-gallery figure { margin: 0; min-width: 0; overflow: hidden; }
+.intro-gallery figure:first-child { transform: translateY(19px); }
+.intro-gallery img { display: block; width: 100%; height: 240px; object-fit: cover; }
+.intro-gallery figure:first-child img { object-position: 28% center; }
+.intro-gallery figure:last-child img { object-position: 68% center; }
+.intro-gallery figcaption { padding-top: 8px; font-size: 10px; letter-spacing: .12em; }
 .eyebrow { font-size: 12px; letter-spacing: .12em; margin-bottom: 20px; }
 h1 { font-size: clamp(40px, 4.8vw, 68px); line-height: 1.3; letter-spacing: -.03em; }
 .intro-copy { margin: 24px 0 22px; max-width: 620px; color: var(--muted); }
@@ -53,7 +61,7 @@ h2 { font-size: clamp(28px, 3vw, 40px); line-height: 1.4; }
 .book-shell { background: #f4f2f5; border: 1px solid #30233a30; }
 .book-stage { position: relative; perspective: 2200px; isolation: isolate; --book-height: 420px; }
 body[data-enhanced="true"] .book-stage { overflow: hidden; height: var(--book-height); }
-.book-leaf { width: 100%; min-height: var(--book-height); display: grid; grid-template-columns: 1fr 1fr; background: #f4f2f5; color: #262039; }
+.book-leaf { width: 100%; min-height: var(--book-height); display: grid; grid-template-columns: .85fr 1.15fr; background: #f4f2f5; color: #262039; }
 body[data-enhanced="true"] .book-leaf { height: 100%; }
 .leaf-copy { padding: 48px 45px 24px; position: relative; }
 .leaf-copy .eyebrow { color: var(--accent); margin-bottom: 14px; }
@@ -88,6 +96,8 @@ body[data-enhanced="true"] .book-leaf { height: 100%; }
 .motion-caption label { white-space: nowrap; }
 .motion-caption select { margin-left: 8px; }
 .fold-layer { position: absolute; inset: 0; pointer-events: none; z-index: 2; }
+.page-ghost { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
+.page-ghost * { transition: none !important; animation: none !important; }
 .fold-panel { position: absolute; top: 0; height: 100%; transform-origin: left center; transform-style: preserve-3d; }
 .fold-panel > .fold-panel { left: 100%; }
 .fold-clip { position: absolute; inset: 0; overflow: hidden; backface-visibility: hidden; }
@@ -112,12 +122,12 @@ body[data-enhanced="true"] .tab-panels section { margin-top: 0; }
 .design-details summary span { transition: transform 200ms var(--curve); }
 .design-details[open] summary span { transform: rotate(45deg); }
 .design-details p { color: var(--muted); padding-bottom: 18px; line-height: 1.8; }
-.garden-card { padding: 28px 30px 20px; background: #e2e8da; border: 1px solid #52744d35; }
+.garden-card { padding: 0 30px 20px; background: #e9ede3; border: 1px solid #52744d35; }
 .garden-card .eyebrow { margin-bottom: 10px; }
 .garden-card h3 { font-size: 25px; }
-.garden { position: relative; height: 150px; display: flex; justify-content: center; align-items: end; margin: 6px 0 18px; }
+.garden { position: relative; height: 100px; display: flex; justify-content: center; align-items: end; margin: 6px 0 14px; }
 .ground { width: 162px; height: 1px; background: #52744d60; position: absolute; bottom: 0; }
-.plant { position: relative; width: 110px; height: 122px; transform-origin: bottom; }
+.plant { position: relative; width: 110px; height: 122px; transform-origin: bottom; scale: .65; }
 .stem { width: 2px; height: 90px; background: #52744d; position: absolute; bottom: 0; left: 54px; }
 .plant-leaf { position: absolute; width: 46px; height: 23px; border-radius: 0 90% 0 90%; background: #7b9770; }
 .left-leaf { bottom: 41px; left: 10px; transform: rotate(18deg); }
@@ -130,6 +140,19 @@ body[data-enhanced="true"] .tab-panels section { margin-top: 0; }
 .quiet-button { background: transparent; font-size: 13px; padding: 9px 0; text-decoration: underline; text-underline-offset: 4px; }
 .garden-card small { color: var(--muted); font-size: 11px; }
 footer { display: flex; justify-content: space-between; gap: 30px; border-top: 1px solid var(--line); padding: 24px 0 40px; font-size: 12px; color: var(--muted); }
+.chapter-image { width: 100%; height: 100%; display: block; object-fit: cover; }
+.start-image, .hug-image { position: relative; overflow: hidden; }
+.start-image { background: #3a2738; }
+.start-image .chapter-image { object-position: 31% center; }
+.hug-image { height: 210px; margin: 0 -30px 24px; background: #cbd3c1; }
+.hug-image .chapter-image { object-position: center 53%; }
+.image-credit { position: absolute; right: 14px; bottom: 12px; font-size: 10px; letter-spacing: .08em; color: #fff; text-shadow: 0 1px 4px #172b24; }
+.hug-image .image-credit { color: #172b24; text-shadow: 0 1px 6px #edf0e5; }
+.book-shell, .garden-card { box-shadow: 0 18px 50px #172b240b; }
+.section-heading { margin-bottom: 26px; }
+.intro-copy { margin-top: 18px; }
+.garden-status { border-top: 1px solid #52744d35; padding-top: 12px; }
+.fold-copy .chapter-image { animation: none !important; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 body[data-static="true"] *, body[data-static="true"] *::after { transition: none !important; animation: none !important; }
 body[data-static="true"] { scroll-behavior: auto; }
@@ -143,6 +166,9 @@ body[data-static="true"] { scroll-behavior: auto; }
   nav { gap: 20px; }
   .motion-option { margin-left: auto; }
   .intro { padding: 44px 0; }
+  .intro { grid-template-columns: 1fr; gap: 25px; }
+  .intro-gallery { max-width: 450px; }
+  .intro-gallery img { height: 190px; }
   .section-heading { display: block; }
   .section-heading > p { margin-top: 18px; }
   .book-stage { --book-height: 670px; }

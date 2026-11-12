@@ -4,7 +4,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
-const types = { '.html': 'text/html', '.css': 'text/css', '.mjs': 'text/javascript', '.md': 'text/plain' };
+const types = { '.html': 'text/html', '.css': 'text/css', '.mjs': 'text/javascript', '.md': 'text/plain', '.webp': 'image/webp' };
 const server = http.createServer(async (request, response) => {
   try {
     if (!['GET', 'HEAD'].includes(request.method)) {
@@ -18,7 +18,7 @@ const server = http.createServer(async (request, response) => {
     if (!file.startsWith(root + path.sep) || relative.includes('\\') || !type) throw new Error('Path');
     const body = await readFile(file);
     response.writeHead(200, {
-      'Content-Type': `${type}; charset=utf-8`,
+      'Content-Type': type === 'image/webp' ? type : `${type}; charset=utf-8`,
       'Cache-Control': 'no-store',
       'X-Robots-Tag': 'noindex, nofollow',
       'X-Content-Type-Options': 'nosniff',
