@@ -41,9 +41,6 @@
 .case-body .case-comparison p{font-size:13px;line-height:1.8;margin:0}
 .case-source{margin-top:13px}.case-source a{font-size:13px;color:var(--case-accent);border-bottom:1px solid currentColor;padding-bottom:5px}
 .case-body b{font-weight:600;color:var(--case-accent)}
-@media(hover:hover) and (pointer:fine){.motion-on .case-decision>div,.motion-on .case-comparison>div{transition:background-color 220ms ease,padding-top 220ms ease}.motion-on .case-decision>div:hover,.motion-on .case-comparison>div:hover{background-color:#ffffff0c;padding-top:26px}}
-@keyframes case-text-arrive{from{transform:translateY(13px);opacity:.72}to{transform:translateY(0);opacity:1}}
-@media(prefers-reduced-motion:no-preference){.motion-on .case-title-group>*{animation:case-text-arrive 650ms cubic-bezier(.2,.7,.2,1) both}.motion-on .case-title-group>*:nth-child(2){animation-delay:90ms}.motion-on .case-title-group>*:nth-child(3){animation-delay:170ms}.motion-on .case-title-group>*:nth-child(4){animation-delay:230ms}.motion-on .case-title-group>*:nth-child(5){animation-delay:280ms}}
-@supports(animation-timeline:view()){ @media(prefers-reduced-motion:no-preference){.motion-on .case-body>section>h2,.motion-on .case-body>section>.case-decision,.motion-on .case-body>section>.case-comparison{animation:case-text-arrive linear both;animation-timeline:view();animation-range:entry 5% cover 30%}} }
+
 @media(max-width:760px){.case-decision,.case-comparison{display:block}.case-decision>div,.case-comparison>div,.case-decision>div+div,.case-comparison>div+div{padding:20px 0;border-left:0}.case-decision>div+div,.case-comparison>div+div{border-top:1px solid var(--case-line)}.case-decision span,.case-comparison span{margin-bottom:8px}}
 @media(prefers-reduced-motion:reduce){.case-title-group>*,.case-body>section>h2,.case-decision,.case-comparison{animation:none!important;transform:none!important;opacity:1!important}.case-decision>div,.case-comparison>div{transition:none!important}}

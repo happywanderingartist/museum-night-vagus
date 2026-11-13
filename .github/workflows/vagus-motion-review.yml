@@ -1,0 +1,31 @@
+name: Vagus motion review
+on:
+  push:
+    branches: [codex/vagus-motion-implementation-20261113]
+    paths:
+      - vagus-editions-2026/site-v4/**
+      - .github/workflows/vagus-motion-review.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    defaults:
+      run:
+        working-directory: vagus-editions-2026/site-v4
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
+        with:
+          node-version: '24'
+      - run: node --test
+      - run: |
+          node --check gallery-entry.mjs
+          node --check entry-timeline.mjs
+          node --check product-demo.mjs
+          node --check vendor/gsap/loader.mjs
+          node --check vendor/anime/loader.mjs

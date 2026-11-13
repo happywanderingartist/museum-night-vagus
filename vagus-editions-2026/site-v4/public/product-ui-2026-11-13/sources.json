@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-13",
+  "figma": "ar9JyK99MdbQgLsZEsxLiT",
+  "nodes": [
+    "26:99",
+    "26:385",
+    "26:230",
+    "26:450"
+  ],
+  "usage": "Existing user-owned Figma vector assets used intact. Phone UI is a responsive adaptation, with synthetic example content.",
+  "assets": [
+    {
+      "file": "start-river.svg",
+      "url": "https://www.figma.com/api/mcp/asset/f7ca0c1e-1651-48aa-a162-63cefc7c31cb/2f28b.svg"
+    },
+    {
+      "file": "start-route.svg",
+      "url": "https://www.figma.com/api/mcp/asset/f7ca0c1e-1651-48aa-a162-63cefc7c31cb/4cfa2.svg"
+    },
+    {
+      "file": "hug-plant.svg",
+      "url": "https://www.figma.com/api/mcp/asset/1f5abcfb-df2b-489a-af8b-beaa60a61856/408ca.svg"
+    },
+    {
+      "file": "hug-plant-accepted.svg",
+      "url": "https://www.figma.com/api/mcp/asset/e887889f-3b62-4b28-9312-fff50e63a0fe/c0045.svg"
+    }
+  ]
+}

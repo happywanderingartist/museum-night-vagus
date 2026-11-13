@@ -1,26 +1,62 @@
 <!doctype html>
-<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#322332"><title>START · Vagus</title><link rel="icon" href="assets/mark.svg"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="chapter-pages.css"><link rel="stylesheet" href="completion.css"><script type="module" src="site-features.mjs"></script><script type="module" src="chapter-motion.mjs"></script><link rel="stylesheet" href="scene-motion.css"></head>
-<body class="project-page start-page">
-<a class="skip-link" href="#project-intro">直接阅读项目</a>
-<header class="case-nav"><a class="case-brand" href="index.html">Vagus</a><a href="index.html#start">返回展厅</a><a href="hug.html">下一个项目：Hug</a><button data-motion-toggle type="button" hidden aria-pressed="false">关闭动态</button></header>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#322332"><title>START · Vagus</title><link rel="icon" href="assets/mark.svg"><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="chapter-pages.css"><link rel="stylesheet" href="completion.css"><script type="module" src="site-features.mjs"></script><script type="module" src="chapter-motion.mjs"></script><link rel="stylesheet" href="scene-motion.css"><link rel="stylesheet" href="product-scenes.css"><script type="module" src="product-scenes.mjs"></script><link rel="stylesheet" href="product-ui.css"><script type="module" src="product-demo.mjs"></script></head>
+<body class="project-page product-page start-page">
+<a class="skip-link" href="#product-overview">直接阅读项目</a>
+<header class="case-nav"><a class="case-brand" href="index.html">Vagus</a><a href="index.html#gallery">返回展厅</a><a href="hug.html">下一个项目：Hug</a><a class="comparison-link" href="public/product-cases-2026-11-11/start-compare.html">竞品分析 ↗</a><button data-motion-toggle type="button" hidden aria-pressed="false">关闭动态</button></header>
 <main>
 <section class="case-hero" data-chapter="start" aria-labelledby="project-title" id="top">
  <img class="case-art" src="assets/start.webp" width="1672" height="940" alt="舞会中的酒红衣裙人物向前递来一张现代演出票。" fetchpriority="high">
- <div class="case-title-group"><p class="case-category">数字产品 / 追星旅行</p><h1 id="project-title">START</h1><p class="case-hero-line">舞会里，<br>有人准备出发。</p><p class="case-hero-description">复刻偶像足迹的追星旅行产品。</p><a class="case-read" href="#project-intro">从一张票，读到下一站 <span aria-hidden="true">↓</span></a></div>
+ <div class="case-title-group"><p class="case-category">数字产品 / 追星旅行</p><h1 id="project-title">START</h1><p class="case-hero-line">舞会里，<br>有人准备出发。</p><p class="case-hero-description">复刻偶像足迹的追星旅行产品。</p><a class="case-read" href="#product-overview">从一张票，读到下一站 <span aria-hidden="true">↓</span></a></div>
  <svg class="ticket-route" viewBox="0 0 1672 940" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><path pathLength="1" d="M830 777 C1015 880 1160 706 1300 786 S1540 920 1700 944"/></svg>
  <p class="case-hero-footer">START / Vagus 作品集</p>
 </section>
-<section class="case-opening" id="project-intro" tabindex="-1"><p class="case-kicker">从一张票，到下一站。</p><h2>让“我也想去”，<br>有一个清楚的起点。</h2><p>帮助粉丝找到偶像真实去过的地点，将分散的信息整理成可以直接复刻的路线，并记录旅行过程。这里展示我如何把一个情绪化的想法，收窄成可以验证的出行任务。</p></section>
+<nav class="product-reading-nav" aria-label="产品阅读"><nav><a href="#product-overview">产品介绍</a><a href="#journey">核心路径</a><a href="public/product-cases-2026-11-11/start-compare.html">竞品分析 ↗</a></nav><a href="#evidence">当前阶段</a></nav>
+<section class="product-overview" id="product-overview" tabindex="-1"><div><p class="product-phase">手机界面设计 · 示例地点交互</p><h2>把“我也想去”，<br>变成有依据的下一站。</h2><p>为艺人或作品主题出行，把分散线索、关联依据与地点条件放在一起。先核对，再选择，最后交给地图。</p><dl><div><dt>我的职责</dt><dd>需求与范围、内容规则、AI 协作与结果审阅</dd></div><div><dt>使用场景</dt><dd>有近期出行意图，想找到与喜欢的人或作品有关的地点。</dd></div></dl><div class="product-actions"><a href="#start-phone">体验手机界面 ↓</a><a href="public/product-cases-2026-11-11/start-compare.html">阅读竞品分析 ↗</a></div></div><div class="demo-stage" data-product-reveal>
+  <div class="demo-context"><span>START / 探索一个地方</span><span>可点击体验</span></div>
+  <section class="phone-ui start-ui" id="start-phone" tabindex="-1" data-product-demo="start" aria-label="START 手机界面演示">
+    <header class="phone-header"><span class="phone-wordmark">start</span><span class="demo-label">界面概念 · 示例地点</span></header>
+    <div class="phone-content">
+      <section data-start-panel="explore" aria-label="探索地点">
+        <div class="phone-intro"><p>让喜欢，带你出发。</p><h3>下一站，去哪里？</h3></div>
+        <div class="theme-line"><span>一部电影的街角</span><span>作品主题 · 示例</span></div>
+        <div class="phone-map" aria-label="三个示例地点，选择标记查看线索">
+          <div class="map-block block-one"></div><div class="map-block block-two"></div><div class="map-block block-three"></div>
+          <img class="map-river" src="public/product-ui-2026-11-13/start-river.svg" alt="" width="261" height="510">
+          <img class="map-route" src="public/product-ui-2026-11-13/start-route.svg" alt="" width="240" height="288">
+          <button class="map-pin pin-a" type="button" data-demo-action="place" data-value="a" aria-pressed="true" aria-label="选择街角咖啡馆">A</button>
+          <button class="map-pin pin-b" type="button" data-demo-action="place" data-value="b" aria-pressed="false" aria-label="选择河畔小公园">B</button>
+          <button class="map-pin pin-c" type="button" data-demo-action="place" data-value="c" aria-pressed="false" aria-label="选择旧街书店">C</button>
+          <span class="map-caption">位置关系示意</span>
+        </div>
+        <div class="place-sheet" aria-live="polite"><p class="phone-eyebrow" data-place-kind>电影取景线索 · A</p><h4 data-place-title>街角咖啡馆</h4><p data-place-note>一段街角相遇，从这里开始。</p><div class="place-status">关联与开放条件待核对</div><button class="phone-primary" type="button" data-demo-action="detail">看地点与来源 <span aria-hidden="true">↗</span></button></div>
+      </section>
+      <section data-start-panel="detail" hidden aria-label="地点详情">
+        <button class="phone-back" type="button" data-demo-action="back">← 返回探索</button>
+        <div class="detail-title"><p class="phone-eyebrow" data-place-kind>电影取景线索 · A</p><h3 tabindex="-1" data-detail-title data-place-title>街角咖啡馆</h3><p data-place-note>一段街角相遇，从这里开始。</p></div>
+        <div class="source-section"><p class="phone-eyebrow">先核对，再决定</p><button class="source-toggle" type="button" data-demo-action="source" aria-expanded="false" aria-controls="start-source-detail"><span>为什么是这里？</span><span data-source-symbol>＋</span></button><div id="start-source-detail" class="source-body" hidden><p data-place-source>待补原始片段及公开出处</p><p>正式内容需要原始来源、关联说明与核查时间。</p></div><div class="condition-row"><span>出行条件</span><p data-place-condition>地址、营业与拍摄关联待核对</p></div></div>
+        <p class="phone-footnote">这是交互示意，地点与路线均为合成内容。</p>
+        <button class="phone-primary" type="button" data-demo-action="save" aria-pressed="false" data-save-button>存为想去</button><button class="phone-text-button" type="button" data-demo-action="handoff">核对出行信息 →</button>
+      </section>
+      <section data-start-panel="handoff" hidden aria-label="出行准备"><button class="phone-back" type="button" data-demo-action="back">← 返回地点</button><div class="phone-intro"><p>确定依据，再准备出发。</p><h3>出行前，再核对一次</h3></div><div class="travel-checks"><div><span>当前地点</span><p data-place-title>街角咖啡馆</p></div><div><span>作品关联</span><p data-place-source>原始来源待补</p></div><div><span>地址与进入条件</span><p data-place-condition>地址与开放情况待核对</p></div></div><button class="phone-primary" type="button" disabled>地图交接 · 待地点核对</button><p class="phone-footnote">示例地点用于说明核对顺序。正式地点具备可靠地址与坐标后，再交给外部地图。</p></section><section data-start-panel="saved" hidden aria-label="想去的地方"><div class="phone-intro"><p>给下次出发，留个位置。</p><h3>想去</h3></div><div data-saved-list class="saved-list"></div><p class="phone-footnote">收藏只表示兴趣。出发前仍需核对来源与开放条件。</p><button class="phone-secondary" type="button" data-demo-action="tab" data-value="explore">继续找线索</button></section>
+      <section data-start-panel="book" hidden aria-label="旅行之后的私人记忆"><div class="phone-intro"><p>出发之后，才有自己的故事。</p><h3>我的 Book</h3></div><div class="book-preview"><span class="book-spine">START / PERSONAL BOOK</span><p>这一页，<br>留给真正到过的你。</p><span>行后记忆 · 规划中</span></div><p class="book-explanation">私人 Book 记录自己的经历，想去的地点先留在收藏里。</p><button class="phone-secondary" type="button" data-demo-action="tab" data-value="explore">回到探索</button></section>
+    </div>
+    <nav class="phone-tabs" aria-label="START 演示导航"><button type="button" data-demo-action="tab" data-value="explore" aria-current="page"><span aria-hidden="true">⌖</span>探索</button><button type="button" data-demo-action="tab" data-value="saved"><span aria-hidden="true">♡</span>想去</button><button type="button" data-demo-action="tab" data-value="book"><span aria-hidden="true">▤</span>Book</button></nav>
+    <p class="sr-only" data-demo-status role="status"></p>
+  </section>
+  <p class="demo-caption">试着选择 A / B / C，再打开来源、收藏并返回。演示状态仅保留在当前页面。</p>
+</div>
+</section>
+<div id="project-intro" tabindex="-1"></div>
 <div class="case-layout">
- <aside class="case-contents"><span>项目阅读</span><nav aria-label="START 项目目录"><a href="#question">用户与问题</a><a href="#decision">产品取舍</a><a href="#journey">核心路径</a><a href="#compare">竞品与差异</a><a href="#operation">内容运营</a><a href="#evidence">验证与进度</a></nav><a href="works.html">全部作品</a></aside>
+ <aside class="case-contents"><span>项目阅读</span><nav aria-label="START 项目目录"><a href="#product-overview">产品介绍与体验</a><a href="#question">用户与问题</a><a href="#decision">产品取舍</a><a href="#journey">核心路径</a><a href="#compare">竞品与差异</a><a href="#operation">内容运营</a><a href="#evidence">验证与进度</a></nav><a href="works.html">全部作品</a></aside>
  <div class="case-body">
   <section id="question" tabindex="-1"><p class="case-section-label">01 / 用户与问题</p><h2>去同一个地方，<br>先要知道它是不是真的。</h2><p>第一批想服务的是近期有出行机会、对某位艺人已有兴趣的粉丝。她们常在内容平台、截图、备忘录和地图之间切换：找到一个“同款”地点以后，还要自己核对艺人关联、地址与是否可去。这个场景来自我的观察与经历；它有多常见、用户愿意为此付出多少，仍需访谈验证。</p><dl class="case-facts"><div><dt>待完成的任务</dt><dd>在指定城市找到可信的艺人地点，选出可去之处，再交给地图出发。</dd></div><div><dt>优先约束</dt><dd>没有可靠内容与正确落点，路线和纪念功能都无法建立信任。</dd></div><div><dt>产品阶段</dt><dd>开发预览；各云候选入口尚未合成一个正式上线版本。</dd></div><div><dt>本人负责</dt><dd>需求和范围判断、内容规则、AI 协作推进与结果审阅。</dd></div></dl></section>
   <section id="decision" tabindex="-1"><p class="case-section-label">02 / 产品取舍</p><h2>先解决“可信地出发”，<br>再扩展旅程体验。</h2><p>START 曾同时展开路线、社群、投稿、物料、私人 Book 与娃娃。复盘后，我把第一条验证主线收窄为“地点证据 → 选择 → 地图交接”。通用导航交给已有地图；一个地点可复用，但每位艺人的关联证据独立；公开内容先审核，私人记忆不混入公共地点库。</p><div class="case-decision" aria-label="START 产品对象划分"><div><span>公开可核对</span><strong>地点 × 艺人证据</strong><small>来源、核查时间、地址、纠错</small></div><div><span>为出行组织</span><strong>主题路线</strong><small>站点条件、限制、地图交接</small></div><div><span>由用户掌握</span><strong>私人 Book</strong><small>出行之后，再记录自己的经历</small></div></div><p class="case-caption">对象关系示意，由文字排版生成；不是产品界面或用户数据。</p></section>
   <section id="journey" tabindex="-1"><p class="case-section-label">03 / 核心路径</p><h2>一次出发，只保留三个决定。</h2><ol class="route-steps"><li><span>01</span><div><h3>发现地点</h3><p>保留艺人、城市与类别筛选；无结果时区分“没有覆盖”和“筛选过窄”。</p></div></li><li><span>02</span><div><h3>核对并选择</h3><p>在地点页先看关联依据与实用信息，再决定收藏或加入短路线。来源缺失时明确标为待补。</p></div></li><li><span>03</span><div><h3>交给地图</h3><p>向外部地图传递明确地址与坐标；落点错误或跳转失败时，允许复制地址并返回。</p></div></li></ol><figure class="route-explanation"><svg viewBox="0 0 700 130" aria-hidden="true"><path d="M25 90 C150 90 130 28 275 28 S455 100 675 50"/><circle cx="25" cy="90" r="6"/><circle cx="275" cy="28" r="6"/><circle cx="675" cy="50" r="6"/></svg><figcaption>任务路径示意。导航能力仍需真实设备验收。</figcaption></figure></section>
   <section id="compare" tabindex="-1"><p class="case-section-label">04 / 竞品与差异</p><h2>地图能收藏地点，<br>START 要回答“为什么是这里”。</h2><div class="case-comparison"><div><span>现有替代</span><h3>内容平台 + 地图</h3><p>粉丝自己搜集截图、核对出处、拼接路线。低门槛，但步骤分散。</p></div><div><span>成熟产品</span><h3>Mapstr / Wanderlog</h3><p>前者提供地点收藏与共享地图，后者结合地图和行程规划；基础工具能力已有成熟选择。</p></div><div><span>START 假设</span><h3>证据 + 主题出行</h3><p>把艺人关联证据、可去地点与主题路线放在同一任务中，减少反复查找和核对。</p></div></div><p>这还是<b>待验证的差异</b>，不是已证明的竞品优势。下一轮会让同一批近期计划出行的人，用原有工具组合、Mapstr/Wanderlog 和 START 完成同一任务，记录核对步骤、错误、时间与实际选择。</p><p class="case-source"><a href="public/product-cases-2026-11-11/start-compare.html">阅读完整竞品比较与验证任务 ↗</a></p></section>
   <section id="operation" tabindex="-1"><p class="case-section-label">05 / 内容与运营</p><h2>先让一个城市，<br>真的有内容可用。</h2><p>冷启动建议先做一个可靠内容单元：一个城市、1—2 位艺人、10—15 个公共地点和 2 条短路线；若合格来源不足，缩小范围，不填充数量。每条内容经过候选、核对、草稿、审核、发布与纠错维护。AI 可帮助从资料中提取候选，艺人关系、地址和来源由人核实。</p><p>获客内容围绕具体出行问题制作，如“演出前后可去哪里”“如何核对同款地点”，落到对应主题页。观察有真实出行意图的人能否找到可信地点并打开地图，同时记录无结果、错误落点和纠错周转；互动量与有效使用分开看。</p><div class="case-margin-note">现阶段最重要的经营约束是内容核验与更新成本。没有足够可靠的地点，就不扩大城市或做传播承诺。</div></section>
-  <section class="case-evidence" id="evidence" tabindex="-1"><p class="case-section-label">06 / 验证与进度</p><h2>已经有结构，<br>还缺一条真实完成的路径。</h2><p>现有工程已把来源标题、类型与链接接入保存、投稿审核和公开读取合同；发现页也已有搜索及艺人、城市、类别筛选。这些是工程与静态检查结果。统一入口、真实可发布内容、地图真机落点及用户任务完成仍待验。</p><p>首轮计划观察 6—8 名近期有相关出行的人，重点看能否无提示找到可信地点并完成地图交接。当前成都样本只有 2 个地图候选、0 个近期可发布地点，因此先补供给与验证，不报告留存或转化优势。</p><p class="case-caption">事实和方案分别标注；资料核对截至 2026 年 11 月 12 日。页面插画为作品集叙事画面，不代表产品实拍。</p></section>
+  <section class="case-evidence" id="evidence" tabindex="-1"><p class="case-section-label">06 / 验证与进度</p><h2>已经有结构，<br>还缺一条真实完成的路径。</h2><p>现有工程已把来源标题、类型与链接接入保存、投稿审核和公开读取合同；发现页也已有搜索及艺人、城市、类别筛选。这些是工程与静态检查结果。统一入口、真实可发布内容、地图真机落点及用户任务完成仍待验。</p><p>首轮计划观察 6—8 名近期有相关出行的人，重点看能否无提示找到可信地点并完成地图交接。当前成都样本只有 2 个地图候选、0 个近期可发布地点，因此先补供给与验证，不报告留存或转化优势。</p><p class="case-caption">事实和方案分别标注；资料核对截至 2026 年 11 月 12 日。页面插画为作品集叙事画面，不代表产品实拍。</p><details class="product-evidence"><summary>查看工程演示与本次界面设计的关系</summary><p>上方手机界面是本轮可交互设计稿，使用示例地点。既有开发预览的检索画面单独保留，便于核对工程阶段。</p><a href="public/product-cases-2026-11-11/assets/start-search.png">查看既有合成检索演示原图 ↗</a></details></section>
  </div>
 </div>
-<nav class="project-switch" aria-label="继续浏览"><a href="index.html#ai-reading"><small>上一幕</small><strong>AI 行业观察</strong></a><a href="hug.html"><small>下一个项目</small><strong>Hug <span aria-hidden="true">↗</span></strong><span>今天，也可以慢一点。</span></a></nav>
-</main><footer><a href="index.html#home">Vagus</a><a href="#top">回到页首 ↑</a></footer></body></html>
+<nav class="project-switch" aria-label="继续浏览"><a href="exhibition.html#ai-reading"><small>上一幕</small><strong>AI 行业观察</strong></a><a href="hug.html"><small>下一个项目</small><strong>Hug <span aria-hidden="true">↗</span></strong><span>今天，也可以慢一点。</span></a></nav>
+</main><footer><a href="exhibition.html#home">Vagus</a><a href="#top">回到页首 ↑</a></footer></body></html>

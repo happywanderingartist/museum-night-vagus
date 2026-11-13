@@ -23,7 +23,7 @@ function render(){queued=0;const h=innerHeight,off=query.matches||!body.classLis
 }
 function queue(){if(!queued)queued=requestAnimationFrame(render);}
 new MutationObserver(queue).observe(body,{attributes:true,attributeFilter:['class']});
-addEventListener('scroll',queue,{passive:true});addEventListener('resize',queue);addEventListener('pageshow',queue);
+addEventListener('scroll',queue,{passive:true});addEventListener('resize',queue);addEventListener('pageshow',()=>{try{disabled=sessionStorage.getItem('vagus-motion-off')==='1';}catch{}localMode();queue();});
 document.addEventListener('visibilitychange',()=>{
   // Hidden tabs may suspend rAF; pause CSS now rather than waiting for a frame.
   if(document.hidden)for(const scene of scenes)scene.classList.remove('is-in-view');

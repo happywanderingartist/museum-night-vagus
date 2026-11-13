@@ -33,7 +33,7 @@
  button.addEventListener('click',()=>{userDisabled=!userDisabled;try{sessionStorage.setItem('vagus-motion-off',userDisabled?'1':'0');}catch{}updateMotion();});
  reducedQuery.addEventListener('change',updateMotion);
  window.addEventListener('scroll',queue,{passive:true});window.addEventListener('resize',queue);
- window.addEventListener('pageshow',queue);
+ window.addEventListener('pageshow',()=>{try{userDisabled=sessionStorage.getItem('vagus-motion-off')==='1';}catch{}updateMotion();});
  if(header&&navAccess){
   navAccess.addEventListener('click',()=>{keyboardOpen=true;render();nav[0]?.focus({preventScroll:true});});
   header.addEventListener('keydown',event=>{if(event.key==='Escape'){event.preventDefault();keyboardOpen=false;render();navAccess.focus({preventScroll:true});}});
