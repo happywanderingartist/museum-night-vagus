@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-13",
+  "status": "downloaded-and-file-checked",
+  "browserBundleBytes": 236083,
+  "integration": "pending-design-and-local-trial",
+  "files": [
+    {
+      "file": "gsap-3.15.1/gsap.min.js",
+      "repository": "greensock/GSAP",
+      "commit": "5e6c35ff8eedea12d4f229129def635277d8b0f2",
+      "url": "https://raw.githubusercontent.com/greensock/GSAP/5e6c35ff8eedea12d4f229129def635277d8b0f2/dist/gsap.min.js",
+      "bytes": 73357,
+      "sha256": "3d1bea374ab1b703cc5c4105358eec63c4465efdc573931dc116e34a0a190c1b",
+      "gitBlob": "c6d5f8578c41d46a6624e94aaa44b8b9ef779461",
+      "expectedBlobMatched": true,
+      "syntax": "passed"
+    },
+    {
+      "file": "gsap-3.15.1/ScrollTrigger.min.js",
+      "repository": "greensock/GSAP",
+      "commit": "5e6c35ff8eedea12d4f229129def635277d8b0f2",
+      "url": "https://raw.githubusercontent.com/greensock/GSAP/5e6c35ff8eedea12d4f229129def635277d8b0f2/dist/ScrollTrigger.min.js",
+      "bytes": 44683,
+      "sha256": "b5bb360661f478f0ff6ffa11500d8ce5e2b6aaf6f7288237cdca3aac9548035a",
+      "gitBlob": "4c89ae342b8189dbcc9b1eea65c5a76de40686cc",
+      "expectedBlobMatched": true,
+      "syntax": "passed"
+    },
+    {
+      "file": "anime-4.5.0/anime.umd.min.js",
+      "repository": "juliangarnier/anime",
+      "commit": "01b81be1df6843ccfe0a71c0699a746bf740dd77",
+      "url": "https://raw.githubusercontent.com/juliangarnier/anime/01b81be1df6843ccfe0a71c0699a746bf740dd77/dist/bundles/anime.umd.min.js",
+      "bytes": 118043,
+      "sha256": "8d5b3a58a1f64023a04a4cedeef135a2263b18da04b35177ac13438a0bad033b",
+      "gitBlob": "6c1a3ca65c60d1eb968a01470307de1c581d0490",
+      "expectedBlobMatched": true,
+      "syntax": "passed"
+    },
+    {
+      "file": "anime-4.5.0/LICENSE.md",
+      "repository": "juliangarnier/anime",
+      "commit": "01b81be1df6843ccfe0a71c0699a746bf740dd77",
+      "url": "https://raw.githubusercontent.com/juliangarnier/anime/01b81be1df6843ccfe0a71c0699a746bf740dd77/LICENSE.md",
+      "bytes": 1075,
+      "sha256": "3f3e835a9952cfc2a6ca836fb95b3257c981f24fa3ef51249055acb09931897b",
+      "gitBlob": "f999fa58ebdda6d8d0f3ae581ebdfe821f09603a",
+      "expectedBlobMatched": null,
+      "syntax": null
+    },
+    {
+      "file": "anime-4.5.0/package.json",
+      "repository": "juliangarnier/anime",
+      "commit": "01b81be1df6843ccfe0a71c0699a746bf740dd77",
+      "url": "https://raw.githubusercontent.com/juliangarnier/anime/01b81be1df6843ccfe0a71c0699a746bf740dd77/package.json",
+      "bytes": 8344,
+      "sha256": "01c6664d7d2b324eada8e2d32dcf6b0377c4343331a90271aa222fb7009ad585",
+      "gitBlob": "7ebe3997b3620aeb7757c1d24b568d461ceb967d",
+      "expectedBlobMatched": null,
+      "syntax": null
+    },
+    {
+      "file": "gsap-3.15.1/package.json",
+      "repository": "greensock/GSAP",
+      "commit": "5e6c35ff8eedea12d4f229129def635277d8b0f2",
+      "url": "https://raw.githubusercontent.com/greensock/GSAP/5e6c35ff8eedea12d4f229129def635277d8b0f2/package.json",
+      "bytes": 2255,
+      "sha256": "c836335f3d9111047da58b56a1e0ef7108df035a1940ae169abbbcbe19eaec37",
+      "gitBlob": "10b168f1a5da51b7b3713b4ee039779f2e3bc095",
+      "expectedBlobMatched": null,
+      "syntax": null
+    }
+  ],
+  "licenses": {
+    "GSAP": "https://gsap.com/community/standard-license/",
+    "Anime": "MIT, see anime-4.5.0/LICENSE.md"
+  }
+}
