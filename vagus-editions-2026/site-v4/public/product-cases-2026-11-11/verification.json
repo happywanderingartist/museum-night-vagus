@@ -1,0 +1,1353 @@
+{
+  "date": "2026-11-12",
+  "passed": 326,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "HTTP http://127.0.0.1:4184/public/product-cases-2026-11-11/index.html",
+      "passed": true
+    },
+    {
+      "name": "Unique IDs http://127.0.0.1:4184/public/product-cases-2026-11-11/index.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/index.html → cases.css",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/index.html → ../../index.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/index.html → ../../index.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/index.html → ../../works.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/index.html → start.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/index.html → assets/start-intro.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/index.html → start.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/index.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/index.html → start-intro.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/index.html → hug.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/index.html → assets/hug-intro.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/index.html → hug.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/index.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/index.html → hug-intro.html",
+      "passed": true
+    },
+    {
+      "name": "HTTP http://127.0.0.1:4184/public/product-cases-2026-11-11/start.html",
+      "passed": true
+    },
+    {
+      "name": "Unique IDs http://127.0.0.1:4184/public/product-cases-2026-11-11/start.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → cases.css",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → start.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → ../../works.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → ../../index.html#start",
+      "passed": true
+    },
+    {
+      "name": "Anchor /index.html#start",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → assets/start-art.webp",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → #case-summary",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/start.html#case-summary",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → assets/start-intro.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → assets/start-intro.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → start-intro.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → #section-1",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/start.html#section-1",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → #section-2",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/start.html#section-2",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → #section-3",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/start.html#section-3",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → #section-4",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/start.html#section-4",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → #section-5",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/start.html#section-5",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → #section-6",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/start.html#section-6",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → #evidence",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/start.html#evidence",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → assets/start-search.png",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → assets/start-search.png",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → assets/start-states.png",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → assets/start-states.png",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → hug.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "HTTP http://127.0.0.1:4184/public/product-cases-2026-11-11/hug.html",
+      "passed": true
+    },
+    {
+      "name": "Unique IDs http://127.0.0.1:4184/public/product-cases-2026-11-11/hug.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → cases.css",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → hug.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → ../../works.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → ../../index.html#hug",
+      "passed": true
+    },
+    {
+      "name": "Anchor /index.html#hug",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → assets/hug-art.webp",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → #case-summary",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/hug.html#case-summary",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → assets/hug-intro.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → assets/hug-intro.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → hug-intro.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → #section-1",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/hug.html#section-1",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → #section-2",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/hug.html#section-2",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → #section-3",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/hug.html#section-3",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → #section-4",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/hug.html#section-4",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → #section-5",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/hug.html#section-5",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → #section-6",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/hug.html#section-6",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → #section-7",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/hug.html#section-7",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → #evidence",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/hug.html#evidence",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → assets/hug-returned.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → assets/hug-returned.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → assets/hug-failure.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → assets/hug-failure.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → start.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "HTTP http://127.0.0.1:4184/public/product-cases-2026-11-11/start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Unique IDs http://127.0.0.1:4184/public/product-cases-2026-11-11/start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-compare.html → cases.css",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-compare.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-compare.html → start.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-compare.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-compare.html → ../../works.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-compare.html → ../../index.html#start",
+      "passed": true
+    },
+    {
+      "name": "Anchor /index.html#start",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-compare.html → #task",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/start-compare.html#task",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-compare.html → #comparison",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/start-compare.html#comparison",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-compare.html → #decision",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/start-compare.html#decision",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-compare.html → #sources",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/start-compare.html#sources",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-compare.html → start.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-compare.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-compare.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "HTTP http://127.0.0.1:4184/public/product-cases-2026-11-11/hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Unique IDs http://127.0.0.1:4184/public/product-cases-2026-11-11/hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-compare.html → cases.css",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-compare.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-compare.html → hug.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-compare.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-compare.html → ../../works.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-compare.html → ../../index.html#hug",
+      "passed": true
+    },
+    {
+      "name": "Anchor /index.html#hug",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-compare.html → #task",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/hug-compare.html#task",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-compare.html → #comparison",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/hug-compare.html#comparison",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-compare.html → #decision",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/hug-compare.html#decision",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-compare.html → #sources",
+      "passed": true
+    },
+    {
+      "name": "Anchor /public/product-cases-2026-11-11/hug-compare.html#sources",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-compare.html → hug.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-compare.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-compare.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "HTTP http://127.0.0.1:4184/public/product-cases-2026-11-11/start-intro.html",
+      "passed": true
+    },
+    {
+      "name": "Unique IDs http://127.0.0.1:4184/public/product-cases-2026-11-11/start-intro.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-intro.html → cases.css",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-intro.html → assets/start-art.webp",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-intro.html → assets/start-search.png",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/start-intro.html → assets/start-search.png",
+      "passed": true
+    },
+    {
+      "name": "HTTP http://127.0.0.1:4184/public/product-cases-2026-11-11/hug-intro.html",
+      "passed": true
+    },
+    {
+      "name": "Unique IDs http://127.0.0.1:4184/public/product-cases-2026-11-11/hug-intro.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-intro.html → cases.css",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-intro.html → assets/hug-art.webp",
+      "passed": true
+    },
+    {
+      "name": "Local link /public/product-cases-2026-11-11/hug-intro.html → assets/hug-returned.jpg",
+      "passed": true
+    },
+    {
+      "name": "HTTP http://127.0.0.1:4196/site-v4/public/product-cases-2026-11-11/index.html",
+      "passed": true
+    },
+    {
+      "name": "Unique IDs http://127.0.0.1:4196/site-v4/public/product-cases-2026-11-11/index.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/index.html → cases.css",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/index.html → ../../index.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/index.html → ../../index.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/index.html → ../../works.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/index.html → start.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/index.html → assets/start-intro.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/index.html → start.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/index.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/index.html → start-intro.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/index.html → hug.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/index.html → assets/hug-intro.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/index.html → hug.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/index.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/index.html → hug-intro.html",
+      "passed": true
+    },
+    {
+      "name": "HTTP http://127.0.0.1:4196/site-v4/public/product-cases-2026-11-11/start.html",
+      "passed": true
+    },
+    {
+      "name": "Unique IDs http://127.0.0.1:4196/site-v4/public/product-cases-2026-11-11/start.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → cases.css",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → start.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → ../../works.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → ../../index.html#start",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/index.html#start",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → assets/start-art.webp",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → #case-summary",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/start.html#case-summary",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → assets/start-intro.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → assets/start-intro.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → start-intro.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → #section-1",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/start.html#section-1",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → #section-2",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/start.html#section-2",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → #section-3",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/start.html#section-3",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → #section-4",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/start.html#section-4",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → #section-5",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/start.html#section-5",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → #section-6",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/start.html#section-6",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → #evidence",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/start.html#evidence",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → assets/start-search.png",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → assets/start-search.png",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → assets/start-states.png",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → assets/start-states.png",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → hug.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "HTTP http://127.0.0.1:4196/site-v4/public/product-cases-2026-11-11/hug.html",
+      "passed": true
+    },
+    {
+      "name": "Unique IDs http://127.0.0.1:4196/site-v4/public/product-cases-2026-11-11/hug.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → cases.css",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → hug.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → ../../works.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → ../../index.html#hug",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/index.html#hug",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → assets/hug-art.webp",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → #case-summary",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/hug.html#case-summary",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → assets/hug-intro.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → assets/hug-intro.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → hug-intro.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → #section-1",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/hug.html#section-1",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → #section-2",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/hug.html#section-2",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → #section-3",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/hug.html#section-3",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → #section-4",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/hug.html#section-4",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → #section-5",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/hug.html#section-5",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → #section-6",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/hug.html#section-6",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → #section-7",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/hug.html#section-7",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → #evidence",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/hug.html#evidence",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → assets/hug-returned.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → assets/hug-returned.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → assets/hug-failure.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → assets/hug-failure.jpg",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → start.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "HTTP http://127.0.0.1:4196/site-v4/public/product-cases-2026-11-11/start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Unique IDs http://127.0.0.1:4196/site-v4/public/product-cases-2026-11-11/start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-compare.html → cases.css",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-compare.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-compare.html → start.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-compare.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-compare.html → ../../works.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-compare.html → ../../index.html#start",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/index.html#start",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-compare.html → #task",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/start-compare.html#task",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-compare.html → #comparison",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/start-compare.html#comparison",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-compare.html → #decision",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/start-compare.html#decision",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-compare.html → #sources",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/start-compare.html#sources",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-compare.html → start.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-compare.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-compare.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "HTTP http://127.0.0.1:4196/site-v4/public/product-cases-2026-11-11/hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Unique IDs http://127.0.0.1:4196/site-v4/public/product-cases-2026-11-11/hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-compare.html → cases.css",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-compare.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-compare.html → hug.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-compare.html → hug-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-compare.html → ../../works.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-compare.html → ../../index.html#hug",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/index.html#hug",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-compare.html → #task",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/hug-compare.html#task",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-compare.html → #comparison",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/hug-compare.html#comparison",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-compare.html → #decision",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/hug-compare.html#decision",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-compare.html → #sources",
+      "passed": true
+    },
+    {
+      "name": "Anchor /site-v4/public/product-cases-2026-11-11/hug-compare.html#sources",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-compare.html → hug.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-compare.html → start-compare.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-compare.html → index.html",
+      "passed": true
+    },
+    {
+      "name": "HTTP http://127.0.0.1:4196/site-v4/public/product-cases-2026-11-11/start-intro.html",
+      "passed": true
+    },
+    {
+      "name": "Unique IDs http://127.0.0.1:4196/site-v4/public/product-cases-2026-11-11/start-intro.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-intro.html → cases.css",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-intro.html → assets/start-art.webp",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-intro.html → assets/start-search.png",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/start-intro.html → assets/start-search.png",
+      "passed": true
+    },
+    {
+      "name": "HTTP http://127.0.0.1:4196/site-v4/public/product-cases-2026-11-11/hug-intro.html",
+      "passed": true
+    },
+    {
+      "name": "Unique IDs http://127.0.0.1:4196/site-v4/public/product-cases-2026-11-11/hug-intro.html",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-intro.html → cases.css",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-intro.html → assets/hug-art.webp",
+      "passed": true
+    },
+    {
+      "name": "Local link /site-v4/public/product-cases-2026-11-11/hug-intro.html → assets/hug-returned.jpg",
+      "passed": true
+    },
+    {
+      "name": "start JPEG MIME",
+      "passed": true
+    },
+    {
+      "name": "start fixed artboard dimensions",
+      "passed": true
+    },
+    {
+      "name": "hug JPEG MIME",
+      "passed": true
+    },
+    {
+      "name": "hug fixed artboard dimensions",
+      "passed": true
+    },
+    {
+      "name": "Original source pixels start-art.webp",
+      "passed": true
+    },
+    {
+      "name": "Original source pixels hug-art.webp",
+      "passed": true
+    },
+    {
+      "name": "Original source pixels start-search.png",
+      "passed": true
+    },
+    {
+      "name": "Original source pixels start-states.png",
+      "passed": true
+    },
+    {
+      "name": "Original source pixels hug-returned.jpg",
+      "passed": true
+    },
+    {
+      "name": "Original source pixels hug-failure.jpg",
+      "passed": true
+    },
+    {
+      "name": "Original source pixels hug-highest.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export linear-first.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export linear-body.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export headspace-first.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export headspace-body.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export coda-first.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export coda-body.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export todoist-first.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export todoist-body.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export growth-access.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export start-intro.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export hug-intro.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export start-page.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export hug-page.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export start-compare.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export hug-compare.jpg",
+      "passed": true
+    },
+    {
+      "name": "Verified export browser-navigation.json",
+      "passed": true
+    },
+    {
+      "name": "Editor JSON excluded from normal public entry allowlist",
+      "passed": true
+    },
+    {
+      "name": "Syntax site-v4/server.cjs",
+      "passed": true
+    },
+    {
+      "name": "Syntax reference-rebuild-2026-11-09/server.cjs",
+      "passed": true
+    },
+    {
+      "name": "Syntax reference-rebuild-2026-11-09/reference/eye-reflection/reflection.mjs",
+      "passed": true
+    },
+    {
+      "name": "Two normal and two reflection browser click chains recorded",
+      "passed": true
+    }
+  ],
+  "httpRequests": 37,
+  "browser": {
+    "date": "2026-11-12",
+    "browser": "Connected Google Chrome",
+    "viewportReset": true,
+    "normalChains": {
+      "start": "works → start → full case → compare → case → index#start",
+      "hug": "works → hug → full case → compare → case → index#hug"
+    },
+    "reflectionChains": {
+      "start": "skip → seven-entry list → start → full case → compare → browser back to globe",
+      "hug": "seven-entry list → hug → full case → compare → site-v4/index#hug"
+    },
+    "sevenEntriesObserved": true,
+    "replayControlObserved": true,
+    "staticControlClicked": true,
+    "returnBehavior": "Case header returns to original index chapter anchor. Browser history returned to globe in START chain.",
+    "exports": [
+      "start-intro-20261111.jpg",
+      "hug-intro-20261111.jpg"
+    ],
+    "captureNotes": "Export-only st-root removal verified. Original embedded source screenshots retain original small translation controls.",
+    "recoverableToolIssues": [
+      "Old browser id had changed. Fresh inventory selected connected Chrome 5.",
+      "Old preview tab had no debugger attachment, so a new Chrome tab was used.",
+      "Local previews initially refused connection and were restarted.",
+      "Checkbox setChecked did not apply to the button-based static control. Used actual click after inspecting its DOM."
+    ],
+    "staticResult": {
+      "buttonAriaPressed": "true",
+      "mode": "gallery",
+      "rotation": "inactive",
+      "flatDirectoryLinksVisible": 7
+    }
+  },
+  "limits": [
+    "Chrome desktop local preview only",
+    "Current header return targets original chapter anchor; globe pose restoration is a later integration decision",
+    "Original embedded screenshots retain small translation controls",
+    "Visual layout is a review proposal",
+    "Remote artifact preservation is recorded separately"
+  ]
+}

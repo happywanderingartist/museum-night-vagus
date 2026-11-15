@@ -1,0 +1,31 @@
+{
+  "source": {
+    "path": "site-v4/assets/home.webp",
+    "width": 1671,
+    "height": 941,
+    "bytes": 263836,
+    "sha256": "5059bb46f0d93e068c9c20620b7401b51f31170f9e38e5a8cfef7caa24b80c22"
+  },
+  "master": {
+    "path": "trials/two-pages-v5/assets/mona-master.png",
+    "width": 1671,
+    "height": 941,
+    "bytes": 2475470,
+    "sha256": "8c66ea3a2f29e4532ee0e85e5b35b2565ef7376a8597ab83f076e78103e4bc75"
+  },
+  "eyeAnchor": {
+    "x": 901,
+    "y": 237,
+    "status": "proposed anchor, needs close-up review"
+  },
+  "composition": {
+    "width": 1440,
+    "height": 810
+  },
+  "artworkEdits": false,
+  "pixelBudget": {
+    "eyeFrameScale": 17.235188509874327,
+    "irisFrameScale": 56.01436265709156
+  },
+  "websiteFiles": []
+}

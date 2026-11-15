@@ -1,0 +1,42 @@
+{
+  "svgs": [
+    {
+      "file": "2026-11-01-vagus-continuous-gallery-v5-frames.svg",
+      "bytes": 9014139,
+      "embedded_original_images_rgb_verified": 4,
+      "png_preview_verified": true
+    },
+    {
+      "file": "2026-11-01-vagus-continuous-gallery-v5-space.svg",
+      "bytes": 5456,
+      "embedded_original_images_rgb_verified": 0,
+      "png_preview_verified": true
+    },
+    {
+      "file": "2026-11-01-vagus-continuous-gallery-v5-reading.svg",
+      "bytes": 1691920,
+      "embedded_original_images_rgb_verified": 1,
+      "png_preview_verified": true
+    }
+  ],
+  "broken_local_links": [],
+  "sources": [
+    {
+      "file": "home.webp",
+      "sha256": "5059bb46f0d93e068c9c20620b7401b51f31170f9e38e5a8cfef7caa24b80c22",
+      "size": [
+        1671,
+        941
+      ]
+    },
+    {
+      "file": "ai.webp",
+      "sha256": "2f2b7f105f19d23d7dfd28039ffffd8d1fb8cd7a26cb1b50ed19fa7db9698360",
+      "size": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "design_standard_sections_verified": 9
+}

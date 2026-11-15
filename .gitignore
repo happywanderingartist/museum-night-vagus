@@ -19,3 +19,9 @@ vagus-editions-2026/3d-about-lab/sources/vendor/
 *.log
 .DS_Store
 Thumbs.db
+
+# Local-only private recovery and third-party reference material
+vagus-editions-2026/docs/superpowers/specs/2026-11-11-start-hug-private-save.json
+vagus-editions-2026/reference-rebuild-2026-11-09/
+vagus-editions-2026/research/2026-11-09-website-rebuild/
+vagus-editions-2026/research/2026-11-01-motionsites-video-observation/

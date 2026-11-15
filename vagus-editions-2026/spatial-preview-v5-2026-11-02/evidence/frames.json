@@ -1,0 +1,32 @@
+[
+  {
+    "frame": "home",
+    "camera": "0.0000",
+    "mode": "webgl",
+    "progress": "0.0000"
+  },
+  {
+    "frame": "opening",
+    "camera": "0.0000",
+    "mode": "webgl",
+    "progress": "0.2198"
+  },
+  {
+    "frame": "corridor",
+    "camera": "0.2956",
+    "mode": "webgl",
+    "progress": "0.5001"
+  },
+  {
+    "frame": "arrival",
+    "camera": "0.9824",
+    "mode": "webgl",
+    "progress": "0.8000"
+  },
+  {
+    "frame": "ai-reading",
+    "camera": "1.0000",
+    "mode": "webgl",
+    "progress": "1.0000"
+  }
+]

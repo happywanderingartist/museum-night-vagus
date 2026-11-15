@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000" role="img" aria-labelledby="title desc">
+<title id="title">Vagus 持续向内展开的环境旅程</title>
+<desc id="desc">一张机制关系图：原首页保留，新增连续环境随滚动显露，最后停回原AI阅读布局。图不是最终绘画或已验证镜头。</desc>
+<defs>
+<linearGradient id="world"><stop offset="0" stop-color="#b3ccc2"/><stop offset=".42" stop-color="#7a9383"/><stop offset=".7" stop-color="#374e3d"/><stop offset="1" stop-color="#13271d"/></linearGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#c47c40" stroke-width="2"/></marker>
+</defs>
+<rect width="1500" height="1000" fill="#f2f0e8"/>
+<g font-family="Microsoft YaHei, sans-serif" fill="#2a4135">
+<text x="42" y="56" font-size="31" font-weight="600">Vagus / 背景持续展开，内容沿途建立</text>
+<text x="42" y="91" font-size="18">2026-11-01 · 用户参考意图与空间方向修订；非最终美术、非运行截图、非连续效果验收</text>
+<text x="42" y="123" font-size="16" fill="#617062">近远剖面示意：图中左近右远，实际镜头主要向画内前进；不是左右换页，也不是最终建筑或镜头轨迹。</text>
+
+<rect x="42" y="164" width="1416" height="373" fill="url(#world)"/>
+<path d="M42 164 Q430 206 778 277 Q956 313 1040 326 M42 537 Q430 493 778 422 Q956 387 1040 374" fill="none" stroke="#ecedcb" stroke-opacity=".55" stroke-width="2"/>
+<path d="M250 164 Q545 229 846 293 M250 537 Q545 472 846 406" fill="none" stroke="#ecedcb" stroke-opacity=".4" stroke-width="2"/>
+<path d="M505 164 Q668 242 916 309 M505 537 Q668 459 916 392" fill="none" stroke="#ecedcb" stroke-opacity=".3" stroke-width="2"/>
+<path d="M42 440 C335 440 538 394 752 367 S1083 345 1398 345" fill="none" stroke="#e4b273" stroke-width="5" marker-end="url(#arrow)"/>
+<circle cx="109" cy="439" r="7" fill="#f3e8c9"/><circle cx="720" cy="371" r="7" fill="#f3e8c9"/><circle cx="1394" cy="345" r="7" fill="#f3e8c9"/>
+
+<text x="78" y="220" font-size="25" font-weight="600">原首页工作室</text>
+<text x="78" y="256" font-size="17">原画、字标、理念与邀请保持</text>
+<text x="78" y="285" font-size="17">入口从一开始就可操作</text>
+<text x="590" y="221" font-size="24" fill="#f4f0dd" font-weight="600">新增连续环境 · 待设计/制备</text>
+<text x="590" y="258" font-size="17" fill="#f4f0dd">近处边缘越过视野，深处环境提前显露</text>
+<text x="590" y="287" font-size="17" fill="#f4f0dd">没有可辨认的上下换页切口</text>
+<text x="1140" y="220" font-size="25" fill="#f4f0dd" font-weight="600">原 AI 阅览室</text>
+<text x="1140" y="258" font-size="17" fill="#f4f0dd">手机与古书成为焦点</text>
+<text x="1140" y="287" font-size="17" fill="#f4f0dd">停回原标题和入口布局</text>
+<text x="78" y="494" font-size="17">起点：不限时阅读</text>
+<text x="587" y="494" font-size="17" fill="#f4f0dd">主体只用已有角度，支撑关系保持</text>
+<text x="1150" y="494" font-size="17" fill="#f4f0dd">终点：不限时阅读</text>
+
+<text x="42" y="589" font-size="25" font-weight="600">连续的是空间，停稳的是阅读</text>
+<text x="42" y="627" font-size="18">展开初值约1.2—1.6视口；停滚即停、反滚恢复、快滚与直接入口可跳过。不是一段必须等待的自动影片。</text>
+<text x="42" y="660" font-size="18">原页布局保留；新增环境和遮挡需补画/建模，当前两张完整原图不能证明这些素材已经具备。</text>
+
+<line x1="170" y1="728" x2="1420" y2="728" stroke="#889a87" stroke-width="2"/>
+<g fill="#c47c40"><circle cx="170" cy="728" r="6"/><circle cx="482.5" cy="728" r="6"/><circle cx="920" cy="728" r="6"/><circle cx="1232.5" cy="728" r="6"/><circle cx="1420" cy="728" r="6"/></g>
+<g font-size="15"><text x="158" y="756">p=0</text><text x="468" y="756">.25</text><text x="906" y="756">.60</text><text x="1218" y="756">.85</text><text x="1404" y="756">1</text></g>
+<text x="42" y="805" font-size="17">环境</text><rect x="170" y="787" width="1062.5" height="24" rx="3" fill="#6b8c74"/><text x="1235" y="805" font-size="16">→ 稳定构图</text>
+<text x="42" y="850" font-size="17">说明</text><rect x="920" y="832" width="312.5" height="24" rx="3" fill="#bd9261"/><text x="170" y="850" font-size="16">物件揭示去向</text><text x="925" y="880" font-size="16">原标题 → 原简介 → 三入口</text>
+<line x1="42" y1="915" x2="1458" y2="915" stroke="#bdc7b8"/>
+<text x="42" y="952" font-size="18">实现候选：连续实时三维环境，或预渲染环境按滚动定位帧；HTML始终负责真实文字、导航和阅读。</text>
+</g>
+</svg>

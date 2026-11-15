@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-12",
+  "changes": [
+    {
+      "relative": "site-v4/start.html",
+      "beforeFile": "start.html",
+      "beforeSha256": "85b5134e49daae9bf794e70cea467811790067bea8eb8198129bed9f652e2624",
+      "afterSha256": "64db2a85f0ca1c2309e848f49b245e9930503595c74d249108c3516c9557e48f"
+    },
+    {
+      "relative": "site-v4/hug.html",
+      "beforeFile": "hug.html",
+      "beforeSha256": "08898a95acdc3ab6e54f4484650510645d703dfe1db4d197f89ab549910955e1",
+      "afterSha256": "ffb7a1a9cce92f295a25ea8c44c9ff9632382ffce74dd43619c8cb15342d8398"
+    },
+    {
+      "relative": "site-v4/server.cjs",
+      "beforeFile": "site-server.cjs",
+      "beforeSha256": "58a8bcf176a8f5ad9f438de3f4b2f91d5c1af68dcf75250ed92fe892cad94bb0",
+      "afterSha256": "4fa1db1a6b5087149013f7194dd5812465702faeb86ba247c4ba7ec33f02fcbc"
+    },
+    {
+      "relative": "reference-rebuild-2026-11-09/server.cjs",
+      "beforeFile": "server.cjs",
+      "beforeSha256": "f86c0ba7c2d1e73544b2de19bae485a296796d5cdab7632bb17bdd30492f86c7",
+      "afterSha256": "625e4afa344ce9e94d6636fb6146cfc987bcf7b2810bcfe807547d02c5698cce"
+    },
+    {
+      "relative": "reference-rebuild-2026-11-09/reference/eye-reflection/reflection.mjs",
+      "beforeFile": "reflection.mjs",
+      "beforeSha256": "f8e520c9d1947a2ce563fa33bc09018c1317dbdc4e9f0d8cd28a355a2e097653",
+      "afterSha256": "7014d3af2a96e94f9adbcca40fee8e1f837972005c6cb442cc569a4d9d770272"
+    }
+  ],
+  "backup": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\docs\\superpowers\\specs\\2026-11-11-product-cases-before"
+}

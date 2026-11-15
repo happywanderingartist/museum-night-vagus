@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-11",
+  "reasonForTemporaryC": "Browser tool denied D-drive exports; browser capture used the permitted visualization directory, followed by verified D-drive copies.",
+  "exported": [
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\linear-reference-20261111.jpg",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\research\\linear-first.jpg",
+      "bytes": 22665,
+      "sha256": "ecc4818a881025c7564399d2bb1fbc8f58099ec59f8ba7de4c48d6c700304f44"
+    },
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\linear-body-20261111.jpg",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\research\\linear-body.jpg",
+      "bytes": 28339,
+      "sha256": "5bb3befb0686e31e3485f847b7d5641cff87a003a5df2c6931240773155acb6a"
+    },
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\headspace-reference-20261111.jpg",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\research\\headspace-first.jpg",
+      "bytes": 32065,
+      "sha256": "08e3299110b2901a09f588d0abe4f005308cb0b10eebe7df78fa53062d9a3146"
+    },
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\headspace-body-20261111.jpg",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\research\\headspace-body.jpg",
+      "bytes": 24860,
+      "sha256": "e2d6a4691e281d014de1b74b8d33b5d760edbe51fe7811626393a3ee29ed863f"
+    },
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\coda-reference-20261111.jpg",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\research\\coda-first.jpg",
+      "bytes": 46698,
+      "sha256": "17d071c5b48ad0c72c46de5c037f8638a063a7e30419248e76183240370a8c87"
+    },
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\coda-body-20261111.jpg",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\research\\coda-body.jpg",
+      "bytes": 35439,
+      "sha256": "183e3bb50f0c79c4b68c09ea1ded5e642369e6a3a23ac8a1061a925384afca0e"
+    },
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\todoist-reference-20261111.jpg",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\research\\todoist-first.jpg",
+      "bytes": 35234,
+      "sha256": "95ff1430c4d3dc18fa089f8ecd0118f612162472f1902bb1f17627fea16a939f"
+    },
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\todoist-body-20261111.jpg",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\research\\todoist-body.jpg",
+      "bytes": 43991,
+      "sha256": "30b747244a215d5b54de46973aae6d4e177b4a8a3c5ad1d32ea9e55dfdf56d60"
+    },
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\growth-reference-20261111.jpg",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\research\\growth-access.jpg",
+      "bytes": 43122,
+      "sha256": "aabb731ad6503bd527406d4a1412e7483806a8ae0739ffe5ed68e41675494269"
+    },
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\start-intro-20261111.jpg",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\assets\\start-intro.jpg",
+      "bytes": 146340,
+      "sha256": "7c0ad1403111ac4b236637511101a498ca707324b0f0ee2db63ad90a4295910b"
+    },
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\hug-intro-20261111.jpg",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\assets\\hug-intro.jpg",
+      "bytes": 89580,
+      "sha256": "9c3fbbe47c6636d288e378d4d6c87b77d41b8875e414bd224ed23f7227d88099"
+    },
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\start-page-20261111.jpg",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\views\\start-page.jpg",
+      "bytes": 58899,
+      "sha256": "df70953ddcb0872275ffafecf8ea56a17262770d942953cffc9f36d1364de28e"
+    },
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\hug-page-20261111.jpg",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\views\\hug-page.jpg",
+      "bytes": 45991,
+      "sha256": "ea0fb80ca8d289d0b1dcd75961c1ff713a918f5e019358e892980c823ea8aa22"
+    },
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\start-compare-20261111.jpg",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\views\\start-compare.jpg",
+      "bytes": 29318,
+      "sha256": "55e1361489d45e4a27b8acc170ea0790ae4aa35c970ff0c2e25e68c09138204d"
+    },
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\hug-compare-20261111.jpg",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\views\\hug-compare.jpg",
+      "bytes": 28718,
+      "sha256": "030747073bd266e16bda56b11acffb694ff954f293e4c48ff895fb59e63eaab5"
+    },
+    {
+      "source": "C:\\Users\\15049\\.codex\\visualizations\\2026\\10\\31\\01a190b2-e966-77b0-bbb5-b79000d23e41\\browser-navigation-20261112.json",
+      "destination": "D:\\AI-Data\\博物馆奇妙夜\\vagus-editions-2026\\site-v4\\public\\product-cases-2026-11-11\\browser-navigation.json",
+      "bytes": 1325,
+      "sha256": "ba7abe62dcbda66b184af09d4b2961584e387f4455ca1e2fde7e9a98e6f57279"
+    }
+  ]
+}
