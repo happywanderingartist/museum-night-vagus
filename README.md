@@ -6,4 +6,4 @@ The main working material is under `vagus-editions-2026/`. Local Blender binarie
 
 ## Gemini handoff
 
-Start with [`GEMINI.md`](GEMINI.md) for project rules and [`GEMINI_HANDOFF.md`](GEMINI_HANDOFF.md) for the current status, project map, and a ready-to-use first prompt. The active website baseline is `vagus-editions-2026/site-v4/`; isolated spatial previews are experiments and are not automatically part of the site.
+Start with [`GEMINI.md`](GEMINI.md) for project rules, [`GEMINI_HANDOFF.md`](GEMINI_HANDOFF.md) for the current status and first prompt, and [`GEMINI_FEEDBACK_AND_REFERENCES.md`](GEMINI_FEEDBACK_AND_REFERENCES.md) for recurring feedback, follow-up plans, review branches, and reference sites. The active website baseline is `vagus-editions-2026/site-v4/`; isolated spatial previews are experiments and are not automatically part of the site.
