@@ -14,7 +14,7 @@ The active website source is `vagus-editions-2026/site-v4/`. The project-level `
 
 ## Decisions and evidence boundaries
 
-The user prefers a continuous inward gallery and a vertical reading direction, and has rejected horizontal page transitions. The short threshold described in the November 9 transition revision is a proposed response to earlier feedback, not a confirmed final design. Do not integrate it into the main site until the user has reviewed the visual result.
+The user prefers a continuous inward gallery and a vertical reading direction, and has rejected horizontal page transitions. This is an approved direction, not acceptance of a particular final visual. The V5 experiments and the November 9 short threshold are separate proposals; do not integrate either into the main site until the user has reviewed its visual result. For the feedback-to-plan map, branch status, and reference websites, read [GEMINI_FEEDBACK_AND_REFERENCES.md](GEMINI_FEEDBACK_AND_REFERENCES.md).
 
 The START/HUG case package is review material, not a final public portfolio narrative. As recorded on November 11, the START batch had nine leads, two map candidates, and zero recently publishable places. The HUG browser demonstration verified refresh recovery for an ordinary synthetic item; eight recovery cards were still marked `draft_unreviewed`. Professional review, production storage, real-user outcomes, and psychological effects remain unverified. Keep these limits visible and do not turn design proposals into claims of completed product capability.
 
@@ -28,8 +28,8 @@ For the migration approach, I reviewed Google's official `google-gemini/gemini-c
 
 ## Local-only material and licensing
 
-A private recovery payload and the local reconstruction/raw reference material for a third-party site are intentionally ignored by Git and were not deleted from the working machine. Do not force-add them. The repository has no root license; public visibility alone does not grant reuse rights. Review asset sources and permissions before adding new third-party material.
+The main branch ignores a private recovery payload and local raw reconstruction material, which remain on the working machine. The repository is public, so all existing branches are public too; in particular, the historical start/HUG review branch includes copied prototype files under a reference-rebuild archive path. The main-branch .gitignore does not remove material already committed on another branch. Check branch history and the linked feedback/reference register before promoting or reusing those files. The two résumé PDFs with contact details stayed in the local site-review copy and were not uploaded, per its review record. The repository has no root license; public visibility alone does not grant reuse rights.
 
 ## First prompt for Gemini
 
-Read `GEMINI.md` and this handoff, then inspect the current `main` tree. Report (1) which files are the active website baseline, (2) which visual and case-story decisions are still unapproved, and (3) the smallest useful next step. Preserve existing work and evidence boundaries; do not merge the isolated spatial preview into `site-v4` by assumption.
+Read `GEMINI.md`, this handoff, and `GEMINI_FEEDBACK_AND_REFERENCES.md`, then inspect the current `main` tree and compare the listed review branches. Report (1) the active website baseline, (2) recurring feedback and the existing solution/status for each, (3) what remains unapproved, and (4) the smallest useful next step. Preserve work and evidence boundaries; do not merge an isolated preview or review branch by assumption.
