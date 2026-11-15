@@ -22,6 +22,8 @@ Historical validation in the V5 folder records 14 automated checks and a Google 
 
 ## Gemini tool notes
 
+For the verified skill and repeatable-workflow map, also read [GEMINI_SKILL_MAP.md](GEMINI_SKILL_MAP.md). It distinguishes actual use from unverified Codex Skill candidates.
+
 Google's current workspace-rule docs say both Gemini CLI and Antigravity CLI read project `GEMINI.md` and `AGENTS.md` files. This handoff is also written as plain Markdown so it can be attached or pasted into Gemini web. Check the current Google product and account requirements before installing a CLI; the Gemini CLI repository currently directs some individual Google AI plans to Antigravity CLI.
 
 For the migration approach, I reviewed Google's official `google-gemini/gemini-cli` repository (Apache-2.0, 108,834 stars, latest commit checked November 13, 2026) and its context-file guidance. The useful pattern is a small root `GEMINI.md` linked to a separate handoff. Its TypeScript/React/Ink workspace and npm tests do not apply to this site's HTML/CSS/JavaScript and Three.js setup; no code or test commands were copied. Earlier V5 research also reviewed `14islands/r3f-scroll-rig`: its shared canvas and synchronized DOM/WebGL ideas were useful, but the React/R3F/Lenis stack did not fit this native-page site. Do not add that dependency without a new review.
@@ -32,4 +34,4 @@ The main branch ignores a private recovery payload and local raw reconstruction 
 
 ## First prompt for Gemini
 
-Read `GEMINI.md`, this handoff, and `GEMINI_FEEDBACK_AND_REFERENCES.md`, then inspect the current `main` tree and compare the listed review branches. Report (1) the active website baseline, (2) recurring feedback and the existing solution/status for each, (3) what remains unapproved, and (4) the smallest useful next step. Preserve work and evidence boundaries; do not merge an isolated preview or review branch by assumption.
+Read `GEMINI.md`, this handoff, `GEMINI_FEEDBACK_AND_REFERENCES.md`, and `GEMINI_SKILL_MAP.md`, then inspect the current `main` tree and compare the listed review branches. Report (1) the active website baseline, (2) recurring feedback and the existing solution/status for each, (3) what remains unapproved, and (4) the smallest useful next step. Preserve work and evidence boundaries; do not merge an isolated preview or review branch by assumption.
